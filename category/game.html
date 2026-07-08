@@ -4,122 +4,177 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>All Games - Monkey Mart Online for Free</title>
-  <meta name="description" content="Browse free online games on Monkey Mart. Play browser games instantly, including arcade, puzzle, racing, idle, management, and casual games with no download required.">
-  <meta name="keywords" content="monkey mart, game monkey mart, chơi monkey mart, monkey mart online, game quản lý cửa hàng">
+  <meta name="description" content="Browse 600+ free online games on Monkey Mart. Play browser games instantly — arcade, puzzle, action, simulation, and more. No download required.">
   <meta property="og:title" content="All Games - Monkey Mart Online for Free">
-  <meta property="og:description" content="Play Monkey Mart - A fun and free game. Build and develop your store!">
+  <meta property="og:description" content="Browse free online games on Monkey Mart. Play instantly in your browser.">
   <meta property="og:image" content="/assets/img/img-up/monkey-mart.jpg">
-  <meta property="og:url" content="https://monkeymart.one">
+  <meta property="og:url" content="https://monkeymart.one/category/game.html">
   <link rel="canonical" href="https://monkeymart.one/category/game.html">
-  
-  <!-- DNS Prefetch -->
-
-
-  <!-- Fonts and Styles -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4151519079019358"
+     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
-  
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SWBWGBV5PB');
-</script>
-
+  <link rel="stylesheet" href="../assets/css/wg-grids.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SWBWGBV5PB');
+    window.MM_CATALOG_PAGE = true;
+  </script>
 </head>
 <body>
-  <button class="menu-toggle" id="menu-toggle">
-    <i class="fas fa-bars"></i>
-  </button>
+  <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
   <div class="menu-overlay" id="menu-overlay"></div>
-  
   <div class="main-wrapper">
-    
-    
     <main class="main-content">
       <header class="header">
         <div class="container">
           <div class="header-content">
             <div class="logo">
-              <a href="/">
-                <img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo">
-              </a>
+              <a href="/"><img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo"></a>
             </div>
             <nav class="nav-menu">
               <ul>
-                <li class="active"><a href="/" title="Monkey Mart"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="../category/game.html" title="Tất Cả Game Tại Monkey Mart"><i class="fas fa-gamepad"></i> All Games</a></li>
-                <li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
-                
+                <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li class="active"><a href="../category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
+                <li><a href="../category/classic.html"><i class="fas fa-clock-rotate-left"></i> Classic</a></li>
+                <li><a href="#" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</a></li>
+                <li><a href="/blog/"><i class="fas fa-book"></i> Game Guides</a></li>
               </ul>
             </nav>
           </div>
         </div>
       </header>
 
-      <section class="keyword-links">
-        <div class="keyword-container">
-          <a href="/" title="Monkey Mart 2">Monkey Mart 2</a>
-          <a href="/game/block-blast.html" title="Block Blast">Block Blast</a>
-          <a href="/game/slope.html" title="Slope">Slope</a>
-        </div>
-      </section>
-      <section class="games-section">
-        <h1 class="page-title">All Games</h1>
-        
-        <div class="search-container">
-          <div class="search-box">
-            <input type="text" class="search-input" id="game-search" placeholder="Search games..." />
+      <section class="mm-catalog-section" data-mm-catalog>
+        <div class="mm-catalog-hero">
+          <h1 class="page-title">All Games</h1>
+          <p class="mm-catalog-hero-lead">Browse 600+ free browser games — search, filter by category, or try Surprise me.</p>
+          <div class="mm-catalog-hero-search search-box">
+            <input type="text" class="search-input" id="game-search" placeholder="Search games by name or category…" autocomplete="off" />
             <i class="fas fa-search search-icon"></i>
           </div>
+        </div>
+
+        <div class="mm-catalog-toolbar">
           <select id="sort-select" class="sort-select">
+            <option value="popular" selected>Popular</option>
             <option value="name-asc">Name (A-Z)</option>
             <option value="name-desc">Name (Z-A)</option>
             <option value="category">By Category</option>
           </select>
+          <button type="button" class="mm-action-btn mm-action-btn--surprise mm-surprise-btn" id="mm-surprise-btn"><i class="fas fa-dice"></i> Surprise me</button>
         </div>
 
-        <!-- Category filters -->
-        <div class="category-filters" id="category-filters">
-          <button class="category-btn active" data-category="all">All</button>
-          <button class="category-btn" data-category="action">Action</button>
-          <button class="category-btn" data-category="arcade">Arcade</button>
-          <button class="category-btn" data-category="puzzle">Puzzle</button>
-          <button class="category-btn" data-category="sports">Sports</button>
-          <button class="category-btn" data-category="strategy">Strategy</button>
-          <button class="category-btn" data-category="simulation">Simulation</button>
-        </div>
-        
-        <!-- Game items container -->
-        <div id="game-list" class="games-grid">
-<!-- Games will be loaded dynamically -->
-        </div>
+        <div class="mm-cat-filters category-filters" id="category-filters" data-dynamic="1"></div>
 
-        <!-- Pagination -->
-        <div id="pagination" class="pagination">
-          <!-- Pagination will be added by JavaScript -->
-        </div>
-        
-        <!-- Ad containers -->
-        <div class="ad-container ad-horizontal">
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-4151519079019358"
-               data-ad-slot="HORIZONTAL_AD_SLOT"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
+        <div id="game-list" class="games-grid"></div>
+        <div id="pagination" class="pagination"></div>
+
+        <div class="mm-personal-rails">
+          <section class="mm-rail-section mm-rail-section--grid2" id="mm-recent-section" hidden>
+            <h2 class="mm-rail-heading"><i class="fas fa-history"></i> Recently played</h2>
+            <div class="mm-rail-track mm-rail-track--grid2 mm-rail-track--personal" id="mm-recent-rail"></div>
+          </section>
+          <section class="mm-rail-section mm-rail-section--grid2" id="mm-favorites-section" hidden>
+            <h2 class="mm-rail-heading"><i class="fas fa-heart"></i> Your favorites</h2>
+            <div class="mm-rail-track mm-rail-track--grid2 mm-rail-track--personal" id="mm-favorites-rail"></div>
+          </section>
         </div>
       </section>
     </main>
   </div>
 
-  <!-- Scripts -->
+  <footer class="mm-footer">
+    <div class="mm-footer-inner">
+      <div class="mm-footer-top">
+        <div class="mm-footer-brand">
+          <div class="mm-footer-brand-logo"><a href="/"><img src="/assets/img/monkeymart.png" alt="Monkey Mart"/></a></div>
+          <p>Play free online games at MonkeyMart.one — no download, instant play on desktop and mobile.</p>
+          <div class="mm-footer-social">
+            <a href="https://www.facebook.com/monkeymart.one" rel="nofollow" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@MonkeyMart-k1d" rel="nofollow" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="mm-footer-col">
+          <h3>About</h3>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+        <div class="mm-footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/category/game.html">All Games</a></li>
+            <li><a href="/category/classic.html">Classic Games</a></li>
+            <li><a href="/blog/">Game Guides</a></li>
+          </ul>
+        </div>
+        <div class="mm-footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="/disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mm-footer-cats">
+        <div class="mm-footer-cats-head">
+          <h3><i class="fas fa-layer-group"></i>Game Categories</h3>
+          <a class="mm-footer-cats-all" href="/category/game.html">View all games →</a>
+        </div>
+        <nav class="mm-footer-cats-grid" aria-label="Game categories">
+          <a class="mm-cat-chip" href="/category/game.html?cat=Puzzles"><i class="fas fa-puzzle-piece"></i>Puzzles</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Casual"><i class="fas fa-dice"></i>Casual</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Arcade"><i class="fas fa-gamepad"></i>Arcade</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Action"><i class="fas fa-person-running"></i>Action</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Simulation"><i class="fas fa-vr-cardboard"></i>Simulation</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Card%20%26%20Board"><i class="fas fa-chess-board"></i>Card & Board</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Adventure"><i class="fas fa-mountain-sun"></i>Adventure</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Dress-up%20and%20Fashion"><i class="fas fa-shirt"></i>Dress-up and Fashion</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Art"><i class="fas fa-palette"></i>Art</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Beauty"><i class="fas fa-wand-magic-sparkles"></i>Beauty</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Cars"><i class="fas fa-car-side"></i>Cars</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=2Players"><i class="fas fa-user-group"></i>2Players</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Strategy"><i class="fas fa-chess"></i>Strategy</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Sports"><i class="fas fa-futbol"></i>Sports</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Platformer"><i class="fas fa-shoe-prints"></i>Platformer</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Educational"><i class="fas fa-graduation-cap"></i>Educational</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Multiplayer"><i class="fas fa-users"></i>Multiplayer</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Military%20%26%20War"><i class="fas fa-jet-fighter"></i>Military & War</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Horror"><i class="fas fa-ghost"></i>Horror</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Cooking%20%26%20Food"><i class="fas fa-utensils"></i>Cooking & Food</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Quiz%20%26%20Trivia"><i class="fas fa-circle-question"></i>Quiz & Trivia</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Fantasy"><i class="fas fa-hat-wizard"></i>Fantasy</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Role-Playing%20(RPG)"><i class="fas fa-dragon"></i>Role-Playing (RPG)</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Mystery"><i class="fas fa-magnifying-glass"></i>Mystery</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Sandbox"><i class="fas fa-cubes"></i>Sandbox</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Airplane"><i class="fas fa-plane"></i>Airplane</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Real-Time%20Tactics"><i class="fas fa-chess-knight"></i>Real-Time Tactics</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Rhythm%20(Dance%20%26%20Music)"><i class="fas fa-music"></i>Rhythm (Dance & Music)</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Pet%20%26%20Animal"><i class="fas fa-paw"></i>Pet & Animal</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Social"><i class="fas fa-comments"></i>Social</a>
+          <a class="mm-cat-chip" href="/category/game.html?cat=Politics%20%26%20Government"><i class="fas fa-landmark"></i>Politics & Government</a>
+        </nav>
+      </div>
+    </div>
+    <div class="mm-footer-bottom"><p>&copy; 2025 Monkey Mart. All rights reserved.</p></div>
+  </footer>
+
+  <script src="../assets/js/wg-grids-home.js"></script>
+  <script src="../assets/js/wg-featured.js"></script>
   <script src="../assets/js/wg-games.js"></script>
   <script src="../assets/js/games.js"></script>
+  <script src="../assets/js/mm-engage.js"></script>
   <script src="../assets/js/main.js"></script>
-  </body>
+</body>
 </html>

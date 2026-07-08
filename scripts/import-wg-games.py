@@ -24,6 +24,11 @@ OUT_WG_BY_ID_JS = ROOT / "assets/js/wg-games-by-id.js"
 
 BASE_URL = "https://monkeymart.one"
 
+ADSENSE_SNIPPET = (
+    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4151519079019358"\n'
+    '     crossorigin="anonymous"></script>'
+)
+
 FEATURED_CATS = ["Action", "Puzzles", "Cars", "Casual", "Arcade"]
 PER_CAT_TOP = 4
 
@@ -286,6 +291,18 @@ CAT_SIDE_ICONS = {
 }
 
 
+def nav_menu_game(active: str = "games") -> str:
+    games_active = ' class="active"' if active == "games" else ""
+    classic_active = ' class="active"' if active == "classic" else ""
+    return f"""<ul>
+<li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+<li{games_active}><a href="../category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
+<li{classic_active}><a href="../category/classic.html"><i class="fas fa-clock-rotate-left"></i> Classic</a></li>
+<li><a href="#" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</a></li>
+<li><a href="/blog/"><i class="fas fa-book"></i> Game Guides</a></li>
+</ul>"""
+
+
 def footer_html() -> str:
     return """<footer class="mm-footer">
 <div class="mm-footer-inner">
@@ -313,7 +330,6 @@ def footer_html() -> str:
 <li><a href="/">Home</a></li>
 <li><a href="/category/game.html">All Games</a></li>
 <li><a href="/category/classic.html">Classic Games</a></li>
-<li><a href="/category/play-more.html">Play More</a></li>
 <li><a href="/blog/">Game Guides</a></li>
 </ul>
 </div>
@@ -449,6 +465,7 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 <link href="../assets/css/style.css" rel="stylesheet"/>
 <link href="../assets/css/wg-grids.css" rel="stylesheet"/>
+{ADSENSE_SNIPPET}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -479,12 +496,7 @@ window.MM_CURRENT_GAME = {json.dumps({
 <div class="header-content">
 <div class="logo"><a href="/"><img alt="Monkey Mart Logo" src="../assets/img/monkeymart.png"/></a></div>
 <nav class="nav-menu">
-<ul>
-<li><a href="/"><i class="fas fa-home"></i> Home</a></li>
-<li class="active"><a href="../category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
-<li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
-<li><a href="/blog/"><i class="fas fa-book"></i> Game Guides</a></li>
-</ul>
+{nav_menu_game("games")}
 </nav>
 </div>
 </div>
@@ -508,24 +520,20 @@ window.MM_CURRENT_GAME = {json.dumps({
 </aside>
 <div class="wg-stage-center">
 <div class="wg-player-wrap" id="mm-player">
+<div class="game-thumbnail">
+<img src="..{thumb}" alt="{html.escape(name)}" loading="eager"/>
+<button class="play-frame-button" id="playGameButton" type="button">
+<i class="fas fa-play"></i> Play Game
+</button>
+</div>
 <iframe
   allow="fullscreen; autoplay"
   allowfullscreen
   id="game-frame"
-  loading="eager"
-  src="https://play.wgplayground.com/ifr/{ifr}"
+  data-src="https://play.wgplayground.com/ifr/{ifr}"
+  style="display: none;"
   title="{html.escape(name)}"></iframe>
-<div class="game-controls">
-<button class="control-btn" id="share-btn" title="Share" type="button"><i class="fas fa-share-alt"></i></button>
-<button class="control-btn" id="fullscreen-btn" title="Fullscreen" type="button"><i class="fas fa-expand"></i></button>
-</div>
-<div class="share-menu" id="share-menu">
-<button class="control-btn" id="copy-link-btn" title="Copy Link" type="button"><i class="fas fa-link"></i></button>
-<button class="control-btn" id="facebook-btn" title="Facebook" type="button"><i class="fab fa-facebook-f"></i></button>
-<button class="control-btn" id="twitter-btn" title="Twitter" type="button"><i class="fab fa-twitter"></i></button>
-<button class="control-btn" id="pinterest-btn" title="Pinterest" type="button"><i class="fab fa-pinterest-p"></i></button>
-</div>
-<div class="loading-overlay">
+<div class="loading-overlay" style="display: none;">
 <div class="loading-spinner"></div>
 <div class="loading-text">Loading {html.escape(name)}...</div>
 </div>
@@ -538,10 +546,24 @@ window.MM_CURRENT_GAME = {json.dumps({
 </div>
 
 <div class="wg-game-header">
+<div class="wg-game-header-main">
 <h1>{html.escape(name)}</h1>
 <div class="wg-game-meta">
 {cat_chips}
 <span class="mm-publisher">by {html.escape(pub)}</span>
+</div>
+</div>
+<div class="mm-action-bar">
+<button class="mm-action-btn mm-like-btn" id="mm-like-btn" type="button" title="Add to favorites" aria-pressed="false"><i class="fas fa-heart"></i> Like</button>
+<button class="mm-action-btn" id="share-btn" title="Share" type="button"><i class="fas fa-share-alt"></i> Share</button>
+<button class="mm-action-btn" id="fullscreen-btn" title="Fullscreen" type="button"><i class="fas fa-expand"></i> Fullscreen</button>
+<button class="mm-action-btn mm-action-btn--surprise" type="button" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</button>
+<div class="share-menu" id="share-menu">
+<button class="control-btn" id="copy-link-btn" title="Copy Link" type="button"><i class="fas fa-link"></i></button>
+<button class="control-btn" id="facebook-btn" title="Facebook" type="button"><i class="fab fa-facebook-f"></i></button>
+<button class="control-btn" id="twitter-btn" title="Twitter" type="button"><i class="fab fa-twitter"></i></button>
+<button class="control-btn" id="pinterest-btn" title="Pinterest" type="button"><i class="fab fa-pinterest-p"></i></button>
+</div>
 </div>
 </div>
 
@@ -560,12 +582,22 @@ window.MM_CURRENT_GAME = {json.dumps({
 <div class="wg-picks-grid" id="mm-picks-grid"></div>
 </div>
 
+<section class="mm-rail-section mm-rail-section--grid2" id="mm-recent-section" hidden>
+<h2 class="mm-rail-heading"><i class="fas fa-history"></i> Recently played</h2>
+<div class="mm-rail-track mm-rail-track--grid2 mm-rail-track--personal" id="mm-recent-rail"></div>
+</section>
+
+<section class="mm-rail-section mm-rail-section--grid2" id="mm-favorites-section" hidden>
+<h2 class="mm-rail-heading"><i class="fas fa-heart"></i> Your favorites</h2>
+<div class="mm-rail-track mm-rail-track--grid2 mm-rail-track--personal" id="mm-favorites-rail"></div>
+</section>
+
 <div class="game-description">
-<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. The game loads instantly; use the built-in play button inside the frame to start.</p>
+<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. Click <strong>Play Game</strong> above to load the game.</p>
 <h2>How to Play {html.escape(name)}</h2>
 <ul>
-<li>The game loads automatically when you open this page</li>
-<li>Tap or click <strong>Play</strong> inside the game frame to start</li>
+<li>Click the <strong>Play Game</strong> button on this page to start</li>
+<li>Tap or click <strong>Play</strong> inside the game frame after it loads</li>
 <li>Use fullscreen for the best experience on desktop</li>
 <li>Works on mobile, tablet, and desktop browsers</li>
 </ul>
@@ -589,6 +621,7 @@ window.MM_CURRENT_GAME = {json.dumps({
 <script src="../assets/js/main.js"></script>
 <script src="../assets/js/game-controls.js"></script>
 <script src="../assets/js/wg-grids-home.js"></script>
+<script src="../assets/js/wg-featured.js"></script>
 <script src="../assets/js/wg-games.js"></script>
 <script src="../assets/js/mm-engage.js"></script>
 </body>

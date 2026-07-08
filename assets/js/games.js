@@ -572,18 +572,46 @@ function createGameElement(game) {
   `;
 }
 
+// Catalog pagination — full rows based on grid width
+const CATALOG_ROWS = 8;
+let _catalogList = null;
+let _catalogPage = 1;
+
+function columnsInCatalogGrid() {
+  const el = document.getElementById('game-list');
+  if (!el || !el.clientWidth) return 6;
+  const min = 100;
+  const gap = 10;
+  return Math.max(4, Math.floor((el.clientWidth + gap) / (min + gap)));
+}
+
+function catalogPerPage() {
+  return columnsInCatalogGrid() * CATALOG_ROWS;
+}
+
+function isCatalogPage() {
+  return !!document.querySelector('.mm-catalog-section[data-mm-catalog]');
+}
+
 // Hàm hiển thị danh sách trò chơi với phân trang
-function displayGames(gameList = games, page = 1, gamesPerPage = 24) {
+function displayGames(gameList = games, page = 1, gamesPerPage) {
   const gameListContainer = document.getElementById('game-list');
   if (!gameListContainer) return;
+
+  if (gamesPerPage == null) {
+    gamesPerPage = isCatalogPage() ? catalogPerPage() : 24;
+  }
+
+  if (document.querySelector('.mm-catalog-section')) {
+    gameListContainer.classList.add('games-grid--compact');
+  }
 
   const startIndex = (page - 1) * gamesPerPage;
   const endIndex = startIndex + gamesPerPage;
   const paginatedGames = gameList.slice(startIndex, endIndex);
-  
+
   gameListContainer.innerHTML = paginatedGames.map(game => createGameElement(game)).join('');
-  
-  // Tạo phân trang
+
   createPagination(gameList.length, page, gamesPerPage);
 }
 
@@ -645,17 +673,101 @@ function createPagination(totalGames, currentPage, gamesPerPage) {
 
 // Hàm chuyển trang
 function changePage(page) {
-  const searchTerm = document.getElementById('game-search')?.value || '';
-  const activeCategory = document.querySelector('.category-btn.active')?.dataset.category;
-  const sortValue = document.getElementById('sort-select')?.value;
-  
-  let filteredGames = filterGames(searchTerm, activeCategory);
+  applyFilters(page);
+}
+
+// WG category list (matches footer chips)
+const WG_CATEGORIES = [
+  'Puzzles', 'Casual', 'Arcade', 'Action', 'Simulation', 'Card & Board',
+  'Adventure', 'Dress-up and Fashion', 'Art', 'Beauty', 'Cars', '2Players',
+  'Strategy', 'Sports', 'Platformer', 'Educational', 'Multiplayer',
+  'Military & War', 'Horror', 'Cooking & Food', 'Quiz & Trivia', 'Fantasy',
+  'Role-Playing (RPG)', 'Mystery', 'Sandbox', 'Airplane', 'Real-Time Tactics',
+  'Rhythm (Dance & Music)', 'Pet & Animal', 'Social', 'Politics & Government',
+];
+
+const CAT_ICONS = {
+  Puzzles: 'fa-puzzle-piece', Casual: 'fa-dice', Arcade: 'fa-gamepad', Action: 'fa-person-running',
+  Simulation: 'fa-vr-cardboard', 'Card & Board': 'fa-chess-board', Adventure: 'fa-mountain-sun',
+  'Dress-up and Fashion': 'fa-shirt', Art: 'fa-palette', Beauty: 'fa-wand-magic-sparkles',
+  Cars: 'fa-car-side', '2Players': 'fa-user-group', Strategy: 'fa-chess', Sports: 'fa-futbol',
+  Platformer: 'fa-shoe-prints', Educational: 'fa-graduation-cap', Multiplayer: 'fa-users',
+  'Military & War': 'fa-jet-fighter', Horror: 'fa-ghost', 'Cooking & Food': 'fa-utensils',
+  'Quiz & Trivia': 'fa-circle-question', Fantasy: 'fa-hat-wizard', 'Role-Playing (RPG)': 'fa-dragon',
+  Mystery: 'fa-magnifying-glass', Sandbox: 'fa-cubes', Airplane: 'fa-plane',
+  'Real-Time Tactics': 'fa-chess-knight', 'Rhythm (Dance & Music)': 'fa-music',
+  'Pet & Animal': 'fa-paw', Social: 'fa-comments', 'Politics & Government': 'fa-landmark',
+};
+
+function getPopularityRank() {
+  const data = window.__WG_GRIDS_HOME__ || {};
+  const rank = {};
+  let i = 0;
+  ['trending', 'new', 'topRated'].forEach((key) => {
+    (data[key] || []).forEach((g) => {
+      if (g.id && rank[g.id] === undefined) rank[g.id] = i++;
+    });
+  });
+  return rank;
+}
+
+function matchesCategory(game, category) {
+  if (!category || category === 'all') return true;
+  const catLower = category.toLowerCase();
+  if ((game.wgCategories || []).some((c) => c.toLowerCase() === catLower)) return true;
+  if ((game.categories || []).some((c) => c.toLowerCase() === catLower)) return true;
+  return false;
+}
+
+function renderCategoryChips(activeCat = 'all') {
+  const container = document.getElementById('category-filters');
+  if (!container || container.dataset.dynamic !== '1') return;
+
+  let html = `<button type="button" class="mm-cat-chip category-btn${activeCat === 'all' ? ' active' : ''}" data-category="all"><i class="fas fa-border-all"></i>All</button>`;
+  WG_CATEGORIES.forEach((cat) => {
+    const active = activeCat.toLowerCase() === cat.toLowerCase() ? ' active' : '';
+    const icon = CAT_ICONS[cat] || 'fa-tag';
+    html += `<button type="button" class="mm-cat-chip category-btn${active}" data-category="${cat.replace(/"/g, '&quot;')}"><i class="fas ${icon}"></i>${cat}</button>`;
+  });
+  container.innerHTML = html;
+}
+
+function setCategoryInUrl(cat) {
+  const url = new URL(window.location.href);
+  if (!cat || cat === 'all') url.searchParams.delete('cat');
+  else url.searchParams.set('cat', cat);
+  window.history.replaceState({}, '', url);
+}
+
+function getActiveCategoryFromUI() {
+  const btn = document.querySelector('.category-btn.active');
+  return btn ? btn.dataset.category : 'all';
+}
+
+function applyFilters(page = 1) {
+  const searchTerm = document.getElementById('game-search')?.value?.trim() || '';
+  const category = getActiveCategoryFromUI();
+  const sortValue = document.getElementById('sort-select')?.value || 'popular';
+  let filteredGames = filterGames(searchTerm, category);
   filteredGames = sortGames(filteredGames, sortValue);
-  
+  if (isCatalogPage()) {
+    _catalogList = filteredGames;
+    _catalogPage = page;
+  }
   displayGames(filteredGames, page);
 }
 
-// Gộp game legacy + WGPlayground
+function bindCatalogResize() {
+  if (!isCatalogPage()) return;
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (_catalogList) applyFilters(_catalogPage);
+    }, 200);
+  });
+}
+
 function getAllGames() {
   if (typeof window !== 'undefined' && window.MM_CLASSIC_ONLY && window.MM_CLASSIC_GAMES) {
     return window.MM_CLASSIC_GAMES.map((g) => ({
@@ -671,50 +783,65 @@ function getAllGames() {
 // Hàm lọc game theo từ khóa và danh mục
 function filterGames(searchTerm = '', category = 'all') {
   let filtered = getAllGames();
-  
-  // Lọc theo từ khóa
+
   if (searchTerm) {
     const term = searchTerm.toLowerCase();
-    filtered = filtered.filter(game => 
+    filtered = filtered.filter((game) =>
       game.name.toLowerCase().includes(term) ||
-      game.categories.some(cat => cat.toLowerCase().includes(term))
+      (game.categories || []).some((cat) => cat.toLowerCase().includes(term)) ||
+      (game.wgCategories || []).some((cat) => cat.toLowerCase().includes(term))
     );
   }
-  
-  // Lọc theo danh mục
+
   if (category && category !== 'all') {
-    filtered = filtered.filter(game => 
-      game.categories.includes(category.toLowerCase())
-    );
+    filtered = filtered.filter((game) => matchesCategory(game, category));
   }
-  
+
   return filtered;
 }
 
-// Hàm sắp xếp game
-function sortGames(gameList, sortValue = 'name-asc') {
-  const [sortBy, order] = sortValue.split('-');
-  
+function sortGames(gameList, sortValue = 'popular') {
+  if (sortValue === 'popular') {
+    const rank = getPopularityRank();
+    return [...gameList].sort((a, b) => {
+      const ra = rank[a.id] !== undefined ? rank[a.id] : 9999;
+      const rb = rank[b.id] !== undefined ? rank[b.id] : 9999;
+      if (ra !== rb) return ra - rb;
+      return a.name.localeCompare(b.name);
+    });
+  }
+
+  if (sortValue === 'category') {
+    return [...gameList].sort((a, b) => {
+      const ca = (a.wgCategories && a.wgCategories[0]) || (a.categories && a.categories[0]) || '';
+      const cb = (b.wgCategories && b.wgCategories[0]) || (b.categories && b.categories[0]) || '';
+      return ca.localeCompare(cb) || a.name.localeCompare(b.name);
+    });
+  }
+
+  const parts = sortValue.split('-');
+  const sortBy = parts[0];
+  const order = parts[1] || 'asc';
+
   return [...gameList].sort((a, b) => {
-    let compareA = a[sortBy]?.toLowerCase() || '';
-    let compareB = b[sortBy]?.toLowerCase() || '';
-    
+    let compareA = a[sortBy]?.toLowerCase?.() || a[sortBy] || '';
+    let compareB = b[sortBy]?.toLowerCase?.() || b[sortBy] || '';
+
     if (order === 'desc') {
       [compareA, compareB] = [compareB, compareA];
     }
-    
-    return compareA.localeCompare(compareB);
+
+    return String(compareA).localeCompare(String(compareB));
   });
 }
 
-// Khởi tạo trang
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const wgCat = params.get('cat');
-  let initialList = getAllGames();
+  let initialCat = wgCat || 'all';
 
   if (window.MM_CLASSIC_ONLY && window.MM_CLASSIC_GAMES) {
-    initialList = window.MM_CLASSIC_GAMES.map((g) => ({
+    const initialList = window.MM_CLASSIC_GAMES.map((g) => ({
       ...g,
       image: g.image && g.image.indexOf('/') === 0 ? '..' + g.image : g.image,
     }));
@@ -725,70 +852,68 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  renderCategoryChips(initialCat);
+
+  let initialList = getAllGames();
   if (wgCat) {
-    initialList = initialList.filter((game) => {
-      const wg = game.wgCategories || [];
-      return wg.some((c) => c.toLowerCase() === wgCat.toLowerCase());
-    });
+    initialList = initialList.filter((game) => matchesCategory(game, wgCat));
     const title = document.querySelector('.page-title');
     if (title) title.textContent = `${wgCat} Games`;
   }
 
+  const sortSelect = document.getElementById('sort-select');
+  const sortValue = sortSelect ? sortSelect.value : 'popular';
+  initialList = sortGames(initialList, sortValue);
+  if (isCatalogPage()) {
+    _catalogList = initialList;
+    _catalogPage = 1;
+  }
   displayGames(initialList);
-  
+
   bindGameListControls();
+  bindCatalogResize();
 });
 
 function bindGameListControls() {
   const searchInput = document.getElementById('game-search');
   if (searchInput) {
     let searchTimeout;
-    searchInput.addEventListener('input', (e) => {
+    searchInput.addEventListener('input', () => {
       clearTimeout(searchTimeout);
-      searchTimeout = setTimeout(() => {
-        const searchTerm = e.target.value.trim();
-        const activeCategory = document.querySelector('.category-btn.active')?.dataset.category;
-        const sortValue = document.getElementById('sort-select')?.value;
-        
-        let filteredGames = filterGames(searchTerm, activeCategory);
-        filteredGames = sortGames(filteredGames, sortValue);
-        
-        displayGames(filteredGames, 1);
-      }, 300);
+      searchTimeout = setTimeout(() => applyFilters(1), 300);
     });
   }
-  
-  // Xử lý lọc theo danh mục
-  const categoryButtons = document.querySelectorAll('.category-btn');
-  categoryButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      // Xóa active class từ tất cả các nút
-      categoryButtons.forEach(btn => btn.classList.remove('active'));
-      // Thêm active class cho nút được click
+
+  const categoryContainer = document.getElementById('category-filters');
+  if (categoryContainer) {
+    categoryContainer.addEventListener('click', (e) => {
+      const button = e.target.closest('.category-btn');
+      if (!button) return;
+      categoryContainer.querySelectorAll('.category-btn').forEach((btn) => btn.classList.remove('active'));
       button.classList.add('active');
-      
       const category = button.dataset.category;
-      const searchTerm = document.getElementById('game-search')?.value.trim();
-      const sortValue = document.getElementById('sort-select')?.value;
-      
-      let filteredGames = filterGames(searchTerm, category);
-      filteredGames = sortGames(filteredGames, sortValue);
-      
-      displayGames(filteredGames, 1);
+      setCategoryInUrl(category);
+      const title = document.querySelector('.page-title');
+      if (title && categoryContainer.dataset.dynamic === '1') {
+        title.textContent = category === 'all' ? 'All Games' : `${category} Games`;
+      }
+      applyFilters(1);
     });
-  });
-  
-  // Xử lý sắp xếp
+  }
+
   const sortSelect = document.getElementById('sort-select');
   if (sortSelect) {
-    sortSelect.addEventListener('change', () => {
-      const searchTerm = document.getElementById('game-search')?.value.trim();
-      const activeCategory = document.querySelector('.category-btn.active')?.dataset.category;
-      
-      let filteredGames = filterGames(searchTerm, activeCategory);
-      filteredGames = sortGames(filteredGames, sortSelect.value);
-      
-      displayGames(filteredGames, 1);
+    sortSelect.addEventListener('change', () => applyFilters(1));
+  }
+
+  const surpriseBtn = document.getElementById('mm-surprise-btn');
+  if (surpriseBtn) {
+    surpriseBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const cat = getActiveCategoryFromUI();
+      if (typeof window.MM_SURPRISE_ME === 'function') {
+        window.MM_SURPRISE_ME(cat === 'all' ? null : cat);
+      }
     });
   }
 }
