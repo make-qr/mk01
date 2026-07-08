@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Games - Monkey Mart Online for Free</title>
+  <meta name="description" content="Browse free online games on Monkey Mart. Play browser games instantly, including arcade, puzzle, racing, idle, management, and casual games with no download required.">
+  <meta name="keywords" content="monkey mart, game monkey mart, chơi monkey mart, monkey mart online, game quản lý cửa hàng">
+  <meta property="og:title" content="All Games - Monkey Mart Online for Free">
+  <meta property="og:description" content="Play Monkey Mart - A fun and free game. Build and develop your store!">
+  <meta property="og:image" content="/assets/img/img-up/monkey-mart.jpg">
+  <meta property="og:url" content="https://monkeymart.one">
+  <link rel="canonical" href="https://monkeymart.one/category/game.html">
+  
+  <!-- DNS Prefetch -->
+
+
+  <!-- Fonts and Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SWBWGBV5PB');
+</script>
+
+</head>
+<body>
+  <button class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="menu-overlay" id="menu-overlay"></div>
+  
+  <div class="main-wrapper">
+    
+    
+    <main class="main-content">
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <a href="/">
+                <img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo">
+              </a>
+            </div>
+            <nav class="nav-menu">
+              <ul>
+                <li class="active"><a href="/" title="Monkey Mart"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="../category/game.html" title="Tất Cả Game Tại Monkey Mart"><i class="fas fa-gamepad"></i> All Games</a></li>
+                <li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="keyword-links">
+        <div class="keyword-container">
+          <a href="/" title="Monkey Mart 2">Monkey Mart 2</a>
+          <a href="/game/block-blast.html" title="Block Blast">Block Blast</a>
+          <a href="/game/slope.html" title="Slope">Slope</a>
+        </div>
+      </section>
+      <section class="games-section">
+        <h1 class="page-title">All Games</h1>
+        
+        <div class="search-container">
+          <div class="search-box">
+            <input type="text" class="search-input" id="game-search" placeholder="Search games..." />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+          <select id="sort-select" class="sort-select">
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="category">By Category</option>
+          </select>
+        </div>
+
+        <!-- Category filters -->
+        <div class="category-filters" id="category-filters">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="action">Action</button>
+          <button class="category-btn" data-category="arcade">Arcade</button>
+          <button class="category-btn" data-category="puzzle">Puzzle</button>
+          <button class="category-btn" data-category="sports">Sports</button>
+          <button class="category-btn" data-category="strategy">Strategy</button>
+          <button class="category-btn" data-category="simulation">Simulation</button>
+        </div>
+        
+        <!-- Game items container -->
+        <div id="game-list" class="games-grid">
+<!-- Games will be loaded dynamically -->
+        </div>
+
+        <!-- Pagination -->
+        <div id="pagination" class="pagination">
+          <!-- Pagination will be added by JavaScript -->
+        </div>
+        
+        <!-- Ad containers -->
+        <div class="ad-container ad-horizontal">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-4151519079019358"
+               data-ad-slot="HORIZONTAL_AD_SLOT"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../assets/js/wg-games.js"></script>
+  <script src="../assets/js/games.js"></script>
+  <script src="../assets/js/main.js"></script>
+  </body>
+</html>

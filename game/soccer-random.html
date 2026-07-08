@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Soccer Random - Play Soccer Random Online Free | MonkeyMart.one</title>
+<meta content="Play Soccer Random online for free. Quick sports arcade fun with simple controls and wild physics." name="description"/>
+<meta content="soccer random, play soccer random, soccer random online, soccer random free, soccer random unblocked, browser game, monkeymart.one, sports game, physics game" name="keywords"/>
+<meta content="Soccer Random - Play Soccer Random Online Free | MonkeyMart.one" property="og:title"/>
+<meta content="Play Soccer Random online for free. Quick sports arcade fun with simple controls and wild physics." property="og:description"/>
+<meta content="https://monkeymart.one/assets/img/img-up/soccer-random.png" property="og:image"/>
+<meta content="https://monkeymart.one/game/soccer-random.html" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Soccer Random - Play Soccer Random Online Free | MonkeyMart.one" name="twitter:title"/>
+<meta content="Play Soccer Random online for free. Quick sports arcade fun with simple controls and wild physics." name="twitter:description"/>
+<meta content="https://monkeymart.one/assets/img/img-up/soccer-random.png" name="twitter:image"/>
+<link href="https://monkeymart.one/game/soccer-random.html" rel="canonical"/>
+<meta content="index, follow" name="robots"/>
+<meta content="Monkey Mart" name="author"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Soccer Random free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can play Soccer Random for free on MonkeyMart.one in your browser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I play Soccer Random on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Soccer Random works on phones, tablets, and desktop browsers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Soccer Random unblocked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soccer Random is a browser game at MonkeyMart.one with no download required."
+      }
+    }
+  ]
+}
+</script>
+<!-- Monkey Mart: structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Soccer Random",
+  "description": "Play Soccer Random online for free. Quick sports arcade fun with simple controls and wild physics.",
+  "url": "https://monkeymart.one/game/soccer-random.html",
+  "image": "https://monkeymart.one/assets/img/img-up/soccer-random.png",
+  "genre": [
+    "Sports"
+  ],
+  "gamePlatform": "Web Browser",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "playMode": "SinglePlayer",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Monkey Mart",
+    "url": "https://monkeymart.one/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://monkeymart.one/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "All Games",
+      "item": "https://monkeymart.one/category/game.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Soccer Random",
+      "item": "https://monkeymart.one/game/soccer-random.html"
+    }
+  ]
+}
+</script>
+
+<!-- Fonts and Styles -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="../assets/css/style.css" rel="stylesheet"/>
+<!-- Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SWBWGBV5PB');
+</script>
+</link><script>// Game controls functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const gameContainer = document.querySelector('.game-frame-container');
+    const gameFrame = document.getElementById('game-frame');
+    const playButton = document.getElementById('playGameButton');
+    const thumbnail = document.querySelector('.game-thumbnail');
+    const shareButton = document.getElementById('share-btn');
+    const shareMenu = document.getElementById('share-menu');
+    const fullscreenButton = document.getElementById('fullscreen-btn');
+    const loadingOverlay = document.querySelector('.loading-overlay');
+    
+    // Play button click handler
+    playButton.addEventListener('click', function() {
+        thumbnail.style.display = 'none';
+        loadingOverlay.style.display = 'flex';
+        
+        // Get the game URL from data-src
+        const gameUrl = gameFrame.getAttribute('data-src');
+        
+        // Set the actual src to load the game
+        gameFrame.src = gameUrl;
+        
+        // Show game frame once loaded
+        gameFrame.onload = function() {
+            loadingOverlay.style.display = 'none';
+            gameFrame.style.display = 'block';
+        };
+    });
+
+    // Share button functionality
+    shareButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        shareMenu.classList.toggle('active');
+    });
+
+    // Close share menu when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!shareMenu.contains(e.target) && !shareButton.contains(e.target)) {
+            shareMenu.classList.remove('active');
+        }
+    });
+
+    // Share buttons functionality
+    document.getElementById('copy-link-btn').addEventListener('click', function() {
+        navigator.clipboard.writeText(window.location.href);
+        alert('Link copied to clipboard!');
+    });
+
+    document.getElementById('facebook-btn').addEventListener('click', function() {
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`, '_blank');
+    });
+
+    document.getElementById('twitter-btn').addEventListener('click', function() {
+        window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}`, '_blank');
+    });
+
+    document.getElementById('pinterest-btn').addEventListener('click', function() {
+        window.open(`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(window.location.href)}`, '_blank');
+    });
+
+    // Fullscreen functionality
+    fullscreenButton.addEventListener('click', function() {
+        if (!document.fullscreenElement) {
+            if (gameContainer.requestFullscreen) {
+                gameContainer.requestFullscreen();
+            } else if (gameContainer.webkitRequestFullscreen) {
+                gameContainer.webkitRequestFullscreen();
+            } else if (gameContainer.msRequestFullscreen) {
+                gameContainer.msRequestFullscreen();
+            }
+            fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+            fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+        }
+    });
+
+    // Update fullscreen button icon when exiting fullscreen via Esc key
+    document.addEventListener('fullscreenchange', function() {
+        if (!document.fullscreenElement) {
+            fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
+        }
+    });
+});</script><style>/* Loading overlay styles */
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(28, 30, 44, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #55bbab;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+.loading-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}</style></link></head>
+<body>
+<button class="menu-toggle" id="menu-toggle">
+<i class="fas fa-bars"></i>
+</button>
+<div class="menu-overlay" id="menu-overlay"></div>
+<div class="main-wrapper">
+<main class="main-content">
+<header class="header">
+<div class="container">
+<div class="header-content">
+<div class="logo">
+<a href="/">
+<img alt="Monkey Mart Logo" src="../assets/img/monkeymart.png"/>
+</a>
+</div>
+<nav class="nav-menu">
+<ul>
+<li class="active"><a href="/" title="Monkey Mart"><i class="fas fa-home"></i> Home</a></li>
+<li><a href="../category/game.html" title="Tất Cả Game Tại Monkey Mart"><i class="fas fa-gamepad"></i> All Games</a></li>
+<li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
+<li><a href="/blog/" title="Game Guides"><i class="fas fa-book"></i> Game Guides</a></li>
+
+</ul>
+</nav>
+</div>
+</div>
+</header>
+<section class="keyword-links">
+<div class="keyword-container">
+<a href="/" title="Monkey Mart 2">Monkey Mart 2</a>
+<a href="/game/block-blast.html" title="Block Blast">Block Blast</a>
+<a href="/game/slope.html" title="Slope">Slope</a>
+</div>
+</section>
+<!-- Monkey Mart: breadcrumb nav -->
+<nav class="breadcrumb-nav" aria-label="Breadcrumb">
+  <div class="breadcrumb-container">
+    <a href="/">Home</a>
+    <span class="breadcrumb-sep" aria-hidden="true">/</span>
+    <a href="../category/game.html">All Games</a>
+    <span class="breadcrumb-sep" aria-hidden="true">/</span>
+    <span class="breadcrumb-current" aria-current="page">Soccer Random</span>
+  </div>
+</nav>
+<section class="games-grid"><!-- Game Frame Container -->
+<div class="game-frame-container">
+<div class="game-thumbnail">
+<img alt="Soccer Random - play online free" src="../assets/img/img-up/soccer-random.png"/>
+<button class="play-frame-button" id="playGameButton">
+<i class="fas fa-play"></i>
+            Play Soccer Random
+        </button>
+</div>
+<iframe allowfullscreen="" data-src="https://games.monkeymart.one/projects/soccer-random/" id="game-frame" style="display: none;"></iframe>
+<div class="game-controls">
+<button class="control-btn" id="share-btn" title="Share">
+<i class="fas fa-share-alt"></i>
+</button>
+<button class="control-btn" id="fullscreen-btn" title="Fullscreen">
+<i class="fas fa-expand"></i>
+</button>
+</div>
+<div class="share-menu" id="share-menu">
+<button class="control-btn" id="copy-link-btn" title="Copy Link">
+<i class="fas fa-link"></i>
+</button>
+<button class="control-btn" id="facebook-btn" title="Share on Facebook">
+<i class="fab fa-facebook-f"></i>
+</button>
+<button class="control-btn" id="twitter-btn" title="Share on Twitter">
+<i class="fab fa-twitter"></i>
+</button>
+<button class="control-btn" id="pinterest-btn" title="Share on Pinterest">
+<i class="fab fa-pinterest-p"></i>
+</button>
+</div>
+<div class="game-frame-title">Soccer Random</div>
+<div class="loading-overlay" style="display: none;">
+<div class="loading-spinner"></div>
+<div class="loading-text">Loading Soccer Random...</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Game Frame Container -->
+<!-- Game Frame Container -->
+
+
+<a class="game-item" href="/" title="Monkey Mart 2">
+<img alt="monkey-mart" src="../assets/img/img-up/monkey-mart-2.png"/>
+<span>Monkey Mart 2</span>
+</a>
+<a class="game-item" href="../game/traffic-jam-3d.html">
+<img alt="traffic-jam-3d" src="../assets/img/img-up/traffic-jam-3d.png"/>
+<span>Traffic Jam 3D</span>
+</a>
+
+
+<a class="game-item" href="../game/9007199254740992.html">
+<img alt="9007199254740992" src="../assets/img/img-up/9007199254740992.png"/>
+<span>9007199254740992</span>
+</a>
+<a class="game-item" href="../game/2048.html">
+<img alt="2048" src="../assets/img/img-up/2048.png"/>
+<span>2048</span>
+</a>
+<a class="game-item" href="../game/a-small-world-cup.html">
+<img alt="a-small-world-cup" src="../assets/img/img-up/a-small-world-cup.png"/>
+<span>A Small World Cup</span>
+</a>
+<a class="game-item" href="../game/ages-of-conflict.html">
+<img alt="ages-of-conflict" src="../assets/img/img-up/ages-of-conflict.png"/>
+<span>Ages of Conflict</span>
+</a>
+<a class="game-item" href="../game/among-us.html">
+<img alt="among-us" src="../assets/img/img-up/among-us.png"/>
+<span>Among Us</span>
+</a>
+<a class="game-item" href="../game/baldis-basics.html">
+<img alt="baldis-basics" src="../assets/img/img-up/baldis-basics.png"/>
+<span>Baldis Basics</span>
+</a>
+<a class="game-item" href="../game/ball-puzzle.html">
+<img alt="ball-puzzle" src="../assets/img/img-up/ball-puzzle.png"/>
+<span>Ball Puzzle</span>
+</a>
+<a class="game-item" href="../game/ball-sort-puzzle.html">
+<img alt="ball-sort-puzzle" src="../assets/img/img-up/ball-sort-puzzle.png"/>
+<span>Ball Sort Puzzle</span>
+</a>
+<a class="game-item" href="../game/basket-and-ball.html">
+<img alt="basket-and-ball" src="../assets/img/img-up/basket-and-ball.png"/>
+<span>Basket and Ball</span>
+</a>
+<a class="game-item" href="../game/basket-random.html">
+<img alt="basket-random" src="../assets/img/img-up/basket-random.png"/>
+<span>Basket Random</span>
+</a>
+<a class="game-item" href="../game/bitlife.html">
+<img alt="bitlife" src="../assets/img/img-up/bitlife.png"/>
+<span>Bitlife</span>
+</a>
+<a class="game-item" href="../game/blackjack.html">
+<img alt="blackjack" src="../assets/img/img-up/blackjack.png"/>
+<span>Blackjack</span>
+</a>
+<a class="game-item" href="../game/bloons-td.html">
+<img alt="bloons-td" src="../assets/img/img-up/bloons-td.png"/>
+<span>Bloons TD</span>
+</a>
+<a class="game-item" href="../game/bloons-td-2.html">
+<img alt="bloons-td-2" src="../assets/img/img-up/bloons-td-2.png"/>
+<span>Bloons TD 2</span>
+</a>
+<!-- Related Games --><!-- Related Games -->
+<h2 class="related-games-title">Popular Games</h2>
+<!-- First row of related games -->
+<a class="game-item" href="../game/block-the-pig.html">
+<img alt="block-the-pig" src="../assets/img/img-up/block-the-pig.png"/>
+<span>Block the Pig</span>
+</a>
+<a class="game-item" href="../game/boxing-random.html">
+<img alt="boxing-random" src="../assets/img/img-up/boxing-random.png"/>
+<span>Boxing Random</span>
+</a>
+<a class="game-item" href="../game/cell-machine.html">
+<img alt="cell-machine" src="../assets/img/img-up/cell-machine.png"/>
+<span>Cell Machine</span>
+</a>
+<a class="game-item" href="../game/chrome-dino.html">
+<img alt="chrome-dino" src="../assets/img/img-up/chrome-dino.png"/>
+<span>Chrome Dino</span>
+</a>
+<a class="game-item" href="../game/circlo.html">
+<img alt="circlo" src="../assets/img/img-up/circlo.png"/>
+<span>Circlo</span>
+</a>
+
+<a class="game-item" href="../game/cookie-clicker.html">
+<img alt="cookie-clicker" src="../assets/img/img-up/cookie-clicker.png"/>
+<span>Cookie Clicker</span>
+</a>
+<a class="game-item" href="../cookie-clicker-2/ain/index.htm">
+<img alt="cookie-clicker-2" src="../cookie-clicker-2/ain/img/perfectCookie.png">
+<span>Cookie Clicker 2</span>
+</a>
+<a class="game-item" href="../game/core-ball.html">
+<img alt="core-ball" src="../assets/img/img-up/core-ball.png"/>
+<span>Core Ball</span>
+</a>
+<a class="game-item" href="../game/ctr-time-travel.html">
+<img alt="ctr-time-travel" src="../assets/img/img-up/ctr-time-travel.png"/>
+<span>CTR Time Travel</span>
+</a>
+<a class="game-item" href="../game/death-run-3d.html">
+<img alt="death-run-3d" src="../assets/img/img-up/death-run-3d.png"/>
+<span>Death Run 3D</span>
+</a>
+
+<!-- Game Description -->
+<div class="game-description">
+<h1>Soccer Random - Play Online Free</h1>
+<p>Soccer Random is a fun sports arcade game on MonkeyMart.one. Jump in for quick matches, wild physics, and competitive fun.</p>
+<h2>How to Play Soccer Random</h2>
+<ul>
+<li>Use simple controls to move, jump, or shoot</li>
+<li>Time your actions for maximum impact</li>
+<li>Adapt to unpredictable physics moments</li>
+<li>Play short rounds and try to outscore opponents</li>
+</ul>
+<h2>Soccer Random Features</h2>
+<ul>
+<li>Casual sports gameplay in the browser</li>
+<li>Great for multiplayer-style fun</li>
+<li>Short rounds — easy to pick up and play</li>
+<li>Free with no download required</li>
+</ul>
+<h2>Play Soccer Random Unblocked</h2>
+<p>Soccer Random runs in your browser at MonkeyMart.one — no download required. Play at school, home, or on mobile wherever browser games are allowed.</p>
+<p class="guide-inline-links"><a href="/category/game.html">Browse all games</a> · <a href="/">Play Monkey Mart</a></p>
+<h2>Soccer Random FAQ</h2>
+<h3>Is Soccer Random free?</h3>
+<p>Yes. You can play Soccer Random for free on MonkeyMart.one with no download.</p>
+<h3>Can I play Soccer Random on mobile?</h3>
+<p>Yes. Soccer Random works in modern mobile and desktop browsers.</p>
+<h3>Is Soccer Random unblocked?</h3>
+<p>Soccer Random is a browser-based HTML5 game. Access depends on your network, but no app install is needed.</p>
+</div>
+<!-- More related games -->
+<a class="game-item" href="../game/doodle-jump.html">
+<img alt="doodle-jump" src="../assets/img/img-up/doodle-jump.png"/>
+<span>Doodle Jump</span>
+</a>
+<a class="game-item" href="./drift-boss.html">
+<img alt="drift-boss" src="../assets/img/img-up/drift-boss.png"/>
+<span>Drift Boss</span>
+</a>
+<a class="game-item" href="./drift-hunters.html">
+<img alt="drift-hunters" src="../assets/img/img-up/drift-hunters.png"/>
+<span>Drift Hunters</span>
+</a>
+<a class="game-item" href="./duck-life-4.html">
+<img alt="duck-life-4" src="../assets/img/img-up/duck-life-4.png"/>
+<span>Duck Life 4</span>
+</a>
+<a class="game-item" href="./eaglercraft.html">
+<img alt="eaglercraft" src="../assets/img/img-up/eaglercraft.png"/>
+<span>Eaglercraft</span>
+</a>
+<a class="game-item" href="./edge-surf.html">
+<img alt="edge-surf" src="../assets/img/img-up/edge-surf.png"/>
+<span>Edge Surf</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-1.html">
+<img alt="fireboy-and-watergirl-1" src="../assets/img/img-up/fireboy-and-watergirl-1.png"/>
+<span>Fireboy and Watergirl 1</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-2.html">
+<img alt="fireboy-and-watergirl-2" src="../assets/img/img-up/fireboy-and-watergirl-2.png"/>
+<span>Fireboy and Watergirl 2</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-3.html">
+<img alt="fireboy-and-watergirl-3" src="../assets/img/img-up/fireboy-and-watergirl-3.png"/>
+<span>Fireboy and Watergirl 3</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-4.html">
+<img alt="fireboy-and-watergirl-4" src="../assets/img/img-up/fireboy-and-watergirl-4.png"/>
+<span>Fireboy and Watergirl 4</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-5.html">
+<img alt="fireboy-and-watergirl-5" src="../assets/img/img-up/fireboy-and-watergirl-5.png"/>
+<span>Fireboy and Watergirl 5</span>
+</a>
+<a class="game-item" href="./fireboy-and-watergirl-6.html">
+<img alt="fireboy-and-watergirl-6" src="../assets/img/img-up/fireboy-and-watergirl-6.png"/>
+<span>Fireboy and Watergirl 6</span>
+</a>
+<a class="game-item" href="./fnaf-1.html">
+<img alt="fnaf-1" src="../assets/img/img-up/fnaf-1.png"/>
+<span>FNAF 1</span>
+</a>
+<a class="game-item" href="./fnaf-2.html">
+<img alt="fnaf-2" src="../assets/img/img-up/fnaf-2.png"/>
+<span>FNAF 2</span>
+</a>
+<a class="game-item" href="./fnaf-3.html">
+<img alt="fnaf-3" src="../assets/img/img-up/fnaf-3.png"/>
+<span>FNAF 3</span>
+</a>
+<a class="game-item" href="./fnaf-4.html">
+<img alt="fnaf-4" src="../assets/img/img-up/fnaf-4.png"/>
+<span>FNAF 4</span>
+</a>
+<a class="game-item" href="./fnaf-5.html">
+<img alt="fnaf-5" src="../assets/img/img-up/fnaf-5.png"/>
+<span>FNAF 5</span>
+</a>
+<a class="game-item" href="./fnaf-ucn.html">
+<img alt="fnaf-ucn" src="../assets/img/img-up/fnaf-ucn.png"/>
+<span>FNAF UCN</span>
+</a>
+<a class="game-item" href="./fruit-ninja.html">
+<img alt="fruit-ninja" src="../assets/img/img-up/fruit-ninja.png"/>
+<span>Fruit Ninja</span>
+</a>
+<a class="game-item" href="./geodash.html">
+<img alt="geodash" src="../assets/img/img-up/geodash.png"/>
+<span>Geodash</span>
+</a>
+<a class="game-item" href="./geodash-subzero.html">
+<img alt="geodash-subzero" src="../assets/img/img-up/geodash-subzero.png"/>
+<span>Geodash Subzero</span>
+</a>
+<a class="game-item" href="./google-feud.html">
+<img alt="google-feud" src="../assets/img/img-up/google-feud.png"/>
+<span>Google Feud</span>
+</a>
+<a class="game-item" href="./google-snake.html">
+<img alt="google-snake" src="../assets/img/img-up/google-snake.png"/>
+<span>Google Snake</span>
+</a>
+<a class="game-item" href="./gta-advance.html">
+<img alt="gta-advance" src="../assets/img/img-up/gta-advance.png"/>
+<span>GTA Advance</span>
+</a>
+<a class="game-item" href="./hextris.html">
+<img alt="hextris" src="../assets/img/img-up/hextris.png"/>
+<span>Hextris</span>
+</a>
+<a class="game-item" href="./idle-breakout.html">
+<img alt="idle-breakout" src="../assets/img/img-up/idle-breakout.png"/>
+<span>Idle Breakout</span>
+</a>
+<a class="game-item" href="./legend-of-zelda-link-to-the-past.html">
+<img alt="legend-of-zelda-link-to-the-past" src="../assets/img/img-up/legend-of-zelda-link-to-the-past.png"/>
+<span>Legend of Zelda Link to the Past</span>
+</a>
+<a class="game-item" href="./legend-of-zelda-minish-cap.html">
+<img alt="legend-of-zelda-minish-cap" src="../assets/img/img-up/legend-of-zelda-minish-cap.png"/>
+<span>Legend of Zelda Minish Cap</span>
+</a>
+<a class="game-item" href="./little-alchemy.html">
+<img alt="little-alchemy" src="../assets/img/img-up/little-alchemy.png"/>
+<span>Little Alchemy</span>
+</a>
+<a class="game-item" href="./madalin-stunt-cars-2.html">
+<img alt="madalin-stunt-cars-2" src="../assets/img/img-up/madalin-stunt-cars-2.png"/>
+<span>Madalin Stunt Cars 2</span>
+</a>
+<a class="game-item" href="./madalin-stunt-cars-3.html">
+<img alt="madalin-stunt-cars-3" src="../assets/img/img-up/madalin-stunt-cars-3.jpg"/>
+<span>Madalin Stunt Cars 3</span>
+</a>
+<a class="game-item" href="./mario.html">
+<img alt="mario" src="../assets/img/img-up/mario.png"/>
+<span>Mario</span>
+</a>
+<a class="game-item" href="./mario-party.html">
+<img alt="mario-party" src="../assets/img/img-up/mario-party.png"/>
+<span>Mario Party</span>
+</a>
+<a class="game-item" href="./mario-party-2.html">
+<img alt="mario-party-2" src="../assets/img/img-up/mario-party-2.png"/>
+<span>Mario Party 2</span>
+</a>
+<a class="game-item" href="./mario-party-3.html">
+<img alt="mario-party-3" src="../assets/img/img-up/mario-party-3.png"/>
+<span>Mario Party 3</span>
+</a>
+<a class="game-item" href="./minecraft.html">
+<img alt="minecraft" src="../assets/img/img-up/minecraft.png"/>
+<span>Minecraft</span>
+</a>
+<a class="game-item" href="./minesweeper.html">
+<img alt="minesweeper" src="../assets/img/img-up/minesweeper.png"/>
+<span>Minesweeper</span>
+</a>
+<a class="game-item" href="./moto-x3m.html">
+<img alt="moto-x3m" src="../assets/img/img-up/moto-x3m.png"/>
+<span>Moto x3m</span>
+</a>
+<a class="game-item" href="./moto-x3m-2.html">
+<img alt="moto-x3m-2" src="../assets/img/img-up/moto-x3m-2.png"/>
+<span>Moto x3m 2</span>
+</a>
+<a class="game-item" href="./moto-x3m-pool-party.html">
+<img alt="moto-x3m-pool-party" src="../assets/img/img-up/moto-x3m-pool-party.png"/>
+<span>Moto x3m pool party</span>
+</a>
+<a class="game-item" href="./moto-x3m-spooky-land.html">
+<img alt="moto-x3m-spooky-land" src="../assets/img/img-up/moto-x3m-spooky-land.png"/>
+<span>Moto x3m spooky land</span>
+</a>
+<a class="game-item" href="./moto-x3m-winter.html">
+<img alt="moto-x3m-winter" src="../assets/img/img-up/moto-x3m-winter.png"/>
+<span>Moto x3m winter</span>
+</a>
+<a class="game-item" href="../game/bloons-td-3.html">
+<img alt="bloons-td-3" src="../assets/img/img-up/bloons-td-3.png"/>
+<span>Bloons TD 3</span>
+</a>
+<a class="game-item" href="../game/bloons-td-4.html">
+<img alt="bloons-td-4" src="../assets/img/img-up/bloons-td-4.png"/>
+<span>Bloons TD 4</span>
+</a>
+<a class="game-item" href="./ms-solitaire.html">
+<img alt="ms-solitaire" src="../assets/img/img-up/ms-solitaire.png"/>
+<span>Ms solitaire</span>
+</a>
+</section></main>
+</div>
+<footer class="site-footer">
+<div class="footer-content">
+<div class="footer-section">
+<h3>About</h3>
+<ul>
+<li><a href="/about.html">About Us</a></li>
+<li><a href="/contact.html">Contact</a></li>
+<li><a href="/faq.html">FAQ</a></li>
+<li><a href="/blog/index.html">Blog</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="../category/game.html">Games</a></li>
+<li><a href="../category/play-more.html">Leaderboard</a></li>
+<li><a href="/blog/">Community</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Legal</h3>
+<ul>
+<li><a href="/terms.html">Terms of Service</a></li>
+<li><a href="/privacy.html">Privacy Policy</a></li>
+<li><a href="/cookie-policy.html">Cookie Policy</a></li>
+<li><a href="/disclaimer.html">Disclaimer</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Follow Us</h3>
+<ul>
+<li><a href="https://www.facebook.com/monkeymart.one" rel="nofollow" target="_blank">Facebook</a></li>
+<li><a href="https://www.youtube.com/@MonkeyMart-k1d" rel="nofollow" target="_blank">YouTube</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2025 Monkey Mart. All rights reserved.</p>
+</div>
+</footer>
+<!-- Scripts -->
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Sitemap: https://cookieclicker-play.github.io/sitemap.xml
+
+# Allow all web crawlers 
+User-agent: *
+Disallow:
+
+# Disallow specific folders that don't need to be indexed
+User-agent: *
+Disallow: /snd/
+Disallow: /img/minified/
+
+# Allow Google Image to access image files
+User-agent: Googlebot-Image
+Allow: /img/ 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Browser Games - Monkey Mart</title>
+  <meta name="description" content="Play classic browser games free at MonkeyMart.one — FNAF, Cookie Clicker, Minecraft, Baldis Basics, Retro Bowl, and more. No download required.">
+  <link rel="canonical" href="https://monkeymart.one/category/classic.html">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/wg-grids.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SWBWGBV5PB');
+    window.MM_CLASSIC_ONLY = true;
+  </script>
+</head>
+<body>
+  <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+  <div class="menu-overlay" id="menu-overlay"></div>
+  <div class="main-wrapper">
+    <main class="main-content">
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <a href="/"><img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo"></a>
+            </div>
+            <nav class="nav-menu">
+              <ul>
+                <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="../category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
+                <li class="active"><a href="../category/classic.html"><i class="fas fa-clock-rotate-left"></i> Classic</a></li>
+                <li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
+                <li><a href="/blog/"><i class="fas fa-book"></i> Game Guides</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="games-section">
+        <h1 class="page-title">Classic Browser Games</h1>
+        <p style="color:#8a93a7;margin:-8px 0 20px;max-width:720px;">Fan-favorite unblocked browser games — Cookie Clicker, FNAF, Minecraft, Baldis Basics, and more. All free, no download.</p>
+
+        <div class="search-container">
+          <div class="search-box">
+            <input type="text" class="search-input" id="game-search" placeholder="Search classic games..." />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+          <select id="sort-select" class="sort-select">
+            <option value="name-asc">Name (A-Z)</option>
+            <option value="name-desc">Name (Z-A)</option>
+            <option value="category">By Category</option>
+          </select>
+        </div>
+
+        <div class="category-filters" id="category-filters">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="action">Action</button>
+          <button class="category-btn" data-category="arcade">Arcade</button>
+          <button class="category-btn" data-category="puzzle">Puzzle</button>
+          <button class="category-btn" data-category="horror">Horror</button>
+          <button class="category-btn" data-category="sports">Sports</button>
+          <button class="category-btn" data-category="strategy">Strategy</button>
+          <button class="category-btn" data-category="simulation">Simulation</button>
+        </div>
+
+        <div id="game-list" class="games-grid"></div>
+        <div id="pagination" class="pagination"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../assets/js/games.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
