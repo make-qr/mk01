@@ -11,7 +11,10 @@ SNIPPET = (
 )
 MARKER = "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 
-SKIP_DIRS = {".git", "node_modules", "assets/img", "cookie-clicker-2"}
+# NOTE: "game" is skipped on purpose. WGPlayground game pages run their own
+# video ad before play; AdSense Auto Ads (vignette/interstitial) competes with
+# it and can leave the game frame stuck after the ad, so we keep those pages ad-free.
+SKIP_DIRS = {".git", "node_modules", "assets/img", "cookie-clicker-2", "game"}
 
 
 def should_skip(path: Path) -> bool:

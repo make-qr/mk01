@@ -29,12 +29,22 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // WG direct-load: show loading until iframe ready
-  if (gameFrame && gameFrame.src && !playButton) {
-    if (loadingOverlay) loadingOverlay.style.display = 'flex';
-    gameFrame.addEventListener('load', function () {
-      if (loadingOverlay) loadingOverlay.style.display = 'none';
-    });
+  // Direct-load (no play button): load the game immediately
+  if (gameFrame && !playButton) {
+    const dataSrc = gameFrame.getAttribute('data-src');
+    if (dataSrc && !gameFrame.src) {
+      // We trigger the load, so show the spinner until the frame is ready.
+      if (loadingOverlay) {
+        loadingOverlay.style.display = 'flex';
+        gameFrame.addEventListener('load', function () {
+          loadingOverlay.style.display = 'none';
+        });
+      }
+      gameFrame.src = dataSrc;
+      gameFrame.style.display = 'block';
+    }
+    // Otherwise the iframe already has a native src and shows WG's own
+    // loading/play screen, so no extra overlay is needed.
   }
 
   if (shareButton && shareMenu) {

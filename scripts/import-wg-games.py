@@ -24,11 +24,6 @@ OUT_WG_BY_ID_JS = ROOT / "assets/js/wg-games-by-id.js"
 
 BASE_URL = "https://monkeymart.one"
 
-ADSENSE_SNIPPET = (
-    '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4151519079019358"\n'
-    '     crossorigin="anonymous"></script>'
-)
-
 FEATURED_CATS = ["Action", "Puzzles", "Cars", "Casual", "Arcade"]
 PER_CAT_TOP = 4
 
@@ -465,7 +460,6 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 <link href="../assets/css/style.css" rel="stylesheet"/>
 <link href="../assets/css/wg-grids.css" rel="stylesheet"/>
-{ADSENSE_SNIPPET}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -520,18 +514,12 @@ window.MM_CURRENT_GAME = {json.dumps({
 </aside>
 <div class="wg-stage-center">
 <div class="wg-player-wrap" id="mm-player">
-<div class="game-thumbnail">
-<img src="..{thumb}" alt="{html.escape(name)}" loading="eager"/>
-<button class="play-frame-button" id="playGameButton" type="button">
-<i class="fas fa-play"></i> Play Game
-</button>
-</div>
 <iframe
-  allow="fullscreen; autoplay"
+  allow="autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write; gyroscope; accelerometer"
   allowfullscreen
   id="game-frame"
-  data-src="https://play.wgplayground.com/ifr/{ifr}"
-  style="display: none;"
+  src="https://play.wgplayground.com/ifr/{ifr}"
+  style="display: block;"
   title="{html.escape(name)}"></iframe>
 <div class="loading-overlay" style="display: none;">
 <div class="loading-spinner"></div>
@@ -593,11 +581,11 @@ window.MM_CURRENT_GAME = {json.dumps({
 </section>
 
 <div class="game-description">
-<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. Click <strong>Play Game</strong> above to load the game.</p>
+<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. The game loads automatically above.</p>
 <h2>How to Play {html.escape(name)}</h2>
 <ul>
-<li>Click the <strong>Play Game</strong> button on this page to start</li>
-<li>Tap or click <strong>Play</strong> inside the game frame after it loads</li>
+<li>The game loads right away — tap or click <strong>Play</strong> inside the game frame to start</li>
+<li>A short video ad may play before the game begins</li>
 <li>Use fullscreen for the best experience on desktop</li>
 <li>Works on mobile, tablet, and desktop browsers</li>
 </ul>
