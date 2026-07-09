@@ -440,6 +440,7 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
 <meta name="twitter:image" content="{BASE_URL}{og}"/>
 <link rel="canonical" href="{page_url}"/>
 <meta name="robots" content="index, follow"/>
+<link rel="dns-prefetch" href="https://universal.wgplayer.com"/><script type="text/javascript" async>!function(e,t){{a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='high',m.parentNode.insertBefore(a,m)}}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
 <script type="application/ld+json">
 {json.dumps({
   "@context": "https://schema.org",
