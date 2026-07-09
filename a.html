@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Chơi Game</title>
+    <style>
+        /* Xóa khoảng trắng thừa của trang */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000; /* Nền màu đen để làm nổi bật game */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Khung chứa Game */
+        .game-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Định dạng cho Iframe */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            /* Nếu game chạy mượt nhất ở một tỷ lệ cố định (ví dụ 16:9), bạn có thể giới hạn tối đa tại đây */
+            /* max-width: 1200px; max-height: 675px; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="game-container">
+        <iframe 
+            src="https://play.wgplayground.com/ifr/e359043d79f00af5c9ecdc90458e3516" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+</html>

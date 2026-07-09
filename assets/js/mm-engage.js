@@ -543,6 +543,16 @@
     updateLikeButton();
   }
 
+  var railsRaf = 0;
+
+  function scheduleRenderRails() {
+    if (railsRaf) cancelAnimationFrame(railsRaf);
+    railsRaf = requestAnimationFrame(function () {
+      railsRaf = 0;
+      renderRails();
+    });
+  }
+
   function bindResize() {
     var observeEl =
       document.getElementById('mm-related-rail') ||
@@ -550,13 +560,18 @@
       document.getElementById('mm-rail-trending') ||
       document.querySelector('.mm-rail-track--grid2');
     if (!observeEl || typeof ResizeObserver === 'undefined') {
-      window.addEventListener('resize', renderRails);
+      window.addEventListener('resize', scheduleRenderRails);
       return;
     }
-    var ro = new ResizeObserver(renderRails);
+    var ro = new ResizeObserver(scheduleRenderRails);
     ro.observe(observeEl);
-    var player = document.getElementById('mm-player');
-    if (player) ro.observe(player);
+    // Sync side-rail height once after player paints; avoid observing #mm-player
+    // (ResizeObserver during WG ad flow caused layout thrash / black screen on desktop).
+    if (isGamePage()) {
+      setTimeout(scheduleRenderRails, 400);
+      setTimeout(scheduleRenderRails, 1500);
+    }
+    window.addEventListener('resize', scheduleRenderRails);
   }
 
   function showSuggestModal() {

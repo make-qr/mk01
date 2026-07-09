@@ -527,6 +527,7 @@ window.MM_CURRENT_GAME = {json.dumps({
   src="https://play.wgplayground.com/ifr/{ifr}"
   style="display: block;"
   title="{html.escape(name)}"></iframe>
+<script>(function(){{var h=location.hostname,f=document.getElementById('game-frame');if(!f)return;if(h!=='localhost'&&h!=='127.0.0.1'&&h!=='0.0.0.0')return;var s=f.getAttribute('src')||'';if(s.indexOf('play.wgplayground.com/ifr/')===-1||s.indexOf('r=')!==-1)return;f.src=s+(s.indexOf('?')===-1?'?':'&')+'r=monkeymart.one';}})();</script>
 <div class="loading-overlay" style="display: none;">
 <div class="loading-spinner"></div>
 <div class="loading-text">Loading {html.escape(name)}...</div>
@@ -617,8 +618,8 @@ window.MM_CURRENT_GAME = {json.dumps({
 <script src="../assets/js/wg-grids-home.js"></script>
 <script src="../assets/js/wg-featured.js"></script>
 <script src="../assets/js/wg-games.js"></script>
+<script src="../assets/js/mm-player-recovery.js?v=2"></script>
 <script src="../assets/js/mm-engage.js"></script>
-<script src="../assets/js/mm-player-recovery.js" defer></script>
 </body>
 </html>
 """

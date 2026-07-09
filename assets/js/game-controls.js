@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (!gameContainer) return;
 
+  var wgSrc =
+    (gameFrame && (gameFrame.getAttribute('src') || gameFrame.getAttribute('data-src'))) || '';
+  var isWgEmbed = wgSrc.indexOf('play.wgplayground.com/ifr/') !== -1;
+
   // Legacy click-to-play (native games with poster)
   if (playButton && gameFrame && thumbnail) {
     playButton.addEventListener('click', function () {
@@ -29,8 +33,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Direct-load (no play button): load the game immediately
-  if (gameFrame && !playButton) {
+  // Direct-load (no play button): load the game immediately — skip for WG embeds
+  // (mm-player-recovery.js owns WG iframe launch / consent).
+  if (gameFrame && !playButton && !isWgEmbed) {
     const dataSrc = gameFrame.getAttribute('data-src');
     if (dataSrc && !gameFrame.src) {
       // We trigger the load, so show the spinner until the frame is ready.

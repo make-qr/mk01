@@ -236,7 +236,7 @@
   text-overflow: ellipsis;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1400px) {
   .wg-side-rail {
     display: flex;
   }
@@ -257,11 +257,13 @@
   scroll-snap-align: unset;
 }
 
+/* WG player — same sizing on all viewports (mobile layout proved reliable with WG ads) */
 .wg-player-wrap {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  min-height: 600px;
+  aspect-ratio: unset;
+  min-height: min(72vh, 600px);
+  height: min(72vh, 600px);
   background: #0d0f18;
   border-radius: 14px;
   overflow: hidden;
@@ -527,9 +529,6 @@ a.mm-tag-link:hover {
 
   .wg-player-wrap {
     border-radius: 0;
-    aspect-ratio: unset;
-    min-height: min(72vh, 600px);
-    height: min(72vh, 600px);
   }
 
   .wg-game-header {
