@@ -464,6 +464,12 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){{dataLayer.push(arguments);}}
+  gtag('consent', 'default', {{
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
+    analytics_storage: 'granted',
+  }});
   gtag('js', new Date());
   gtag('config', 'G-SWBWGBV5PB');
 </script>
@@ -612,6 +618,7 @@ window.MM_CURRENT_GAME = {json.dumps({
 <script src="../assets/js/wg-featured.js"></script>
 <script src="../assets/js/wg-games.js"></script>
 <script src="../assets/js/mm-engage.js"></script>
+<script src="../assets/js/mm-player-recovery.js" defer></script>
 </body>
 </html>
 """
