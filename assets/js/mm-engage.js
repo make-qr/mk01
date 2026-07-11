@@ -300,15 +300,49 @@
     return Math.max(2, Math.floor((trackEl.clientWidth + gap) / (min + gap)));
   }
 
-  function railCard(g) {
+  function pipHtml(g, fallback) {
+    var pip = g.pip || fallback || '';
+    if (pip === 'hot') return '<span class="mm-pip hot">HOT</span>';
+    if (pip === 'new') return '<span class="mm-pip new">NEW</span>';
+    if (pip === 'top') return '<span class="mm-pip top">TOP</span>';
+    return '';
+  }
+
+  function railCard(g, opts) {
+    opts = opts || {};
+    var overlay = !!opts.overlay;
     var href = normalizeHref(g.url);
     var img = normalizeImg(g.image);
+    var pip = pipHtml(g, opts.badge);
+    var bigClass = g.big ? ' mm-card--big' : '';
+    var style = g.c ? '--c:' + g.c : '';
+
+    if (overlay) {
+      return (
+        '<a class="mm-card mm-card--overlay' +
+        bigClass +
+        '" href="' +
+        esc(href) +
+        '" style="' +
+        style +
+        '">' +
+        pip +
+        '<div class="mm-card-art" style="background-image:url(\'' +
+        img.replace(/'/g, '%27') +
+        '\')">' +
+        '<span class="mm-card-title">' +
+        esc(g.name) +
+        '</span></div></a>'
+      );
+    }
+
     return (
       '<a class="mm-card" href="' +
       esc(href) +
       '" style="' +
-      (g.c ? '--c:' + g.c : '') +
+      style +
       '">' +
+      pip +
       '<div class="mm-card-art" style="background-image:url(\'' +
       img.replace(/'/g, '%27') +
       '\')"></div>' +
@@ -321,17 +355,21 @@
     );
   }
 
-  function sideCard(g) {
+  function sideCard(g, badge) {
     var href = normalizeHref(g.url);
     var img = normalizeImg(g.image);
+    var pip = pipHtml(g, badge);
     return (
-      '<a class="wg-side-card" href="' +
+      '<a class="wg-side-card wg-side-card--overlay" href="' +
       esc(href) +
-      '"><img src="' +
-      esc(img) +
-      '" alt="' +
+      '">' +
+      pip +
+      '<div class="wg-side-card-art" style="background-image:url(\'' +
+      img.replace(/'/g, '%27') +
+      '\')" role="img" aria-label="' +
       esc(g.name) +
-      '" loading="lazy"/><span>' +
+      '"></div>' +
+      '<span class="wg-side-card-title">' +
       esc(g.name) +
       '</span></a>'
     );
@@ -369,13 +407,17 @@
     );
   }
 
-  function renderTwoRowGrid(el, items) {
+  function renderTwoRowGrid(el, items, badge) {
     if (!el) return;
     var cols = gridColumns(el);
     var count = cols * GRID_ROWS;
     var list = items.slice(0, count);
     el.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
-    el.innerHTML = list.map(railCard).join('');
+    el.innerHTML = list
+      .map(function (g) {
+        return railCard(g, { overlay: true, badge: badge });
+      })
+      .join('');
   }
 
   function trimToFullRows(count, cols) {
@@ -392,17 +434,27 @@
     var target = Math.min(max, cols * PERSONAL_ROWS);
     var count = trimToFullRows(target, cols);
     el.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
-    el.innerHTML = items.slice(0, count).map(railCard).join('');
+    el.innerHTML = items
+      .slice(0, count)
+      .map(function (g) {
+        return railCard(g, { overlay: true });
+      })
+      .join('');
   }
 
-  function renderRailEl(el, items) {
+  function renderRailEl(el, items, badge) {
     if (!el) return;
     if (el.classList.contains('mm-rail-track--personal')) {
       renderPersonalGrid(el, items);
     } else if (el.classList.contains('mm-rail-track--grid2')) {
-      renderTwoRowGrid(el, items);
+      renderTwoRowGrid(el, items, badge);
     } else {
-      el.innerHTML = items.slice(0, 8).map(railCard).join('');
+      el.innerHTML = items
+        .slice(0, 8)
+        .map(function (g) {
+          return railCard(g, { overlay: true, badge: badge });
+        })
+        .join('');
     }
   }
 
@@ -439,8 +491,16 @@
       : relatedPool();
     var leftList = pickFromPool(excludeCurrent(leftPool), shown, count);
     var rightList = pickFromPool(trendingPool(), shown, count);
-    leftEl.innerHTML = leftList.map(sideCard).join('');
-    rightEl.innerHTML = rightList.map(sideCard).join('');
+    leftEl.innerHTML = leftList
+      .map(function (g) {
+        return sideCard(g);
+      })
+      .join('');
+    rightEl.innerHTML = rightList
+      .map(function (g) {
+        return sideCard(g, 'hot');
+      })
+      .join('');
   }
 
   function renderRails() {
@@ -449,10 +509,10 @@
 
     var railMap = [
       { id: 'mm-related-rail', pool: relatedPool() },
-      { id: 'mm-trending-rail', pool: trendingPool(), exempt: true },
-      { id: 'mm-rail-trending', pool: gridList('trending') },
-      { id: 'mm-rail-new', pool: gridList('new') },
-      { id: 'mm-rail-top', pool: gridList('topRated') },
+      { id: 'mm-trending-rail', pool: trendingPool(), exempt: true, badge: 'hot' },
+      { id: 'mm-rail-trending', pool: gridList('trending'), badge: 'hot' },
+      { id: 'mm-rail-new', pool: gridList('new'), badge: 'new' },
+      { id: 'mm-rail-top', pool: gridList('topRated'), badge: 'top' },
       { id: 'mm-rail-classic', pool: classicPool() },
       { id: 'mm-recent-rail', pool: getRecent(), section: 'mm-recent-section' },
       { id: 'mm-favorites-rail', pool: getFavorites(), section: 'mm-favorites-section' },
@@ -469,7 +529,7 @@
         list = pickFromPool(pool, shown, 999);
       }
       if (entry.section) toggleSection(entry.section, list.length > 0);
-      renderRailEl(el, list);
+      renderRailEl(el, list, entry.badge);
     });
 
     var picksEl = document.getElementById('mm-picks-grid');

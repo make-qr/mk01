@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monkey Mart — Design Demo (ui-ux-pro-max)</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/wg-grids.css" />
+  <link rel="stylesheet" href="./assets/css/mm-design-demo.css" />
+  <script>
+    window.MM_HOME_PAGE = true;
+    window.MM_CURRENT_GAME = {"id":"monkey-mart","name":"Monkey Mart","by":"Tiny Dobbins","image":"/assets/img/monkey-mart.jpg","categories":["casual","simulation"],"wgCategories":["Casual","Simulation"],"url":"/"};
+  </script>
+</head>
+<body class="mm-design-v2">
+  <div class="mm-demo-banner" role="status">
+    Design concept — powered by <strong>ui-ux-pro-max</strong> skill
+    <a href="/">← Back to live homepage</a>
+  </div>
+
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu">
+    <i class="fas fa-bars" aria-hidden="true"></i>
+  </button>
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <div class="main-wrapper">
+    <main class="main-content">
+      <header class="header">
+        <div class="container">
+          <div class="header-content">
+            <div class="logo">
+              <a href="/"><img src="./assets/img/monkeymart.png" alt="Monkey Mart" /></a>
+            </div>
+            <nav class="nav-menu" aria-label="Main">
+              <ul>
+                <li class="active"><a href="/"><i class="fas fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="/category/game.html"><i class="fas fa-gamepad" aria-hidden="true"></i> All Games</a></li>
+                <li><a href="/category/classic.html"><i class="fas fa-clock-rotate-left" aria-hidden="true"></i> Classic</a></li>
+                <li><a href="#" data-mm-surprise><i class="fas fa-dice" aria-hidden="true"></i> Surprise me</a></li>
+                <li><a href="/blog/"><i class="fas fa-book" aria-hidden="true"></i> Game Guides</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section class="mm-hero" aria-labelledby="hero-title">
+        <p class="mm-hero__eyebrow"><i class="fas fa-bolt" aria-hidden="true"></i> Free browser games · No download</p>
+        <h1 id="hero-title" class="mm-hero__title">Play Monkey Mart &amp; 500+ Games</h1>
+        <p class="mm-hero__lead">Instant play in your browser — school-friendly, mobile-ready, and always free. Tap Play below to start your supermarket adventure.</p>
+        <div class="mm-trust-row" role="list">
+          <span class="mm-trust-chip" role="listitem"><i class="fas fa-check-circle" aria-hidden="true"></i> 100% Free</span>
+          <span class="mm-trust-chip" role="listitem"><i class="fas fa-mobile-screen" aria-hidden="true"></i> Mobile &amp; Desktop</span>
+          <span class="mm-trust-chip" role="listitem"><i class="fas fa-unlock" aria-hidden="true"></i> Unblocked</span>
+          <span class="mm-trust-chip" role="listitem"><i class="fas fa-gamepad" aria-hidden="true"></i> 500+ Titles</span>
+        </div>
+      </section>
+
+      <section class="wg-game-layout wg-game-layout--cols wg-compact" data-mm-home>
+        <div class="wg-stage-row">
+          <aside class="wg-side-rail wg-side-rail--left" aria-label="Casual games">
+            <h3 class="wg-side-rail-title"><i class="fas fa-dice" aria-hidden="true"></i> Casual picks</h3>
+            <div class="wg-side-rail-track" id="mm-side-left"></div>
+          </aside>
+          <div class="wg-stage-center">
+            <div class="wg-player-wrap" id="mm-player">
+              <div class="game-thumbnail">
+                <img src="/assets/img/img-up/monkey-mart-2.png" alt="Monkey Mart gameplay preview" width="800" height="450" />
+                <button class="play-frame-button" id="playGameButton" type="button">
+                  <i class="fas fa-play" aria-hidden="true"></i>
+                  Play Game
+                </button>
+              </div>
+              <iframe data-src="https://monkeymartfree.com/play/monkey-mart/" allow="autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write; gyroscope; accelerometer" allowfullscreen id="game-frame" style="display: none;" title="Monkey Mart"></iframe>
+              <div class="loading-overlay" style="display: none;">
+                <div class="loading-spinner"></div>
+                <div class="loading-text">Loading Monkey Mart...</div>
+              </div>
+            </div>
+          </div>
+          <aside class="wg-side-rail wg-side-rail--right" aria-label="Trending games">
+            <h3 class="wg-side-rail-title"><i class="fas fa-bolt" aria-hidden="true"></i> Trending</h3>
+            <div class="wg-side-rail-track" id="mm-side-right"></div>
+          </aside>
+        </div>
+
+        <div class="wg-game-header">
+          <div class="wg-game-header-main">
+            <h1>Monkey Mart</h1>
+            <div class="wg-game-meta">
+              <a class="mm-tag mm-tag-link" href="/category/game.html?cat=Casual">Casual</a>
+              <a class="mm-tag mm-tag-link" href="/category/game.html?cat=Simulation">Simulation</a>
+              <span class="mm-publisher">by Tiny Dobbins</span>
+            </div>
+          </div>
+          <div class="mm-action-bar">
+            <button class="mm-action-btn mm-like-btn" id="mm-like-btn" type="button" title="Add to favorites" aria-pressed="false"><i class="fas fa-heart" aria-hidden="true"></i> Like</button>
+            <button class="mm-action-btn" id="share-btn" type="button" title="Share"><i class="fas fa-share-alt" aria-hidden="true"></i> Share</button>
+            <button class="mm-action-btn" id="fullscreen-btn" type="button" title="Fullscreen"><i class="fas fa-expand" aria-hidden="true"></i> Fullscreen</button>
+            <button class="mm-action-btn mm-action-btn--surprise" type="button" data-mm-surprise><i class="fas fa-dice" aria-hidden="true"></i> Surprise me</button>
+            <div class="share-menu" id="share-menu">
+              <button class="control-btn" id="copy-link-btn" type="button" title="Copy Link"><i class="fas fa-link" aria-hidden="true"></i></button>
+              <button class="control-btn" id="facebook-btn" type="button" title="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></button>
+              <button class="control-btn" id="twitter-btn" type="button" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></button>
+              <button class="control-btn" id="pinterest-btn" type="button" title="Pinterest"><i class="fab fa-pinterest-p" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mm-bento" aria-label="Why MonkeyMart">
+          <a class="mm-bento-card mm-bento-card--wide" href="/category/game.html">
+            <span class="mm-bento-card__icon"><i class="fas fa-gamepad" aria-hidden="true"></i></span>
+            <h3>500+ Browser Games</h3>
+            <p>Action, puzzles, racing, simulation — new titles every week. One click to play.</p>
+          </a>
+          <a class="mm-bento-card" href="/monkey-mart-unblocked/">
+            <span class="mm-bento-card__icon"><i class="fas fa-bolt" aria-hidden="true"></i></span>
+            <h3>Instant Play</h3>
+            <p>No install. Loads in seconds at school or work.</p>
+          </a>
+          <a class="mm-bento-card" href="#" data-mm-surprise>
+            <span class="mm-bento-card__icon"><i class="fas fa-dice" aria-hidden="true"></i></span>
+            <h3>Surprise Me</h3>
+            <p>Random pick when you cannot decide what to play.</p>
+          </a>
+          <a class="mm-bento-card" href="/blog/">
+            <span class="mm-bento-card__icon"><i class="fas fa-book-open" aria-hidden="true"></i></span>
+            <h3>Game Guides</h3>
+            <p>Tips, walkthroughs, and strategies for top titles.</p>
+          </a>
+          <a class="mm-bento-card" href="/how-to-play-monkey-mart/">
+            <span class="mm-bento-card__icon"><i class="fas fa-store" aria-hidden="true"></i></span>
+            <h3>Monkey Mart Hub</h3>
+            <p>Upgrades, helpers, and early-game strategy guides.</p>
+          </a>
+        </div>
+
+        <nav class="mm-quick-cats" aria-label="Popular categories">
+          <h2>Browse by category</h2>
+          <div class="mm-quick-cats__scroll">
+            <a class="mm-cat-pill" href="/category/game.html?cat=Action"><i class="fas fa-person-running" aria-hidden="true"></i> Action</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=Puzzles"><i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=Cars"><i class="fas fa-car-side" aria-hidden="true"></i> Cars</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=Arcade"><i class="fas fa-gamepad" aria-hidden="true"></i> Arcade</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=Sports"><i class="fas fa-futbol" aria-hidden="true"></i> Sports</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=Horror"><i class="fas fa-ghost" aria-hidden="true"></i> Horror</a>
+            <a class="mm-cat-pill" href="/category/game.html?cat=2Players"><i class="fas fa-user-group" aria-hidden="true"></i> 2 Players</a>
+            <a class="mm-cat-pill" href="/category/game.html"><i class="fas fa-th" aria-hidden="true"></i> All games</a>
+          </div>
+        </nav>
+
+        <section class="mm-rail-section mm-rail-section--grid2">
+          <h2 class="mm-rail-heading"><i class="fas fa-fire" aria-hidden="true"></i> Trending</h2>
+          <div class="mm-rail-track mm-rail-track--grid2" id="mm-rail-trending"></div>
+        </section>
+
+        <section class="mm-rail-section mm-rail-section--grid2">
+          <h2 class="mm-rail-heading"><i class="fas fa-sparkles" aria-hidden="true"></i> New Releases</h2>
+          <div class="mm-rail-track mm-rail-track--grid2" id="mm-rail-new"></div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <footer class="mm-footer">
+    <div class="mm-footer-inner">
+      <div class="mm-footer-bottom"><p>Design demo · <a href="/">monkeymart.one</a> · ui-ux-pro-max concept</p></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/wg-grids-home.js"></script>
+  <script src="assets/js/wg-featured.js"></script>
+  <script src="assets/js/wg-games.js"></script>
+  <script src="assets/js/mm-engage.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/game-controls.js"></script>
+</body>
+</html>

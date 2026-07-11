@@ -569,7 +569,10 @@ window.MM_CURRENT_GAME = {json.dumps({
 </section>
 
 <section class="mm-rail-section mm-rail-section--grid2">
+<div class="mm-rail-head">
 <h2 class="mm-rail-heading"><i class="fas fa-bolt"></i> Trending now</h2>
+<a class="mm-rail-see-all" href="../category/game.html">See all →</a>
+</div>
 <div class="mm-rail-track mm-rail-track--grid2" id="mm-trending-rail"></div>
 </section>
 

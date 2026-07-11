@@ -1,0 +1,325 @@
+/**
+ * MonkeyMart design demo — tokens from ui-ux-pro-max skill.
+ * Scoped to .mm-design-v2 so production pages stay unchanged.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Russo+One&display=swap');
+
+.mm-design-v2 {
+  --color-bg: #0f0f23;
+  --color-surface: #16162a;
+  --color-muted: #27273b;
+  --color-border: #2d2d4a;
+  --color-fg: #e2e8f0;
+  --color-fg-muted: #94a3b8;
+  --color-brand: #55bbab;
+  --color-brand-dim: rgba(85, 187, 171, 0.15);
+  --color-accent: #f43f5e;
+  --color-accent-hover: #fb7185;
+  --color-ring: #55bbab;
+  --font-display: 'Russo One', system-ui, sans-serif;
+  --font-body: 'Chakra Petch', system-ui, sans-serif;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --shadow-glow: 0 0 40px rgba(85, 187, 171, 0.12);
+  --transition: 200ms ease;
+}
+
+.mm-design-v2 {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mm-design-v2 .mm-demo-banner {
+  background: linear-gradient(90deg, #4c1d95, #55bbab);
+  color: #fff;
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.mm-design-v2 .mm-demo-banner a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 8px;
+}
+
+/* Hero */
+.mm-design-v2 .mm-hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 8px;
+  text-align: center;
+}
+
+.mm-design-v2 .mm-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--color-brand-dim);
+  border: 1px solid rgba(85, 187, 171, 0.35);
+  color: var(--color-brand);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.mm-design-v2 .mm-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  margin: 0 0 10px;
+  background: linear-gradient(135deg, #fff 30%, var(--color-brand) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mm-design-v2 .mm-hero__lead {
+  max-width: 52ch;
+  margin: 0 auto 18px;
+  color: var(--color-fg-muted);
+  font-size: 1.05rem;
+}
+
+.mm-design-v2 .mm-trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.mm-design-v2 .mm-trust-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-fg);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.mm-design-v2 .mm-trust-chip i {
+  color: var(--color-brand);
+}
+
+/* Player glow frame */
+.mm-design-v2 .wg-player-wrap {
+  border: 1px solid rgba(85, 187, 171, 0.35);
+  box-shadow: var(--shadow-glow), 0 8px 32px rgba(0, 0, 0, 0.5);
+  border-radius: var(--radius-lg);
+}
+
+.mm-design-v2 .play-frame-button {
+  min-height: 48px;
+  min-width: 160px;
+  padding: 14px 28px;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  background: linear-gradient(135deg, var(--color-accent), #e11d48);
+  border: none;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 20px rgba(244, 63, 94, 0.45);
+  transition: transform var(--transition), box-shadow var(--transition);
+  cursor: pointer;
+}
+
+.mm-design-v2 .play-frame-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(244, 63, 94, 0.55);
+}
+
+.mm-design-v2 .play-frame-button:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 3px;
+}
+
+/* Bento features */
+.mm-design-v2 .mm-bento {
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding: 0 16px 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.mm-design-v2 .mm-bento-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 20px 18px;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 120px;
+}
+
+.mm-design-v2 .mm-bento-card:hover {
+  border-color: rgba(85, 187, 171, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.mm-design-v2 .mm-bento-card:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+.mm-design-v2 .mm-bento-card__icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: var(--color-brand-dim);
+  color: var(--color-brand);
+  font-size: 1.1rem;
+}
+
+.mm-design-v2 .mm-bento-card h3 {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.mm-design-v2 .mm-bento-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--color-fg-muted);
+  line-height: 1.45;
+}
+
+.mm-design-v2 .mm-bento-card--wide {
+  grid-column: span 2;
+}
+
+/* Quick categories */
+.mm-design-v2 .mm-quick-cats {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 20px;
+}
+
+.mm-design-v2 .mm-quick-cats h2 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin: 0 0 12px;
+  color: var(--color-fg-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mm-design-v2 .mm-quick-cats__scroll {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mm-design-v2 .mm-quick-cats__scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.mm-design-v2 .mm-quick-cats__scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+.mm-design-v2 .mm-cat-pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--color-muted);
+  border: 1px solid var(--color-border);
+  color: var(--color-fg);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+
+.mm-design-v2 .mm-cat-pill:hover {
+  background: var(--color-brand-dim);
+  border-color: var(--color-brand);
+}
+
+.mm-design-v2 .mm-cat-pill:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+.mm-design-v2 .wg-game-header h1 {
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
+}
+
+.mm-design-v2 .mm-action-btn {
+  min-height: 44px;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.mm-design-v2 .mm-action-btn:focus-visible {
+  outline: 3px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+.mm-design-v2 .mm-rail-heading {
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 1024px) {
+  .mm-design-v2 .mm-bento {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mm-design-v2 .mm-bento-card--wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 560px) {
+  .mm-design-v2 .mm-bento {
+    grid-template-columns: 1fr;
+  }
+  .mm-design-v2 .mm-bento-card--wide {
+    grid-column: span 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mm-design-v2 *,
+  .mm-design-v2 *::before,
+  .mm-design-v2 *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
