@@ -18,7 +18,50 @@ EXCLUDE_PARTS = {
     "example-game.html",
     "lesson-15.html",
 }
-EXCLUDE_DIRS = {"tools", "assets", "scripts", "community"}
+EXCLUDE_DIRS = {"tools", "assets", "scripts", "community", "admin"}
+# Broken / unpublished — keep in sync with window.MM_HIDDEN in wg-featured.js
+HIDDEN_GAME_SLUGS = {
+    "gamepush-colored-microbes-rows",
+    "gamepush-double-fist",
+    "gamepush-exploding-zombie-boxes",
+    "russian-fishing-at-sea",
+    "riddle-school-2",
+    "super-mario-kart",
+    "star-fox-64",
+    "super-smash-flash-2",
+    "pokemon-black",
+    "super-mario-world",
+    "pokemon-fire-red",
+    "poker",
+    "super-mario-bros",
+    "super-smash-flash",
+    "riddle-school-5",
+    "sonic-advance",
+    "papas-pancakeria",
+    "sonic-advance-2",
+    "riddle-school-3",
+    "papas-pizzeria",
+    "sonic-advance-3",
+    "riddle-school",
+    "unblock-puzzle",
+    "pokemon-ruby",
+    "riddle-transfer",
+    "vexon",
+    "riddle-school-4",
+    "super-mario-bros-3",
+    "super-mario-64",
+    "pokemon-leaf-green",
+    "papas-freezeria",
+    "pokemon-emerald",
+    "super-mario-bros-2",
+    "riddle-transfer-2",
+    "super-mario-world-two",
+    "papas-burgeria",
+    "run-3",
+    "pokemon-sapphire",
+    "strykon",
+    "pokemon-white",
+}
 EXCLUDE_PATTERNS = [
     re.compile(r"null.*\.html$", re.I),
     re.compile(r"^game/monkey-mart-2/null", re.I),
@@ -56,6 +99,10 @@ def should_include(rel: str) -> bool:
     parts = rel.split("/")
     if any(p in EXCLUDE_DIRS for p in parts):
         return False
+    if rel.startswith("game/"):
+        slug = Path(rel).stem
+        if slug in HIDDEN_GAME_SLUGS:
+            return False
     for pat in EXCLUDE_PATTERNS:
         if pat.search(rel):
             return False

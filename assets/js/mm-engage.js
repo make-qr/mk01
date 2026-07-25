@@ -34,8 +34,27 @@
     return d.innerHTML;
   }
 
+  function hiddenIds() {
+    var list = window.MM_HIDDEN || [];
+    var map = {};
+    for (var i = 0; i < list.length; i++) map[list[i]] = true;
+    return map;
+  }
+
+  function isHiddenGame(g) {
+    if (!g) return true;
+    var hid = hiddenIds();
+    return !!(hid[g.id] || hid[gameKey(g)]);
+  }
+
   function allGames() {
-    return window.WG_GAMES || [];
+    // Home + WG game pages use slim WG_GAMES_HOME; category pages load full WG_GAMES.
+    var pool = window.WG_GAMES || window.WG_GAMES_HOME || [];
+    var hid = hiddenIds();
+    if (!Object.keys(hid).length) return pool;
+    return pool.filter(function (g) {
+      return g && g.id && !hid[g.id];
+    });
   }
 
   function current() {
@@ -59,7 +78,9 @@
   }
 
   function classicPool() {
-    return window.MM_CLASSIC_GAMES || [];
+    return (window.MM_CLASSIC_GAMES || []).filter(function (g) {
+      return g && g.id && !isHiddenGame(g);
+    });
   }
 
   function gameKey(g) {
@@ -84,6 +105,7 @@
   function trackRecent() {
     var cur = current();
     if (!cur || !cur.id || isHomePage()) return;
+    if (isHiddenGame(cur)) return;
     var list = loadJson(RECENT_KEY, []);
     var entry = {
       id: cur.id,
@@ -94,18 +116,22 @@
       c: cur.c,
     };
     list = list.filter(function (g) {
-      return g.id !== cur.id;
+      return g.id !== cur.id && !isHiddenGame(g);
     });
     list.unshift(entry);
     saveJson(RECENT_KEY, list.slice(0, RECENT_MAX));
   }
 
   function getRecent() {
-    return loadJson(RECENT_KEY, []);
+    return loadJson(RECENT_KEY, []).filter(function (g) {
+      return g && g.id && !isHiddenGame(g);
+    });
   }
 
   function getFavorites() {
-    return loadJson(FAV_KEY, []);
+    return loadJson(FAV_KEY, []).filter(function (g) {
+      return g && g.id && !isHiddenGame(g);
+    });
   }
 
   function isFavorite(id) {
@@ -160,9 +186,56 @@
     return out;
   }
 
+  function featuredIds(key) {
+    var f = window.MM_FEATURED || {};
+    var hid = hiddenIds();
+    return (f[key] || []).filter(function (id) {
+      return id && !hid[id];
+    });
+  }
+
+  function hasFeatured(key) {
+    return featuredIds(key).length > 0;
+  }
+
+  function gridItemFromGame(g, pip, extra) {
+    if (!g || !g.id) return null;
+    extra = extra || {};
+    return {
+      id: g.id,
+      name: g.name,
+      by: g.by,
+      image: g.image,
+      url: g.url || '/game/' + g.id + '.html',
+      c: g.c,
+      pip: pip || g.pip || '',
+      cats: g.wgCategories || g.cats || g.categories || [],
+      preview: g.preview || '',
+      big: !!extra.big,
+    };
+  }
+
+  function featuredGridList(key, pip) {
+    if (!hasFeatured(key)) return null;
+    var out = [];
+    featuredIds(key).forEach(function (id) {
+      var g = gameById(id);
+      var item = gridItemFromGame(g, pip);
+      if (item) out.push(item);
+    });
+    return out;
+  }
+
   function gridList(key) {
+    var pipMap = { trending: 'hot', new: 'new', topRated: 'top' };
+    var strict = featuredGridList(key, pipMap[key] || '');
+    if (strict && strict.length) return strict.filter(function (g) {
+      return !isHiddenGame(g);
+    });
     var data = grids();
-    return data[key] || [];
+    return (data[key] || []).filter(function (g) {
+      return !isHiddenGame(g);
+    });
   }
 
   function sameCategory(a, b) {
@@ -254,43 +327,76 @@
     return out;
   }
 
-  function trendingPool() {
-    var data = grids();
-    var list = featuredGames('trending')
-      .concat(data.trending || [])
-      .concat(data.new || [])
-      .concat(data.topRated || []);
-    var out = dedupeGames(list);
-    if (out.length < 12) {
-      allGames().forEach(function (g) {
-        if (out.length >= 24) return;
-        if (out.some(function (x) {
-          return x.id === g.id;
-        })) return;
-        out.push(g);
+  function curatedList(key) {
+    return gridList(key);
+  }
+
+  function picksList() {
+    if (hasFeatured('picks')) {
+      var out = [];
+      featuredIds('picks').forEach(function (id) {
+        var g = gameById(id);
+        if (g) out.push(g);
       });
+      return out;
     }
-    return excludeCurrent(out);
+    var data = grids();
+    return dedupeGames(
+      (data.topRated || []).concat(data.trending || []).concat(data.new || [])
+    );
+  }
+
+  function trendingPool() {
+    return excludeCurrent(curatedList('trending'));
   }
 
   function picksPool() {
-    var data = grids();
-    var out = dedupeGames(
-      featuredGames('picks')
-        .concat(data.topRated || [])
-        .concat(data.trending || [])
-        .concat(data.new || [])
-    );
-    if (out.length < 8) {
-      allGames().forEach(function (g) {
-        if (out.length >= 8) return;
-        if (out.some(function (x) {
-          return x.id === g.id;
-        })) return;
-        out.push(g);
-      });
-    }
-    return excludeCurrent(out);
+    return excludeCurrent(picksList());
+  }
+
+  function injectGamePageRails() {
+    if (!isGamePage() || document.getElementById('mm-rail-new')) return;
+    var anchor =
+      document.getElementById('mm-trending-rail') ||
+      document.getElementById('mm-rail-trending');
+    if (!anchor) return;
+    var refSection = anchor.closest('.mm-rail-section');
+    if (!refSection || !refSection.parentNode) return;
+
+    var blocks = [
+      {
+        id: 'mm-rail-new',
+        icon: 'fa-sparkles',
+        title: 'New games',
+        badge: 'new',
+      },
+      {
+        id: 'mm-rail-top',
+        icon: 'fa-trophy',
+        title: 'Top rated',
+        badge: 'top',
+      },
+    ];
+
+    var insertAfter = refSection;
+    blocks.forEach(function (block) {
+      var sec = document.createElement('section');
+      sec.className = 'mm-rail-section mm-rail-section--grid2';
+      sec.innerHTML =
+        '<div class="mm-rail-head">' +
+        '<h2 class="mm-rail-heading"><i class="fas ' +
+        block.icon +
+        '"></i> ' +
+        esc(block.title) +
+        '</h2>' +
+        '<a class="mm-rail-see-all" href="../category/game.html">See all →</a>' +
+        '</div>' +
+        '<div class="mm-rail-track mm-rail-track--grid2" id="' +
+        block.id +
+        '"></div>';
+      insertAfter.parentNode.insertBefore(sec, insertAfter.nextSibling);
+      insertAfter = sec;
+    });
   }
 
   function gridColumns(trackEl) {
@@ -407,10 +513,18 @@
     );
   }
 
-  function renderTwoRowGrid(el, items, badge) {
+  function renderTwoRowGrid(el, items, badge, opts) {
     if (!el) return;
+    opts = opts || {};
     var cols = gridColumns(el);
-    var count = cols * GRID_ROWS;
+    var maxDefault = cols * GRID_ROWS;
+    var count = opts.showAll ? items.length : Math.min(items.length, maxDefault);
+    if (opts.showAll && items.length > maxDefault) {
+      var rows = Math.ceil(items.length / cols);
+      el.style.gridTemplateRows = 'repeat(' + rows + ', auto)';
+    } else {
+      el.style.gridTemplateRows = '';
+    }
     var list = items.slice(0, count);
     el.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
     el.innerHTML = list
@@ -442,12 +556,13 @@
       .join('');
   }
 
-  function renderRailEl(el, items, badge) {
+  function renderRailEl(el, items, badge, opts) {
     if (!el) return;
+    opts = opts || {};
     if (el.classList.contains('mm-rail-track--personal')) {
       renderPersonalGrid(el, items);
     } else if (el.classList.contains('mm-rail-track--grid2')) {
-      renderTwoRowGrid(el, items, badge);
+      renderTwoRowGrid(el, items, badge, opts);
     } else {
       el.innerHTML = items
         .slice(0, 8)
@@ -472,7 +587,7 @@
     return rows * sideCols();
   }
 
-  function renderSideRails(shown) {
+  function renderSideRails() {
     var leftEl = document.getElementById('mm-side-left');
     var rightEl = document.getElementById('mm-side-right');
     var player = document.getElementById('mm-player');
@@ -486,11 +601,11 @@
     if (leftRail) leftRail.style.height = h;
     if (rightRail) rightRail.style.height = h;
 
-    var leftPool = isHomePage()
-      ? dedupeGames(gridList('trending').concat(relatedPool()))
-      : relatedPool();
-    var leftList = pickFromPool(excludeCurrent(leftPool), shown, count);
-    var rightList = pickFromPool(trendingPool(), shown, count);
+    var leftPool = isHomePage() ? picksPool() : relatedPool();
+    var rightPool = trendingPool();
+    var leftList = excludeCurrent(leftPool).slice(0, count);
+    var rightList = excludeCurrent(rightPool).slice(0, count);
+
     leftEl.innerHTML = leftList
       .map(function (g) {
         return sideCard(g);
@@ -504,45 +619,54 @@
   }
 
   function renderRails() {
-    var shown = {};
-    renderSideRails(shown);
+    injectGamePageRails();
+    renderSideRails();
 
+    var shown = {};
     var railMap = [
-      { id: 'mm-related-rail', pool: relatedPool() },
-      { id: 'mm-trending-rail', pool: trendingPool(), exempt: true, badge: 'hot' },
-      { id: 'mm-rail-trending', pool: gridList('trending'), badge: 'hot' },
-      { id: 'mm-rail-new', pool: gridList('new'), badge: 'new' },
-      { id: 'mm-rail-top', pool: gridList('topRated'), badge: 'top' },
-      { id: 'mm-rail-classic', pool: classicPool() },
-      { id: 'mm-recent-rail', pool: getRecent(), section: 'mm-recent-section' },
-      { id: 'mm-favorites-rail', pool: getFavorites(), section: 'mm-favorites-section' },
+      { id: 'mm-related-rail', pool: relatedPool(), auto: true },
+      { id: 'mm-trending-rail', key: 'trending', badge: 'hot' },
+      { id: 'mm-rail-trending', key: 'trending', badge: 'hot' },
+      { id: 'mm-rail-new', key: 'new', badge: 'new' },
+      { id: 'mm-rail-top', key: 'topRated', badge: 'top' },
+      { id: 'mm-rail-classic', pool: classicPool(), auto: true },
+      { id: 'mm-recent-rail', pool: getRecent(), section: 'mm-recent-section', personal: true },
+      { id: 'mm-favorites-rail', pool: getFavorites(), section: 'mm-favorites-section', personal: true },
     ];
 
     railMap.forEach(function (entry) {
       var el = document.getElementById(entry.id);
       if (!el) return;
-      var pool = excludeCurrent(entry.pool);
+      var pool = entry.key ? curatedList(entry.key) : entry.pool || [];
+      pool = excludeCurrent(pool);
+      var curated = entry.key && hasFeatured(entry.key);
       var list;
-      if (el.classList.contains('mm-rail-track--personal') || entry.exempt) {
+      if (entry.personal || curated) {
         list = pool;
+      } else if (entry.auto) {
+        list = pickFromPool(pool, shown, 999);
       } else {
         list = pickFromPool(pool, shown, 999);
       }
       if (entry.section) toggleSection(entry.section, list.length > 0);
-      renderRailEl(el, list, entry.badge);
+      renderRailEl(el, list, entry.badge, { showAll: curated });
     });
 
     var picksEl = document.getElementById('mm-picks-grid');
     if (picksEl) {
-      var picks = pickFromPool(picksPool(), shown, 8);
+      var picksCurated = hasFeatured('picks');
+      var picks = picksCurated
+        ? excludeCurrent(picksPool())
+        : pickFromPool(picksPool(), shown, 8);
       picksEl.innerHTML = picks.map(pickCard).join('');
     }
   }
 
   function surprisePool(categoryFilter) {
-    var data = grids();
     var pool = dedupeGames(
-      (data.trending || []).concat(data.new || []).concat(data.topRated || [])
+      curatedList('trending')
+        .concat(curatedList('new'))
+        .concat(curatedList('topRated'))
     );
     if (pool.length < 20) pool = dedupeGames(pool.concat(allGames()));
 
