@@ -1,0 +1,956 @@
+{
+  "ok": [
+    {
+      "repo": "8BallPool",
+      "slug": "8-ball-pool",
+      "title": "8 Ball Pool",
+      "frame_url": "https://ubg98.github.io/8BallPool/"
+    },
+    {
+      "repo": "3DBowling",
+      "slug": "3-d-bowling",
+      "title": "3 D Bowling",
+      "frame_url": "https://ubg98.github.io/3DBowling/"
+    },
+    {
+      "repo": "AwesomeTanks2",
+      "slug": "awesome-tanks2",
+      "title": "Awesome Tanks 2",
+      "frame_url": "https://ubg98.github.io/AwesomeTanks2/"
+    },
+    {
+      "repo": "3PandasInJapan",
+      "slug": "3-pandas-in-japan",
+      "title": "3 Pandas In Japan",
+      "frame_url": "https://ubg98.github.io/3PandasInJapan/"
+    },
+    {
+      "repo": "1On1Soccer",
+      "slug": "1-on1-soccer",
+      "title": "1 On 1 Soccer",
+      "frame_url": "https://ubg98.github.io/1On1Soccer/"
+    },
+    {
+      "repo": "AdamAndEve6",
+      "slug": "adam-and-eve6",
+      "title": "Adam And Eve 6",
+      "frame_url": "https://ubg98.github.io/AdamAndEve6/"
+    },
+    {
+      "repo": "1010ColorMatch",
+      "slug": "1010-color-match",
+      "title": "1010 Color Match",
+      "frame_url": "https://ubg98.github.io/1010ColorMatch/"
+    },
+    {
+      "repo": "AppleShooter",
+      "slug": "apple-shooter",
+      "title": "Apple Shooter",
+      "frame_url": "https://ubg98.github.io/AppleShooter/"
+    },
+    {
+      "repo": "ArcaneArcher",
+      "slug": "arcane-archer",
+      "title": "Arcane Archer",
+      "frame_url": "https://ubg98.github.io/ArcaneArcher/"
+    },
+    {
+      "repo": "BallSortHalloween",
+      "slug": "ball-sort-halloween",
+      "title": "Ball Sort Halloween",
+      "frame_url": "https://ubg98.github.io/BallSortHalloween/"
+    },
+    {
+      "repo": "8BallBilliardsClassic",
+      "slug": "8-ball-billiards-classic",
+      "title": "8 Ball Billiards Classic",
+      "frame_url": "https://ubg98.github.io/8BallBilliardsClassic/"
+    },
+    {
+      "repo": "AdamAndEve51",
+      "slug": "adam-and-eve51",
+      "title": "Adam And Eve 51",
+      "frame_url": "https://ubg98.github.io/AdamAndEve51/"
+    },
+    {
+      "repo": "1010Deluxe",
+      "slug": "1010-deluxe",
+      "title": "1010 Deluxe",
+      "frame_url": "https://ubg98.github.io/1010Deluxe/"
+    },
+    {
+      "repo": "2048HexaMergeBlock",
+      "slug": "2048-hexa-merge-block",
+      "title": "2048 Hexa Merge Block",
+      "frame_url": "https://ubg98.github.io/2048HexaMergeBlock/"
+    },
+    {
+      "repo": "AdamAndEve7",
+      "slug": "adam-and-eve7",
+      "title": "Adam And Eve 7",
+      "frame_url": "https://ubg98.github.io/AdamAndEve7/"
+    },
+    {
+      "repo": "AdamAndEve52",
+      "slug": "adam-and-eve52",
+      "title": "Adam And Eve 52",
+      "frame_url": "https://ubg98.github.io/AdamAndEve52/"
+    },
+    {
+      "repo": "BasketballStars",
+      "slug": "basketball-stars",
+      "title": "Basketball Stars",
+      "frame_url": "https://ubg98.github.io/BasketballStars/"
+    },
+    {
+      "repo": "BasketballLine",
+      "slug": "basketball-line",
+      "title": "Basketball Line",
+      "frame_url": "https://ubg98.github.io/BasketballLine/"
+    },
+    {
+      "repo": "BasketChamps",
+      "slug": "basket-champs",
+      "title": "Basket Champs",
+      "frame_url": "https://ubg98.github.io/BasketChamps/"
+    },
+    {
+      "repo": "Ballistic",
+      "slug": "ballistic",
+      "title": "Ballistic",
+      "frame_url": "https://ubg98.github.io/Ballistic/"
+    },
+    {
+      "repo": "BigTowerTinySquare",
+      "slug": "big-tower-tiny-square",
+      "title": "Big Tower Tiny Square",
+      "frame_url": "https://ubg98.github.io/BigTowerTinySquare/"
+    },
+    {
+      "repo": "BikerStreet",
+      "slug": "biker-street",
+      "title": "Biker Street",
+      "frame_url": "https://ubg98.github.io/BikerStreet/"
+    },
+    {
+      "repo": "BubblePopAdventures",
+      "slug": "bubble-pop-adventures",
+      "title": "Bubble Pop Adventures",
+      "frame_url": "https://ubg98.github.io/BubblePopAdventures/"
+    },
+    {
+      "repo": "BasketballLegends2020",
+      "slug": "basketball-legends2020",
+      "title": "Basketball Legends 2020",
+      "frame_url": "https://ubg98.github.io/BasketballLegends2020/"
+    },
+    {
+      "repo": "BottleFlip",
+      "slug": "bottle-flip",
+      "title": "Bottle Flip",
+      "frame_url": "https://ubg98.github.io/BottleFlip/"
+    },
+    {
+      "repo": "BombIt6",
+      "slug": "bomb-it6",
+      "title": "Bomb It 6",
+      "frame_url": "https://ubg98.github.io/BombIt6/"
+    },
+    {
+      "repo": "BubbleTower3D",
+      "slug": "bubble-tower3-d",
+      "title": "Bubble Tower 3 D",
+      "frame_url": "https://ubg98.github.io/BubbleTower3D/"
+    },
+    {
+      "repo": "BlumgiSlime",
+      "slug": "blumgi-slime",
+      "title": "Blumgi Slime",
+      "frame_url": "https://ubg98.github.io/BlumgiSlime/"
+    },
+    {
+      "repo": "CarRush",
+      "slug": "car-rush",
+      "title": "Car Rush",
+      "frame_url": "https://ubg98.github.io/CarRush/"
+    },
+    {
+      "repo": "CheckersLegend",
+      "slug": "checkers-legend",
+      "title": "Checkers Legend",
+      "frame_url": "https://ubg98.github.io/CheckersLegend/"
+    },
+    {
+      "repo": "BouncyWoods",
+      "slug": "bouncy-woods",
+      "title": "Bouncy Woods",
+      "frame_url": "https://ubg98.github.io/BouncyWoods/"
+    },
+    {
+      "repo": "ChickenMerge",
+      "slug": "chicken-merge",
+      "title": "Chicken Merge",
+      "frame_url": "https://ubg98.github.io/ChickenMerge/"
+    },
+    {
+      "repo": "CircloO",
+      "slug": "circlo-o",
+      "title": "Circlo O",
+      "frame_url": "https://ubg98.github.io/CircloO/"
+    },
+    {
+      "repo": "ClickerHeroes",
+      "slug": "clicker-heroes",
+      "title": "Clicker Heroes",
+      "frame_url": "https://ubg98.github.io/ClickerHeroes/"
+    },
+    {
+      "repo": "ClashOfTanks",
+      "slug": "clash-of-tanks",
+      "title": "Clash Of Tanks",
+      "frame_url": "https://ubg98.github.io/ClashOfTanks/"
+    },
+    {
+      "repo": "CircloO2",
+      "slug": "circlo-o2",
+      "title": "Circlo O 2",
+      "frame_url": "https://ubg98.github.io/CircloO2/"
+    },
+    {
+      "repo": "ClimbOverIt",
+      "slug": "climb-over-it",
+      "title": "Climb Over It",
+      "frame_url": "https://ubg98.github.io/ClimbOverIt/"
+    },
+    {
+      "repo": "DinosaursMergeMaster",
+      "slug": "dinosaurs-merge-master",
+      "title": "Dinosaurs Merge Master",
+      "frame_url": "https://ubg98.github.io/DinosaursMergeMaster/"
+    },
+    {
+      "repo": "CrazyCars",
+      "slug": "crazy-cars",
+      "title": "Crazy Cars",
+      "frame_url": "https://ubg98.github.io/CrazyCars/"
+    },
+    {
+      "repo": "CursedTreasure2",
+      "slug": "cursed-treasure2",
+      "title": "Cursed Treasure 2",
+      "frame_url": "https://ubg98.github.io/CursedTreasure2/"
+    },
+    {
+      "repo": "CrossyRoad",
+      "slug": "crossy-road",
+      "title": "Crossy Road",
+      "frame_url": "https://ubg98.github.io/CrossyRoad/"
+    },
+    {
+      "repo": "Cubefield",
+      "slug": "cubefield",
+      "title": "Cubefield",
+      "frame_url": "https://ubg98.github.io/Cubefield/"
+    },
+    {
+      "repo": "DeadAgain",
+      "slug": "dead-again",
+      "title": "Dead Again",
+      "frame_url": "https://ubg98.github.io/DeadAgain/"
+    },
+    {
+      "repo": "DinoBros",
+      "slug": "dino-bros",
+      "title": "Dino Bros",
+      "frame_url": "https://ubg98.github.io/DinoBros/"
+    },
+    {
+      "repo": "DownTheHill",
+      "slug": "down-the-hill",
+      "title": "Down The Hill",
+      "frame_url": "https://ubg98.github.io/DownTheHill/"
+    },
+    {
+      "repo": "EggyCar",
+      "slug": "eggy-car",
+      "title": "Eggy Car",
+      "frame_url": "https://ubg98.github.io/EggyCar/"
+    },
+    {
+      "repo": "EndlessTruck",
+      "slug": "endless-truck",
+      "title": "Endless Truck",
+      "frame_url": "https://ubg98.github.io/EndlessTruck/"
+    },
+    {
+      "repo": "FNAF",
+      "slug": "fnaf",
+      "title": "FNAF",
+      "frame_url": "https://ubg98.github.io/FNAF/"
+    },
+    {
+      "repo": "FarmMatchSeasons",
+      "slug": "farm-match-seasons",
+      "title": "Farm Match Seasons",
+      "frame_url": "https://ubg98.github.io/FarmMatchSeasons/"
+    },
+    {
+      "repo": "FishingAndLines",
+      "slug": "fishing-and-lines",
+      "title": "Fishing And Lines",
+      "frame_url": "https://ubg98.github.io/FishingAndLines/"
+    },
+    {
+      "repo": "FishingFrenzy",
+      "slug": "fishing-frenzy",
+      "title": "Fishing Frenzy",
+      "frame_url": "https://ubg98.github.io/FishingFrenzy/"
+    },
+    {
+      "repo": "GSwitch",
+      "slug": "g-switch",
+      "title": "G Switch",
+      "frame_url": "https://ubg98.github.io/GSwitch/"
+    },
+    {
+      "repo": "FootballBrawl",
+      "slug": "football-brawl",
+      "title": "Football Brawl",
+      "frame_url": "https://ubg98.github.io/FootballBrawl/"
+    },
+    {
+      "repo": "FootballLegends",
+      "slug": "football-legends",
+      "title": "Football Legends",
+      "frame_url": "https://ubg98.github.io/FootballLegends/"
+    },
+    {
+      "repo": "FootballStrike",
+      "slug": "football-strike",
+      "title": "Football Strike",
+      "frame_url": "https://ubg98.github.io/FootballStrike/"
+    },
+    {
+      "repo": "GSwitch2",
+      "slug": "g-switch2",
+      "title": "G Switch 2",
+      "frame_url": "https://ubg98.github.io/GSwitch2/"
+    },
+    {
+      "repo": "FootballMasters",
+      "slug": "football-masters",
+      "title": "Football Masters",
+      "frame_url": "https://ubg98.github.io/FootballMasters/"
+    },
+    {
+      "repo": "FruitaCrush",
+      "slug": "fruita-crush",
+      "title": "Fruita Crush",
+      "frame_url": "https://ubg98.github.io/FruitaCrush/"
+    },
+    {
+      "repo": "GeometryDash",
+      "slug": "geometry-dash",
+      "title": "Geometry Dash",
+      "frame_url": "https://ubg98.github.io/GeometryDash/"
+    },
+    {
+      "repo": "GSwitch4",
+      "slug": "g-switch4",
+      "title": "G Switch 4",
+      "frame_url": "https://ubg98.github.io/GSwitch4/"
+    },
+    {
+      "repo": "GSwitch3",
+      "slug": "g-switch3",
+      "title": "G Switch 3",
+      "frame_url": "https://ubg98.github.io/GSwitch3/"
+    },
+    {
+      "repo": "GeometryJump",
+      "slug": "geometry-jump",
+      "title": "Geometry Jump",
+      "frame_url": "https://ubg98.github.io/GeometryJump/"
+    },
+    {
+      "repo": "GetOnTop",
+      "slug": "get-on-top",
+      "title": "Get On Top",
+      "frame_url": "https://ubg98.github.io/GetOnTop/"
+    },
+    {
+      "repo": "CookieClicker2",
+      "slug": "cookie-clicker2",
+      "title": "Cookie Clicker 2",
+      "frame_url": "https://ubg98.github.io/CookieClicker2/"
+    },
+    {
+      "repo": "GettingOverIt",
+      "slug": "getting-over-it",
+      "title": "Getting Over It",
+      "frame_url": "https://ubg98.github.io/GettingOverIt/"
+    },
+    {
+      "repo": "HeadSoccer2023",
+      "slug": "head-soccer2023",
+      "title": "Head Soccer 2023",
+      "frame_url": "https://ubg98.github.io/HeadSoccer2023/"
+    },
+    {
+      "repo": "Gobdun",
+      "slug": "gobdun",
+      "title": "Gobdun",
+      "frame_url": "https://ubg98.github.io/Gobdun/"
+    },
+    {
+      "repo": "Hanger",
+      "slug": "hanger",
+      "title": "Hanger",
+      "frame_url": "https://ubg98.github.io/Hanger/"
+    },
+    {
+      "repo": "GuessTheKitty",
+      "slug": "guess-the-kitty",
+      "title": "Guess The Kitty",
+      "frame_url": "https://ubg98.github.io/GuessTheKitty/"
+    },
+    {
+      "repo": "GroovySki",
+      "slug": "groovy-ski",
+      "title": "Groovy Ski",
+      "frame_url": "https://ubg98.github.io/GroovySki/"
+    },
+    {
+      "repo": "HappyFishing",
+      "slug": "happy-fishing",
+      "title": "Happy Fishing",
+      "frame_url": "https://ubg98.github.io/HappyFishing/"
+    },
+    {
+      "repo": "HoopRoyale",
+      "slug": "hoop-royale",
+      "title": "Hoop Royale",
+      "frame_url": "https://ubg98.github.io/HoopRoyale/"
+    },
+    {
+      "repo": "HideAndSmash",
+      "slug": "hide-and-smash",
+      "title": "Hide And Smash",
+      "frame_url": "https://ubg98.github.io/HideAndSmash/"
+    },
+    {
+      "repo": "HeadsArenaSoccerAllStars",
+      "slug": "heads-arena-soccer-all-stars",
+      "title": "Heads Arena Soccer All Stars",
+      "frame_url": "https://ubg98.github.io/HeadsArenaSoccerAllStars/"
+    },
+    {
+      "repo": "IcyPurpleHead3",
+      "slug": "icy-purple-head3",
+      "title": "Icy Purple Head 3",
+      "frame_url": "https://ubg98.github.io/IcyPurpleHead3/"
+    },
+    {
+      "repo": "IcyPurpleHead2",
+      "slug": "icy-purple-head2",
+      "title": "Icy Purple Head 2",
+      "frame_url": "https://ubg98.github.io/IcyPurpleHead2/"
+    },
+    {
+      "repo": "IdleMiningEmpire",
+      "slug": "idle-mining-empire",
+      "title": "Idle Mining Empire",
+      "frame_url": "https://ubg98.github.io/IdleMiningEmpire/"
+    },
+    {
+      "repo": "HopPopIt",
+      "slug": "hop-pop-it",
+      "title": "Hop Pop It",
+      "frame_url": "https://ubg98.github.io/HopPopIt/"
+    },
+    {
+      "repo": "IdleRestaurants",
+      "slug": "idle-restaurants",
+      "title": "Idle Restaurants",
+      "frame_url": "https://ubg98.github.io/IdleRestaurants/"
+    },
+    {
+      "repo": "InfiniteSoccer",
+      "slug": "infinite-soccer",
+      "title": "Infinite Soccer",
+      "frame_url": "https://ubg98.github.io/InfiniteSoccer/"
+    },
+    {
+      "repo": "JewelsBlitz5",
+      "slug": "jewels-blitz5",
+      "title": "Jewels Blitz 5",
+      "frame_url": "https://ubg98.github.io/JewelsBlitz5/"
+    },
+    {
+      "repo": "IronSnout",
+      "slug": "iron-snout",
+      "title": "Iron Snout",
+      "frame_url": "https://ubg98.github.io/IronSnout/"
+    },
+    {
+      "repo": "LinebackerAlley2",
+      "slug": "linebacker-alley2",
+      "title": "Linebacker Alley 2",
+      "frame_url": "https://ubg98.github.io/LinebackerAlley2/"
+    },
+    {
+      "repo": "MarblesSorting",
+      "slug": "marbles-sorting",
+      "title": "Marbles Sorting",
+      "frame_url": "https://ubg98.github.io/MarblesSorting/"
+    },
+    {
+      "repo": "MinecraftCaseSimulator",
+      "slug": "minecraft-case-simulator",
+      "title": "Minecraft Case Simulator",
+      "frame_url": "https://ubg98.github.io/MinecraftCaseSimulator/"
+    },
+    {
+      "repo": "LittleAlchemy2",
+      "slug": "little-alchemy2",
+      "title": "Little Alchemy 2",
+      "frame_url": "https://ubg98.github.io/LittleAlchemy2/"
+    },
+    {
+      "repo": "MoneyMovers",
+      "slug": "money-movers",
+      "title": "Money Movers",
+      "frame_url": "https://ubg98.github.io/MoneyMovers/"
+    },
+    {
+      "repo": "MrBullet",
+      "slug": "mr-bullet",
+      "title": "Mr Bullet",
+      "frame_url": "https://ubg98.github.io/MrBullet/"
+    },
+    {
+      "repo": "MoneyMovers3",
+      "slug": "money-movers3",
+      "title": "Money Movers 3",
+      "frame_url": "https://ubg98.github.io/MoneyMovers3/"
+    },
+    {
+      "repo": "MergestKingdom",
+      "slug": "mergest-kingdom",
+      "title": "Mergest Kingdom",
+      "frame_url": "https://ubg98.github.io/MergestKingdom/"
+    },
+    {
+      "repo": "MoneyMovers2",
+      "slug": "money-movers2",
+      "title": "Money Movers 2",
+      "frame_url": "https://ubg98.github.io/MoneyMovers2/"
+    },
+    {
+      "repo": "MrBullet3D",
+      "slug": "mr-bullet3-d",
+      "title": "Mr Bullet 3 D",
+      "frame_url": "https://ubg98.github.io/MrBullet3D/"
+    },
+    {
+      "repo": "MovingTruck",
+      "slug": "moving-truck",
+      "title": "Moving Truck",
+      "frame_url": "https://ubg98.github.io/MovingTruck/"
+    },
+    {
+      "repo": "Mutazone",
+      "slug": "mutazone",
+      "title": "Mutazone",
+      "frame_url": "https://ubg98.github.io/Mutazone/"
+    },
+    {
+      "repo": "NinjaCatExploit",
+      "slug": "ninja-cat-exploit",
+      "title": "Ninja Cat Exploit",
+      "frame_url": "https://ubg98.github.io/NinjaCatExploit/"
+    },
+    {
+      "repo": "OvO",
+      "slug": "ov-o",
+      "title": "Ov O",
+      "frame_url": "https://ubg98.github.io/OvO/"
+    },
+    {
+      "repo": "ParkingFury",
+      "slug": "parking-fury",
+      "title": "Parking Fury",
+      "frame_url": "https://ubg98.github.io/ParkingFury/"
+    },
+    {
+      "repo": "OvO2",
+      "slug": "ov-o2",
+      "title": "Ov O 2",
+      "frame_url": "https://ubg98.github.io/OvO2/"
+    },
+    {
+      "repo": "PapaCherrySaga",
+      "slug": "papa-cherry-saga",
+      "title": "Papa Cherry Saga",
+      "frame_url": "https://ubg98.github.io/PapaCherrySaga/"
+    },
+    {
+      "repo": "ParkOut",
+      "slug": "park-out",
+      "title": "Park Out",
+      "frame_url": "https://ubg98.github.io/ParkOut/"
+    },
+    {
+      "repo": "ParkingFury3",
+      "slug": "parking-fury3",
+      "title": "Parking Fury 3",
+      "frame_url": "https://ubg98.github.io/ParkingFury3/"
+    },
+    {
+      "repo": "ParkingFury2",
+      "slug": "parking-fury2",
+      "title": "Parking Fury 2",
+      "frame_url": "https://ubg98.github.io/ParkingFury2/"
+    },
+    {
+      "repo": "PizzaTower",
+      "slug": "pizza-tower",
+      "title": "Pizza Tower",
+      "frame_url": "https://ubg98.github.io/PizzaTower/"
+    },
+    {
+      "repo": "Pou",
+      "slug": "pou",
+      "title": "Pou",
+      "frame_url": "https://ubg98.github.io/Pou/"
+    },
+    {
+      "repo": "PenaltyKickOnline",
+      "slug": "penalty-kick-online",
+      "title": "Penalty Kick Online",
+      "frame_url": "https://ubg98.github.io/PenaltyKickOnline/"
+    },
+    {
+      "repo": "PenaltyShooters3",
+      "slug": "penalty-shooters3",
+      "title": "Penalty Shooters 3",
+      "frame_url": "https://ubg98.github.io/PenaltyShooters3/"
+    },
+    {
+      "repo": "PixelSmashDuel",
+      "slug": "pixel-smash-duel",
+      "title": "Pixel Smash Duel",
+      "frame_url": "https://ubg98.github.io/PixelSmashDuel/"
+    },
+    {
+      "repo": "RabbitSamurai2",
+      "slug": "rabbit-samurai2",
+      "title": "Rabbit Samurai 2",
+      "frame_url": "https://ubg98.github.io/RabbitSamurai2/"
+    },
+    {
+      "repo": "PuddingMonsters",
+      "slug": "pudding-monsters",
+      "title": "Pudding Monsters",
+      "frame_url": "https://ubg98.github.io/PuddingMonsters/"
+    },
+    {
+      "repo": "PolyArt3D",
+      "slug": "poly-art3-d",
+      "title": "Poly Art 3 D",
+      "frame_url": "https://ubg98.github.io/PolyArt3D/"
+    },
+    {
+      "repo": "RacingMonsterTrucks",
+      "slug": "racing-monster-trucks",
+      "title": "Racing Monster Trucks",
+      "frame_url": "https://ubg98.github.io/RacingMonsterTrucks/"
+    },
+    {
+      "repo": "RaftWars",
+      "slug": "raft-wars",
+      "title": "Raft Wars",
+      "frame_url": "https://ubg98.github.io/RaftWars/"
+    },
+    {
+      "repo": "SlopeGame",
+      "slug": "slope-game",
+      "title": "Slope Game",
+      "frame_url": "https://ubg98.github.io/SlopeGame/"
+    },
+    {
+      "repo": "Roper",
+      "slug": "roper",
+      "title": "Roper",
+      "frame_url": "https://ubg98.github.io/Roper/"
+    },
+    {
+      "repo": "Run3Space",
+      "slug": "run3-space",
+      "title": "Run 3 Space",
+      "frame_url": "https://ubg98.github.io/Run3Space/"
+    },
+    {
+      "repo": "ScaryMaze",
+      "slug": "scary-maze",
+      "title": "Scary Maze",
+      "frame_url": "https://ubg98.github.io/ScaryMaze/"
+    },
+    {
+      "repo": "RusherCrusher",
+      "slug": "rusher-crusher",
+      "title": "Rusher Crusher",
+      "frame_url": "https://ubg98.github.io/RusherCrusher/"
+    },
+    {
+      "repo": "SoccerHeads",
+      "slug": "soccer-heads",
+      "title": "Soccer Heads",
+      "frame_url": "https://ubg98.github.io/SoccerHeads/"
+    },
+    {
+      "repo": "SlingTomb",
+      "slug": "sling-tomb",
+      "title": "Sling Tomb",
+      "frame_url": "https://ubg98.github.io/SlingTomb/"
+    },
+    {
+      "repo": "SpaceBarClicker",
+      "slug": "space-bar-clicker",
+      "title": "Space Bar Clicker",
+      "frame_url": "https://ubg98.github.io/SpaceBarClicker/"
+    },
+    {
+      "repo": "SolitaireClassic",
+      "slug": "solitaire-classic",
+      "title": "Solitaire Classic",
+      "frame_url": "https://ubg98.github.io/SolitaireClassic/"
+    },
+    {
+      "repo": "SoccerMastersEuro2020",
+      "slug": "soccer-masters-euro2020",
+      "title": "Soccer Masters Euro 2020",
+      "frame_url": "https://ubg98.github.io/SoccerMastersEuro2020/"
+    },
+    {
+      "repo": "SpiderSolitaire",
+      "slug": "spider-solitaire",
+      "title": "Spider Solitaire",
+      "frame_url": "https://ubg98.github.io/SpiderSolitaire/"
+    },
+    {
+      "repo": "StickMerge",
+      "slug": "stick-merge",
+      "title": "Stick Merge",
+      "frame_url": "https://ubg98.github.io/StickMerge/"
+    },
+    {
+      "repo": "StickMerge2",
+      "slug": "stick-merge2",
+      "title": "Stick Merge 2",
+      "frame_url": "https://ubg98.github.io/StickMerge2/"
+    },
+    {
+      "repo": "SubwaySurfers",
+      "slug": "subway-surfers",
+      "title": "Subway Surfers",
+      "frame_url": "https://ubg98.github.io/SubwaySurfers/"
+    },
+    {
+      "repo": "Sudoku",
+      "slug": "sudoku",
+      "title": "Sudoku",
+      "frame_url": "https://ubg98.github.io/Sudoku/"
+    },
+    {
+      "repo": "SuperMarioWonder",
+      "slug": "super-mario-wonder",
+      "title": "Super Mario Wonder",
+      "frame_url": "https://ubg98.github.io/SuperMarioWonder/"
+    },
+    {
+      "repo": "Swingo",
+      "slug": "swingo",
+      "title": "Swingo",
+      "frame_url": "https://ubg98.github.io/Swingo/"
+    },
+    {
+      "repo": "Tag",
+      "slug": "tag",
+      "title": "Tag",
+      "frame_url": "https://ubg98.github.io/Tag/"
+    },
+    {
+      "repo": "TapTapShots",
+      "slug": "tap-tap-shots",
+      "title": "Tap Tap Shots",
+      "frame_url": "https://ubg98.github.io/TapTapShots/"
+    },
+    {
+      "repo": "TankTrouble",
+      "slug": "tank-trouble",
+      "title": "Tank Trouble",
+      "frame_url": "https://ubg98.github.io/TankTrouble/"
+    },
+    {
+      "repo": "TinyFishing",
+      "slug": "tiny-fishing",
+      "title": "Tiny Fishing",
+      "frame_url": "https://ubg98.github.io/TinyFishing/"
+    },
+    {
+      "repo": "TimberGuy",
+      "slug": "timber-guy",
+      "title": "Timber Guy",
+      "frame_url": "https://ubg98.github.io/TimberGuy/"
+    },
+    {
+      "repo": "TunnelRush2",
+      "slug": "tunnel-rush2",
+      "title": "Tunnel Rush 2",
+      "frame_url": "https://ubg98.github.io/TunnelRush2/"
+    },
+    {
+      "repo": "TrafficControl",
+      "slug": "traffic-control",
+      "title": "Traffic Control",
+      "frame_url": "https://ubg98.github.io/TrafficControl/"
+    },
+    {
+      "repo": "TurnTurn",
+      "slug": "turn-turn",
+      "title": "Turn Turn",
+      "frame_url": "https://ubg98.github.io/TurnTurn/"
+    },
+    {
+      "repo": "TowerCrash3D",
+      "slug": "tower-crash3-d",
+      "title": "Tower Crash 3 D",
+      "frame_url": "https://ubg98.github.io/TowerCrash3D/"
+    },
+    {
+      "repo": "Vex8",
+      "slug": "vex8",
+      "title": "Vex 8",
+      "frame_url": "https://ubg98.github.io/Vex8/"
+    },
+    {
+      "repo": "Vex7",
+      "slug": "vex7",
+      "title": "Vex 7",
+      "frame_url": "https://ubg98.github.io/Vex7/"
+    },
+    {
+      "repo": "TropicalMerge",
+      "slug": "tropical-merge",
+      "title": "Tropical Merge",
+      "frame_url": "https://ubg98.github.io/TropicalMerge/"
+    },
+    {
+      "repo": "WheelieBike",
+      "slug": "wheelie-bike",
+      "title": "Wheelie Bike",
+      "frame_url": "https://ubg98.github.io/WheelieBike/"
+    },
+    {
+      "repo": "WheelieBike2",
+      "slug": "wheelie-bike2",
+      "title": "Wheelie Bike 2",
+      "frame_url": "https://ubg98.github.io/WheelieBike2/"
+    },
+    {
+      "repo": "Wheely2",
+      "slug": "wheely2",
+      "title": "Wheely 2",
+      "frame_url": "https://ubg98.github.io/Wheely2/"
+    },
+    {
+      "repo": "Wheely6",
+      "slug": "wheely6",
+      "title": "Wheely 6",
+      "frame_url": "https://ubg98.github.io/Wheely6/"
+    },
+    {
+      "repo": "Wheely3",
+      "slug": "wheely3",
+      "title": "Wheely 3",
+      "frame_url": "https://ubg98.github.io/Wheely3/"
+    },
+    {
+      "repo": "Wheely4",
+      "slug": "wheely4",
+      "title": "Wheely 4",
+      "frame_url": "https://ubg98.github.io/Wheely4/"
+    },
+    {
+      "repo": "Wheely5",
+      "slug": "wheely5",
+      "title": "Wheely 5",
+      "frame_url": "https://ubg98.github.io/Wheely5/"
+    },
+    {
+      "repo": "Wheely7",
+      "slug": "wheely7",
+      "title": "Wheely 7",
+      "frame_url": "https://ubg98.github.io/Wheely7/"
+    },
+    {
+      "repo": "Wiggle",
+      "slug": "wiggle",
+      "title": "Wiggle",
+      "frame_url": "https://ubg98.github.io/Wiggle/"
+    },
+    {
+      "repo": "Woodventure",
+      "slug": "woodventure",
+      "title": "Woodventure",
+      "frame_url": "https://ubg98.github.io/Woodventure/"
+    },
+    {
+      "repo": "WordSlide",
+      "slug": "word-slide",
+      "title": "Word Slide",
+      "frame_url": "https://ubg98.github.io/WordSlide/"
+    },
+    {
+      "repo": "WoodBlockPuzzle",
+      "slug": "wood-block-puzzle",
+      "title": "Wood Block Puzzle",
+      "frame_url": "https://ubg98.github.io/WoodBlockPuzzle/"
+    },
+    {
+      "repo": "ubg98",
+      "slug": "ubg98",
+      "title": "ubg 98",
+      "frame_url": "https://ubg98.github.io/ubg98/"
+    },
+    {
+      "repo": "WordleUnlimited",
+      "slug": "wordle-unlimited",
+      "title": "Wordle Unlimited",
+      "frame_url": "https://ubg98.github.io/WordleUnlimited/"
+    },
+    {
+      "repo": "WorldsHardestGame",
+      "slug": "worlds-hardest-game",
+      "title": "Worlds Hardest Game",
+      "frame_url": "https://ubg98.github.io/WorldsHardestGame/"
+    },
+    {
+      "repo": "ubg98.github.io",
+      "slug": "ubg98-github-io",
+      "title": "ubg 98.github.io",
+      "frame_url": "https://ubg98.github.io/ubg98.github.io/"
+    }
+  ],
+  "fail": [
+    {
+      "repo": "SoldierLegend",
+      "status": 404
+    },
+    {
+      "repo": "test",
+      "status": 404
+    }
+  ]
+}

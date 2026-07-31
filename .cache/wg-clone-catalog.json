@@ -1,0 +1,5518 @@
+{
+  "updatedAt": "2026-07-11T03:06:13Z",
+  "source": "clone-html-scan",
+  "count": 501,
+  "catalog": {
+    "breymantech/geometry-waves": {
+      "name": "Geometry Waves",
+      "by": "Breymantech",
+      "ifr": "b39237b82a7377529614b114d19bcab0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-geometry-waves"
+    },
+    "breymantech/gta-logo-trivia": {
+      "name": "GTA Logo Trivia",
+      "by": "Breymantech",
+      "ifr": "b2e958e39d3a2f66bcaece5577ad6b40",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-gta-logo-trivia"
+    },
+    "breymantech/labubu-world-game": {
+      "name": "Labubu World Game",
+      "by": "Breymantech",
+      "ifr": "a9ee5587dc766e0f1a1a99740f2409d5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-labubu-world-game"
+    },
+    "breymantech/lol-presidential-face": {
+      "name": "LOL Presidential Face",
+      "by": "Breymantech",
+      "ifr": "d4558a18a01d9844e672a7aef4526cae",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-lol-presidential-face"
+    },
+    "breymantech/mr-bean-funny-face-lol": {
+      "name": "Mr Bean Funny Face LOL",
+      "by": "Breymantech",
+      "ifr": "50f61df3d94eb51b624f6799b18082df",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-mr-bean-funny-face-lol"
+    },
+    "breymantech/nostalgic-playstation-1-quiz": {
+      "name": "Nostalgic Playstation 1 Quiz",
+      "by": "Breymantech",
+      "ifr": "75b82d96548d66767f534adfe2718d6d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-nostalgic-playstation-1-quiz"
+    },
+    "breymantech/thung-thung-sahur-merge-forever": {
+      "name": "Thung Thung Sahur Merge Forever",
+      "by": "Breymantech",
+      "ifr": "9b0ea51fde878937455a0a98a0353183",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-thung-thung-sahur-merge-forever"
+    },
+    "breymantech/tung-tung-sahur-dash": {
+      "name": "Tung Tung Sahur Dash",
+      "by": "Breymantech",
+      "ifr": "436a11249d7cafdf956ca4977ce612ac",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-tung-tung-sahur-dash"
+    },
+    "breymantech/tung-tung-sahur-lol-face": {
+      "name": "Tung Tung Sahur LOL Face",
+      "by": "Breymantech",
+      "ifr": "0483cc5301f4d1685c5a7efeafe5cf4b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "breymantech-tung-tung-sahur-lol-face"
+    },
+    "brillientgames-com/connect-the-bulb-glow": {
+      "name": "Connect the bulb Glow",
+      "by": "Brillientgames.com",
+      "ifr": "ca702955165e0e9ab32a129ec6b70063",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-connect-the-bulb-glow"
+    },
+    "brillientgames-com/crunch-lock": {
+      "name": "Crunch Lock",
+      "by": "Brillientgames.com",
+      "ifr": "3249342310474ebbf8f34ec6531c9494",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-crunch-lock"
+    },
+    "brillientgames-com/evony": {
+      "name": "Evony",
+      "by": "Brillientgames.com",
+      "ifr": "f4087a4d3588adf8e644a8b71a17d094",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-evony"
+    },
+    "brillientgames-com/merge-the-numbers": {
+      "name": "MERGE THE NUMBERS",
+      "by": "Brillientgames.com",
+      "ifr": "b900d8707699c23d536f7accb41250ef",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-merge-the-numbers"
+    },
+    "brillientgames-com/parking-master-3d": {
+      "name": "Parking Master 3D",
+      "by": "Brillientgames.com",
+      "ifr": "d8cfbc514715913d2261c81e1ac060d4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-parking-master-3d"
+    },
+    "brillientgames-com/pizza-maker-cooking-game": {
+      "name": "Pizza Maker",
+      "by": "Brillientgames.com",
+      "ifr": "5be8c9a227b836f7468156866fd45031",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-pizza-maker-cooking-game"
+    },
+    "brillientgames-com/sort-match-3d": {
+      "name": "Sort Match 3D",
+      "by": "Brillientgames.com",
+      "ifr": "3efca1c70043feeb7096ad19a7e3f4f2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "brillientgames-com-sort-match-3d"
+    },
+    "bv/remove-puzzle": {
+      "name": "Remove Puzzle",
+      "by": "BV",
+      "ifr": "dd60babfe4bf6191b1592448e2991ef7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "bv-remove-puzzle"
+    },
+    "crazycubix-com/imposter-sort": {
+      "name": "Imposter Sort",
+      "by": "CrazyCubix.com",
+      "ifr": "b344a1989f2838d915ae1cf6e1fb146b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "crazycubix-com-imposter-sort"
+    },
+    "crazycubix-com/train-track-repair": {
+      "name": "Train Track Repair",
+      "by": "CrazyCubix.com",
+      "ifr": "fa15b0ddd6adcfb25b3a74a8e1d57b8a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "crazycubix-com-train-track-repair"
+    },
+    "dl-girls/besties-on-wednesday": {
+      "name": "Besties on Wednesday",
+      "by": "Dl Girls",
+      "ifr": "84ff17cf538ff985141b8d5e57907521",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-besties-on-wednesday"
+    },
+    "dl-girls/bonnie-fitness-frenzy": {
+      "name": "Bonnie Fitness Frenzy",
+      "by": "Dl Girls",
+      "ifr": "a1008095bdb2b6d3d9ea8196b6ce23f3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-bonnie-fitness-frenzy"
+    },
+    "dl-girls/boo-tiful-princess-match": {
+      "name": "Boo",
+      "by": "Dl Girls",
+      "ifr": "9e459ab5584982cb0d5d5af3aa490868",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-boo-tiful-princess-match"
+    },
+    "dl-girls/celebrity-face-dance": {
+      "name": "Celebrity Face Dance",
+      "by": "Dl Girls",
+      "ifr": "e517a11005864189ca67baaf6b3e46ee",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-celebrity-face-dance"
+    },
+    "dl-girls/eastern-star-vs-city-style-icon": {
+      "name": "Eastern Star vs City Style Icon",
+      "by": "Dl Girls",
+      "ifr": "a275ff7b5ac4d925a135256681eeccfe",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-eastern-star-vs-city-style-icon"
+    },
+    "dl-girls/fantasy-creatures-princess-laboratory": {
+      "name": "Fantasy Creatures Princess Laboratory",
+      "by": "Dl Girls",
+      "ifr": "44de16a5475237e2b0bd584da4f57f7a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-fantasy-creatures-princess-laboratory"
+    },
+    "dl-girls/fashion-heroes-academy": {
+      "name": "Fashion Heroes Academy",
+      "by": "Dl Girls",
+      "ifr": "c36b7ecf5e5d7ccc195d70cb1c0d8e55",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-fashion-heroes-academy"
+    },
+    "dl-girls/fashion-valkyries-saga-of-style": {
+      "name": "Fashion Valkyries Saga of Style",
+      "by": "Dl Girls",
+      "ifr": "e9e34f2d7a58d99feb867dca88f690ee",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-fashion-valkyries-saga-of-style"
+    },
+    "dl-girls/furry-wedding-proposal": {
+      "name": "Furry Wedding Proposal",
+      "by": "Dl Girls",
+      "ifr": "31192f7a548efb436ffa9e0dabbede75",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-furry-wedding-proposal"
+    },
+    "dl-girls/fury-of-the-steampunk-princess": {
+      "name": "Fury of the Steampunk Princess",
+      "by": "Dl Girls",
+      "ifr": "1d0bd33245185c5713a6cda78a29a0ee",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-fury-of-the-steampunk-princess"
+    },
+    "dl-girls/gloomy-princess-favorite-toy": {
+      "name": "Gloomy Princess Favorite Toy",
+      "by": "Dl Girls",
+      "ifr": "065a02519997cc521e09be10e755bac1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-gloomy-princess-favorite-toy"
+    },
+    "dl-girls/hot-cold-winter-style": {
+      "name": "Hot &amp;amp; Cold Winter Style",
+      "by": "Dl Girls",
+      "ifr": "ee17df254cfd1adb695c86b28be29a29",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-hot-cold-winter-style"
+    },
+    "dl-girls/k-wedding-dream": {
+      "name": "K",
+      "by": "Dl Girls",
+      "ifr": "2a7d5ec1bace519bbdae37c40bbc85b8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-k-wedding-dream"
+    },
+    "dl-girls/moon-league-sports-season": {
+      "name": "Moon League Sports Season",
+      "by": "Dl Girls",
+      "ifr": "6eb34c90174da663da5dbf97dc12565c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-moon-league-sports-season"
+    },
+    "dl-girls/mycothreememo": {
+      "name": "MycoThreeMemo",
+      "by": "Dl Girls",
+      "ifr": "e8cf631a62d9202b4dc6ec4ee5f04f24",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-mycothreememo"
+    },
+    "dl-girls/princesses-rock-ballerinas": {
+      "name": "Princesses Rock Ballerinas",
+      "by": "Dl Girls",
+      "ifr": "39100c9e56a04f9705f8ceedd2e86085",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-princesses-rock-ballerinas"
+    },
+    "dl-girls/romantic-k-pop-transformation": {
+      "name": "Romantic K",
+      "by": "Dl Girls",
+      "ifr": "182ea160acece529ec63f0739b27397f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-romantic-k-pop-transformation"
+    },
+    "dl-girls/sid-ginny-y2k-glam-clash": {
+      "name": "Sid &amp;amp; Ginny Y2K Glam Clash",
+      "by": "Dl Girls",
+      "ifr": "dfaa84e64d3b1d4144f78a436cc8af68",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-sid-ginny-y2k-glam-clash"
+    },
+    "dl-girls/so-different-dragons": {
+      "name": "So Different Dragons",
+      "by": "Dl Girls",
+      "ifr": "03c89a437444bad00f6cf88eab3ebe6b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-so-different-dragons"
+    },
+    "dl-girls/spring-magic-enchanted-wardrobe": {
+      "name": "Spring Magic Enchanted Wardrobe",
+      "by": "Dl Girls",
+      "ifr": "e059cdecf5125fd670b5b2e58a6aeac5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-spring-magic-enchanted-wardrobe"
+    },
+    "dl-girls/stardom-alt-girls-fashion-duel": {
+      "name": "Stardom Alt",
+      "by": "Dl Girls",
+      "ifr": "fc4740fc8527f3f1cdcbc6b48b9e0af3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-stardom-alt-girls-fashion-duel"
+    },
+    "dl-girls/taylor-dress-studio-preppy-wild-west-glam": {
+      "name": "Taylor Dress Studio Preppy &amp;amp; Wild West &amp;amp; Glam",
+      "by": "Dl Girls",
+      "ifr": "bc9739bfb6376ef95f51330df939120c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "dl-girls-taylor-dress-studio-preppy-wild-west-glam"
+    },
+    "fbk/baby-noob-help-steve": {
+      "name": "Baby Noob Help! Steve",
+      "by": "FBK",
+      "ifr": "e9212bb43c51e6891a298b825d88695a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-baby-noob-help-steve"
+    },
+    "fbk/brainrot-tung-sahur-battle": {
+      "name": "Brainrot Tung Sahur Battle",
+      "by": "FBK",
+      "ifr": "279f9f9853f8cbed42dcbf35155515db",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-brainrot-tung-sahur-battle"
+    },
+    "fbk/italian-brainrot-bomb-2player": {
+      "name": "Italian Brainrot Bomb",
+      "by": "FBK",
+      "ifr": "703293ac4f3bcde0a9c2e8292d7dc2ad",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-italian-brainrot-bomb-2player"
+    },
+    "fbk/italian-brainrot-survival-arena": {
+      "name": "Italian Brainrot Survival Arena",
+      "by": "FBK",
+      "ifr": "84face7567118f8abc3f7408e31e3537",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-italian-brainrot-survival-arena"
+    },
+    "fbk/labuba-halloween-infestation": {
+      "name": "Labuba Halloween Infestation",
+      "by": "FBK",
+      "ifr": "e7e435fe62c47419ed3c3e09d4d1b53a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-labuba-halloween-infestation"
+    },
+    "fbk/minicraft-chef-cake-wars": {
+      "name": "Minicraft Chef Cake Wars",
+      "by": "FBK",
+      "ifr": "78a1a3e156abe85baf99af3e1832c270",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-minicraft-chef-cake-wars"
+    },
+    "fbk/mission-kill-italian-brainrot": {
+      "name": "Mission Kill Italian Brainrot",
+      "by": "FBK",
+      "ifr": "49502e9c8ed1de97df83ee72ae89ef99",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-mission-kill-italian-brainrot"
+    },
+    "fbk/spider-bubu": {
+      "name": "Spider",
+      "by": "FBK",
+      "ifr": "cefcfebf92969b9d9abe861256a5fca5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-spider-bubu"
+    },
+    "fbk/sprunki-squid-gaming": {
+      "name": "Sprunki Squid Gaming",
+      "by": "FBK",
+      "ifr": "a7f90c6d389a16365fab1300ab1fccd4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-sprunki-squid-gaming"
+    },
+    "fbk/trallero-tung-tung-chicken": {
+      "name": "Trallero Tung Tung Chicken",
+      "by": "FBK",
+      "ifr": "5174c49d61213b5f87a68676d007fc31",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-trallero-tung-tung-chicken"
+    },
+    "fbk/tung-tung-sahur-snow-arena": {
+      "name": "Tung Tung Sahur Snow Arena",
+      "by": "FBK",
+      "ifr": "08df93957e143f542ac8de594b636e48",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-tung-tung-sahur-snow-arena"
+    },
+    "fbk/ultra-realistic-blockcraft": {
+      "name": "Ultra Realistic BlockCraft",
+      "by": "FBK",
+      "ifr": "8fb380498dce1a3873b701fa2347ddfc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fbk-ultra-realistic-blockcraft"
+    },
+    "freezenova/2-player-crazy-racer": {
+      "name": "2 Player Crazy Racer",
+      "by": "FreezeNova",
+      "ifr": "e359043d79f00af5c9ecdc90458e3516",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-2-player-crazy-racer"
+    },
+    "freezenova/fort-drifter": {
+      "name": "Fort Drifter",
+      "by": "FreezeNova",
+      "ifr": "8897a121761bae18d8839d6066a3d619",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-fort-drifter"
+    },
+    "freezenova/hover-racer-pro": {
+      "name": "Hover Racer Pro",
+      "by": "FreezeNova",
+      "ifr": "f47bb371dfe75f1f5699817487501027",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-hover-racer-pro"
+    },
+    "freezenova/idle-restaurant": {
+      "name": "Idle Restaurant",
+      "by": "FreezeNova",
+      "ifr": "8d52c6dfd86d3ac9131b245727769dea",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-idle-restaurant"
+    },
+    "freezenova/run-3-space": {
+      "name": "Run 3 Space",
+      "by": "FreezeNova",
+      "ifr": "8d54ce8d0b027ce055039f5217475db3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-run-3-space"
+    },
+    "freezenova/skibidi-toilet-io": {
+      "name": "Skibidi Toilet IO",
+      "by": "FreezeNova",
+      "ifr": "e7d4d2983c3a5678655c68f1ab60e1fd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-skibidi-toilet-io"
+    },
+    "freezenova/stunt-cars-pro": {
+      "name": "Stunt Cars Pro",
+      "by": "FreezeNova",
+      "ifr": "96078fb4b1eb5f8506e12584a1c46822",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-stunt-cars-pro"
+    },
+    "freezenova/subway-idle-3d": {
+      "name": "Subway Idle 3D",
+      "by": "FreezeNova",
+      "ifr": "fe677fc08fe81d808f5afcb33c589f84",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-subway-idle-3d"
+    },
+    "freezenova/survival-craft": {
+      "name": "Survival Craft",
+      "by": "FreezeNova",
+      "ifr": "e89ce5dd9d2949ee114bf7bbfc536cd7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-survival-craft"
+    },
+    "freezenova/sweet-sugar-match": {
+      "name": "Sweet Sugar Match",
+      "by": "FreezeNova",
+      "ifr": "d5612335f67480eacdf50133370c15d8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-sweet-sugar-match"
+    },
+    "freezenova/xmas-cookie-clicker": {
+      "name": "Xmas Cookie Clicker",
+      "by": "FreezeNova",
+      "ifr": "428e9fc7372a146fd9d197534e1e0a3b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "freezenova-xmas-cookie-clicker"
+    },
+    "fugame/sins-and-desires": {
+      "name": "Sins and Desires",
+      "by": "FuGame",
+      "ifr": "e78d0ba696f429508be2d1a936ec1168",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fugame-sins-and-desires"
+    },
+    "fugame/steel-skirmish": {
+      "name": "Steel Skirmish",
+      "by": "FuGame",
+      "ifr": "69b6320b8ce459ecbebade58d5015cbe",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "fugame-steel-skirmish"
+    },
+    "gamepush/2048-block-fusion": {
+      "name": "2048 Block Fusion",
+      "by": "GAMEPUSH",
+      "ifr": "90b80f48d37b45c8cdf34a23dbc5eacf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-2048-block-fusion"
+    },
+    "gamepush/2048-number-merge": {
+      "name": "2048: Number Merge",
+      "by": "GAMEPUSH",
+      "ifr": "4ca8d7bebc00c76ed3ea8fd83c9ac2f9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-2048-number-merge"
+    },
+    "gamepush/2048-snake-io": {
+      "name": "2048 Snake.io",
+      "by": "GAMEPUSH",
+      "ifr": "4d1cc817e3b912f751ff1a75db77d9ba",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-2048-snake-io"
+    },
+    "gamepush/alchemy-merge-elements": {
+      "name": "Alchemy: Merge Elements",
+      "by": "GAMEPUSH",
+      "ifr": "e73794b7dba2f3eb3723a2f3f367edb0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-alchemy-merge-elements"
+    },
+    "gamepush/alien-city": {
+      "name": "Alien City",
+      "by": "GAMEPUSH",
+      "ifr": "17c33200554a4402dda4367131a1d2ca",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-alien-city"
+    },
+    "gamepush/anomaly-search": {
+      "name": "Anomaly Search",
+      "by": "GAMEPUSH",
+      "ifr": "251e98e0824e3469aaa0e15276968a38",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-anomaly-search"
+    },
+    "gamepush/ants-party": {
+      "name": "Ants Party",
+      "by": "GAMEPUSH",
+      "ifr": "aefa07e539f1e1c738648a22f5e9d225",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-ants-party"
+    },
+    "gamepush/apocalypse-shelter": {
+      "name": "Apocalypse Shelter",
+      "by": "GAMEPUSH",
+      "ifr": "59eeb433469a07f11a17d51a186a0980",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-apocalypse-shelter"
+    },
+    "gamepush/archer-dungeon-hero": {
+      "name": "Archer: Dungeon Hero",
+      "by": "GAMEPUSH",
+      "ifr": "edca0913b0a9db1bb17959c1b4fed8be",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-archer-dungeon-hero"
+    },
+    "gamepush/army-force-war": {
+      "name": "Army force war",
+      "by": "GAMEPUSH",
+      "ifr": "475771a976833594f553c1a7a4ccc659",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-army-force-war"
+    },
+    "gamepush/arrow-escape-maze-puzzle": {
+      "name": "Arrow Escape",
+      "by": "GAMEPUSH",
+      "ifr": "c471ebf08a7f32d68076bb4de902c482",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-arrow-escape-maze-puzzle"
+    },
+    "gamepush/arrows-escaper": {
+      "name": "Arrows Escaper",
+      "by": "GAMEPUSH",
+      "ifr": "041768e3c3d0c151225e14831a659027",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-arrows-escaper"
+    },
+    "gamepush/artillery-time": {
+      "name": "Artillery Time",
+      "by": "GAMEPUSH",
+      "ifr": "e70deb0b6cef791a74cdc205c7c8f0e7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-artillery-time"
+    },
+    "gamepush/artillery-vs-tanks": {
+      "name": "Artillery Vs Tanks",
+      "by": "GAMEPUSH",
+      "ifr": "a662a3a34561ee96a165e366da83df11",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-artillery-vs-tanks"
+    },
+    "gamepush/association-connect-word": {
+      "name": "Association",
+      "by": "GAMEPUSH",
+      "ifr": "df32ad18065511c41d41d7e8cec31fe3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-association-connect-word"
+    },
+    "gamepush/backgammon-online-3d": {
+      "name": "Backgammon Online 3D",
+      "by": "GAMEPUSH",
+      "ifr": "b95d8d6e36df23aca66e7777f973c2c5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-backgammon-online-3d"
+    },
+    "gamepush/bimka-drive-smash-cars-into-splinters": {
+      "name": "Bimka Drive",
+      "by": "GAMEPUSH",
+      "ifr": "f2ffad36b0370adc638347d11baaf3e2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bimka-drive-smash-cars-into-splinters"
+    },
+    "gamepush/block-puzzle-master": {
+      "name": "Block Puzzle Master",
+      "by": "GAMEPUSH",
+      "ifr": "51ea0bc5f256bb51d5276e1c0441566c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-block-puzzle-master"
+    },
+    "gamepush/block-sniper": {
+      "name": "Block Sniper",
+      "by": "GAMEPUSH",
+      "ifr": "f8c8caa054435c8f7a9b2c148ba34025",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-block-sniper"
+    },
+    "gamepush/block-vape-on-the-web-2-players": {
+      "name": "Block",
+      "by": "GAMEPUSH",
+      "ifr": "0cacdafcb973155a8acac28736222780",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-block-vape-on-the-web-2-players"
+    },
+    "gamepush/blockibo-color-blocks": {
+      "name": "Blockibo: Color Blocks",
+      "by": "GAMEPUSH",
+      "ifr": "166f070371c20bb3670758db8be99625",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-blockibo-color-blocks"
+    },
+    "gamepush/blocks-merge-puzzle-2048": {
+      "name": "Blocks Merge Puzzle 2048",
+      "by": "GAMEPUSH",
+      "ifr": "9d2099edb40502ed10eced7a0011abeb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-blocks-merge-puzzle-2048"
+    },
+    "gamepush/bolts-and-nuts-sorting": {
+      "name": "Bolts and Nuts",
+      "by": "GAMEPUSH",
+      "ifr": "99e17c956af852f236e2cb40d1c866e1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bolts-and-nuts-sorting"
+    },
+    "gamepush/boo-scared-3-new-year-with-schoolboy": {
+      "name": "Boo Scared 3: New Year with Schoolboy",
+      "by": "GAMEPUSH",
+      "ifr": "0c7c678ed85b3582885dd27aa8696c92",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-boo-scared-3-new-year-with-schoolboy"
+    },
+    "gamepush/boo-scared-escape-from-backrooms": {
+      "name": "Boo, Scared? Escape from Backrooms",
+      "by": "GAMEPUSH",
+      "ifr": "5efcccf449aabaf261e053a8d3682272",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-boo-scared-escape-from-backrooms"
+    },
+    "gamepush/boost-your-brain": {
+      "name": "Boost Your Brain!",
+      "by": "GAMEPUSH",
+      "ifr": "7c2b54237cefcda1c8530a16107d8b8e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-boost-your-brain"
+    },
+    "gamepush/brainrot-incubator": {
+      "name": "Brainrot Incubator",
+      "by": "GAMEPUSH",
+      "ifr": "c2c389ed9b74d445137e837f285eb34a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-brainrot-incubator"
+    },
+    "gamepush/brainrot-surf": {
+      "name": "Brainrot surf",
+      "by": "GAMEPUSH",
+      "ifr": "77b8b0cf0aa2af905eebb91620fc02b7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-brainrot-surf"
+    },
+    "gamepush/bubble-match-merge": {
+      "name": "Bubble Match Merge",
+      "by": "GAMEPUSH",
+      "ifr": "cbcd0046b0bafee9b654f5e744301862",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bubble-match-merge"
+    },
+    "gamepush/bunnyhop-and-surf-maps": {
+      "name": "Bunnyhop and Surf Maps",
+      "by": "GAMEPUSH",
+      "ifr": "873ccd109364df337a602e5acae39a87",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bunnyhop-and-surf-maps"
+    },
+    "gamepush/bus-driver-simulator-3d": {
+      "name": "Bus Driver Simulator 3D",
+      "by": "GAMEPUSH",
+      "ifr": "f63626b450555c3d996474cc0c7d2d7d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bus-driver-simulator-3d"
+    },
+    "gamepush/bushido-puzzle": {
+      "name": "Bushido puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "6e9b9a183be4e9b47f883b686dce064b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-bushido-puzzle"
+    },
+    "gamepush/c21a": {
+      "name": "C21A",
+      "by": "GAMEPUSH",
+      "ifr": "67db633690c7468fcec24a47b1220d4f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-c21a"
+    },
+    "gamepush/car-mechanic-simulator-2025": {
+      "name": "Car Mechanic Simulator 2025",
+      "by": "GAMEPUSH",
+      "ifr": "d557831711e01d457b5c52579f394d88",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-car-mechanic-simulator-2025"
+    },
+    "gamepush/car-out-jam": {
+      "name": "Car Out Jam",
+      "by": "GAMEPUSH",
+      "ifr": "4fdab5d4bcd61f3f54b9b3e3386e15c1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-car-out-jam"
+    },
+    "gamepush/cars-with-guns-wasteland-showdown": {
+      "name": "Cars with Guns: Wasteland Showdown",
+      "by": "GAMEPUSH",
+      "ifr": "e752d984e5b0862f9fab59d69fb2438b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cars-with-guns-wasteland-showdown"
+    },
+    "gamepush/celestia-rpg": {
+      "name": "Celestia RPG",
+      "by": "GAMEPUSH",
+      "ifr": "8a9b4c92777ae8f9913b24fdf31d9f97",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-celestia-rpg"
+    },
+    "gamepush/cheese-moon": {
+      "name": "Cheese Moon",
+      "by": "GAMEPUSH",
+      "ifr": "7077bc728f3b554bd0fe773dd7d01fe4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cheese-moon"
+    },
+    "gamepush/chicken-math": {
+      "name": "Chicken Math",
+      "by": "GAMEPUSH",
+      "ifr": "8f206113924fd16594ff96c74dbaa3e8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-chicken-math"
+    },
+    "gamepush/chill-fishing-2-new-horizons": {
+      "name": "Chill Fishing 2: New Horizons",
+      "by": "GAMEPUSH",
+      "ifr": "0a200febd50d83c7659a3995373e241d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-chill-fishing-2-new-horizons"
+    },
+    "gamepush/chroma-tower": {
+      "name": "Chroma Tower",
+      "by": "GAMEPUSH",
+      "ifr": "3093da56abd48d4f03ee5cd0ffb1680b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-chroma-tower"
+    },
+    "gamepush/city-states-idle": {
+      "name": "City States Idle",
+      "by": "GAMEPUSH",
+      "ifr": "3d84e53562042c379b4e77fa11b950d1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-city-states-idle"
+    },
+    "gamepush/city-tower-builder": {
+      "name": "City Tower Builder",
+      "by": "GAMEPUSH",
+      "ifr": "e8f28de1adc9df0b7e727ce556e69980",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-city-tower-builder"
+    },
+    "gamepush/clash-royale-aliens-vs-colonists": {
+      "name": "Clash Royale: Aliens vs Colonists",
+      "by": "GAMEPUSH",
+      "ifr": "8b869a5fbe50d0a2c185a7719fd42b95",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-clash-royale-aliens-vs-colonists"
+    },
+    "gamepush/classic-checkers": {
+      "name": "Classic Checkers",
+      "by": "GAMEPUSH",
+      "ifr": "76dd46d31f4e4ff35618c695802371c8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-classic-checkers"
+    },
+    "gamepush/claw-merge-labubu-drop": {
+      "name": "Claw &amp;amp; Merge: Labubu Drop",
+      "by": "GAMEPUSH",
+      "ifr": "710f1cdf5378c8e90871c431fd53c1e6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-claw-merge-labubu-drop"
+    },
+    "gamepush/closed-city": {
+      "name": "Closed City",
+      "by": "GAMEPUSH",
+      "ifr": "e2332df8fa6bf12a454d3ff9580f3ec6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-closed-city"
+    },
+    "gamepush/coclacks": {
+      "name": "COCLACKS",
+      "by": "GAMEPUSH",
+      "ifr": "9b909f5806e8d3c97f3a813be932e32d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-coclacks"
+    },
+    "gamepush/cocodrillas-saga": {
+      "name": "Cocodrillas Saga",
+      "by": "GAMEPUSH",
+      "ifr": "4416b3dc4e548c803f89bd30470eda24",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cocodrillas-saga"
+    },
+    "gamepush/coffee-color-blocks": {
+      "name": "Coffee Color Blocks",
+      "by": "GAMEPUSH",
+      "ifr": "58481713b940ab6d01b12bace00908b9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-coffee-color-blocks"
+    },
+    "gamepush/color-block-blast": {
+      "name": "Color Block Blast",
+      "by": "GAMEPUSH",
+      "ifr": "20c37cf5e22e211c940aef6437777c8e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-color-block-blast"
+    },
+    "gamepush/colored-microbes-rows": {
+      "name": "Colored Microbes Rows",
+      "by": "GAMEPUSH",
+      "ifr": "0639de327df14bb81756025e89fc40cf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-colored-microbes-rows"
+    },
+    "gamepush/combine-stones": {
+      "name": "Combine Stones",
+      "by": "GAMEPUSH",
+      "ifr": "05c3b2c223b3a6223ef11c3e6154f971",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-combine-stones"
+    },
+    "gamepush/connect-clues-the-missing-professor": {
+      "name": "Connect Clues",
+      "by": "GAMEPUSH",
+      "ifr": "02d8a5d3445b6d221d426fe4a7d2bc18",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-connect-clues-the-missing-professor"
+    },
+    "gamepush/connect-the-word-fill-in-the-crossword": {
+      "name": "Connect the word, fill in the crossword",
+      "by": "GAMEPUSH",
+      "ifr": "b1c22cfb4f06c7280550a7828530e484",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-connect-the-word-fill-in-the-crossword"
+    },
+    "gamepush/cook-soups-3-in-a-bowl": {
+      "name": "Cook Soups: 3 in a Bowl",
+      "by": "GAMEPUSH",
+      "ifr": "2b5f5b5882a0b948927f51cf680d6bf5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cook-soups-3-in-a-bowl"
+    },
+    "gamepush/cooking-empire": {
+      "name": "Cooking Empire",
+      "by": "GAMEPUSH",
+      "ifr": "777473277a2649dcb0e14572c94fb030",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cooking-empire"
+    },
+    "gamepush/cool-cars-racing-at-altitude": {
+      "name": "Cool Cars: racing at altitude",
+      "by": "GAMEPUSH",
+      "ifr": "36e6dc50af403420e282e336fe6bc0ce",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cool-cars-racing-at-altitude"
+    },
+    "gamepush/craft-of-bank-robbery": {
+      "name": "Craft of Bank Robbery",
+      "by": "GAMEPUSH",
+      "ifr": "a301cdeb78e24b644434d6709b5d376e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-craft-of-bank-robbery"
+    },
+    "gamepush/craft-of-wars": {
+      "name": "Craft of Wars",
+      "by": "GAMEPUSH",
+      "ifr": "5e3559a590c7e9edfa720ea984dccfeb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-craft-of-wars"
+    },
+    "gamepush/crossword-words-from-letters": {
+      "name": "Crossword",
+      "by": "GAMEPUSH",
+      "ifr": "f58890f4a7400c2823a550bdce613b10",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-crossword-words-from-letters"
+    },
+    "gamepush/crypto-exchange-simulator": {
+      "name": "Crypto Exchange Simulator",
+      "by": "GAMEPUSH",
+      "ifr": "409e83bcc2626c31bdab494616f0bdf5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-crypto-exchange-simulator"
+    },
+    "gamepush/cryptogram": {
+      "name": "Cryptogram",
+      "by": "GAMEPUSH",
+      "ifr": "82312088f5ade803e9ffd81236d5458c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cryptogram"
+    },
+    "gamepush/cs-upgrade-gun": {
+      "name": "CS: Upgrade Gun",
+      "by": "GAMEPUSH",
+      "ifr": "fa61fbf8cba5d5f3208dbdce024fedc3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cs-upgrade-gun"
+    },
+    "gamepush/cube-king": {
+      "name": "CUBE KING",
+      "by": "GAMEPUSH",
+      "ifr": "d522031ecd2bfe545dd69e0e8f2dc385",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cube-king"
+    },
+    "gamepush/cubica": {
+      "name": "Cubica",
+      "by": "GAMEPUSH",
+      "ifr": "4fc4ffb122ae7b5fb6071dddf01ec643",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cubica"
+    },
+    "gamepush/cursor-vs-mine-home-defence": {
+      "name": "Cursor VS Mine: Home defence",
+      "by": "GAMEPUSH",
+      "ifr": "d9f6b1ba4f9c4c6fd0cb0b55acc6e3bd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-cursor-vs-mine-home-defence"
+    },
+    "gamepush/date-the-difference": {
+      "name": "Date the Difference",
+      "by": "GAMEPUSH",
+      "ifr": "4f90af1f585827df2c9c8c667b2f0126",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-date-the-difference"
+    },
+    "gamepush/deer-vs-baldi-front": {
+      "name": "Deer VS Baldi: Front",
+      "by": "GAMEPUSH",
+      "ifr": "5d1b4138b2cff032f93b32c7f151a3fc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-deer-vs-baldi-front"
+    },
+    "gamepush/dinosaurs-vs-asteroids": {
+      "name": "Dinosaurs vs Asteroids",
+      "by": "GAMEPUSH",
+      "ifr": "b7608d4ff6af54ee0c143b4ca79fa8ea",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-dinosaurs-vs-asteroids"
+    },
+    "gamepush/dividrop": {
+      "name": "DiviDrop",
+      "by": "GAMEPUSH",
+      "ifr": "bc0b78667d0ce62183c099e992d5b5e5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-dividrop"
+    },
+    "gamepush/doctor-chicken": {
+      "name": "Doctor Chicken",
+      "by": "GAMEPUSH",
+      "ifr": "79ec7393f12a14411e59da69674ff473",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-doctor-chicken"
+    },
+    "gamepush/double-fist": {
+      "name": "Double Fist",
+      "by": "GAMEPUSH",
+      "ifr": "b1adfe966bc9d603c3b9b0faaffc75ce",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-double-fist"
+    },
+    "gamepush/draw-picture-by-numbers-pixel-art-": {
+      "name": "Draw picture by numbers. Pixel Art.",
+      "by": "GAMEPUSH",
+      "ifr": "d08dafe2bfcec25c1387773d9603f9fc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-draw-picture-by-numbers-pixel-art-"
+    },
+    "gamepush/dreamy-home": {
+      "name": "Dreamy Home",
+      "by": "GAMEPUSH",
+      "ifr": "a1289c75c17af368d5e8c592cdbe6cb0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-dreamy-home"
+    },
+    "gamepush/durak-vs-ai": {
+      "name": "Durak vs AI",
+      "by": "GAMEPUSH",
+      "ifr": "c964edf4674e733e727acb1fcf3a5890",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-durak-vs-ai"
+    },
+    "gamepush/dusty-cat": {
+      "name": "Dusty Cat",
+      "by": "GAMEPUSH",
+      "ifr": "60dbbb29c899b3d99335f0ed73f43e63",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-dusty-cat"
+    },
+    "gamepush/edge-of-defense": {
+      "name": "Edge of Defense",
+      "by": "GAMEPUSH",
+      "ifr": "f583f8a4b0add575e6b90935e117a75a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-edge-of-defense"
+    },
+    "gamepush/eerie-tower-defense": {
+      "name": "Eerie Tower Defense",
+      "by": "GAMEPUSH",
+      "ifr": "0da4949bb0a604fd5c768bdc0fdb1843",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-eerie-tower-defense"
+    },
+    "gamepush/endless-roll": {
+      "name": "Endless Roll",
+      "by": "GAMEPUSH",
+      "ifr": "050f7ed72f8d39564df9e5837e29c659",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-endless-roll"
+    },
+    "gamepush/english-checkers": {
+      "name": "English Checkers",
+      "by": "GAMEPUSH",
+      "ifr": "be7af3ea6be9958812cd0cc58f661fb7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-english-checkers"
+    },
+    "gamepush/escape-from-africa": {
+      "name": "Escape from Africa",
+      "by": "GAMEPUSH",
+      "ifr": "559fb9c91b6d866159b4c0189cca87cb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-escape-from-africa"
+    },
+    "gamepush/europe-at-war": {
+      "name": "Europe at War",
+      "by": "GAMEPUSH",
+      "ifr": "861c34f57a7fecf1d4110fbeea15b7a4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-europe-at-war"
+    },
+    "gamepush/exploding-zombie-boxes": {
+      "name": "Exploding Zombie Boxes",
+      "by": "GAMEPUSH",
+      "ifr": "b7d70d55551b30f4e3d4b7a626733cc5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-exploding-zombie-boxes"
+    },
+    "gamepush/fairy-puzzle": {
+      "name": "Fairy Puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "10ad68b7b5dbd35d92ddbca3920f71e9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fairy-puzzle"
+    },
+    "gamepush/fish-rain": {
+      "name": "Fish rain",
+      "by": "GAMEPUSH",
+      "ifr": "967dd12fc467c572c3e6fbbd6e060974",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fish-rain"
+    },
+    "gamepush/fishing-fury": {
+      "name": "Fishing Fury",
+      "by": "GAMEPUSH",
+      "ifr": "41cc865d9f7e5f15f7fab4a58f8a9792",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fishing-fury"
+    },
+    "gamepush/fishing-the-russian-way": {
+      "name": "Fishing the Russian Way",
+      "by": "GAMEPUSH",
+      "ifr": "d9721f66a3a64c32bd531584cdd16e09",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fishing-the-russian-way"
+    },
+    "gamepush/fly-and-shoot-1-italian-bosses": {
+      "name": "Fly and shoot 1. Italian Bosses",
+      "by": "GAMEPUSH",
+      "ifr": "1551ec038dd8056f4e28c52381812ebd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fly-and-shoot-1-italian-bosses"
+    },
+    "gamepush/fnaf-alchemy-collect-all-animatronics": {
+      "name": "FNAF Alchemy: Collect All Animatronics",
+      "by": "GAMEPUSH",
+      "ifr": "8be1d71c91a8f2bc4ad15b39e9193b34",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fnaf-alchemy-collect-all-animatronics"
+    },
+    "gamepush/forgotten-treasure-2-match-3": {
+      "name": "Forgotten Treasure 2",
+      "by": "GAMEPUSH",
+      "ifr": "508ca852c81021919d12cf7b8134df9d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-forgotten-treasure-2-match-3"
+    },
+    "gamepush/fox-adventure": {
+      "name": "Fox Adventure",
+      "by": "GAMEPUSH",
+      "ifr": "01de041e5d049520938ed0a7996c9dd4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fox-adventure"
+    },
+    "gamepush/free-checkers": {
+      "name": "Free Checkers",
+      "by": "GAMEPUSH",
+      "ifr": "1a02142a06d68ce45dc47c6bd83b710b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-free-checkers"
+    },
+    "gamepush/free-chess-move": {
+      "name": "Free Chess Move",
+      "by": "GAMEPUSH",
+      "ifr": "49715a8505985947020efbcd8bc6fd1d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-free-chess-move"
+    },
+    "gamepush/fruit-cafe-match-3": {
+      "name": "Fruit Cafe: Match 3",
+      "by": "GAMEPUSH",
+      "ifr": "ff18b9a7c50332512fe2f7e1c780c413",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-fruit-cafe-match-3"
+    },
+    "gamepush/gang-war-strike-shooter": {
+      "name": "Gang War: Strike Shooter",
+      "by": "GAMEPUSH",
+      "ifr": "9e77d47fec690ab36820a5af9226606e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-gang-war-strike-shooter"
+    },
+    "gamepush/gladiator-fights": {
+      "name": "Gladiator Fights",
+      "by": "GAMEPUSH",
+      "ifr": "3e8fd3bb3f05ab466e932e8adc4121e5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-gladiator-fights"
+    },
+    "gamepush/grow-a-garden-online-offline": {
+      "name": "Grow a Garden: Online &amp;amp; Offline",
+      "by": "GAMEPUSH",
+      "ifr": "5e6f3ffaa6eaa22ff97cb2066e10b1b8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-grow-a-garden-online-offline"
+    },
+    "gamepush/happy-fluffy-cubes": {
+      "name": "Happy Fluffy Cubes",
+      "by": "GAMEPUSH",
+      "ifr": "e1bef1844648f2f44fb31fe19aa2babc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-happy-fluffy-cubes"
+    },
+    "gamepush/heartbeat": {
+      "name": "Heartbeat",
+      "by": "GAMEPUSH",
+      "ifr": "8d385683cca2226dff0a78fcf38ba42c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-heartbeat"
+    },
+    "gamepush/hexa-arrows-puzzle": {
+      "name": "Hexa Arrows Puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "56d358e53db53ed28c988dab140d2933",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hexa-arrows-puzzle"
+    },
+    "gamepush/hexa-go": {
+      "name": "Hexa GO!",
+      "by": "GAMEPUSH",
+      "ifr": "4ea676daf8919ebb0c4ca3e7c7d17b2a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hexa-go"
+    },
+    "gamepush/hexafill": {
+      "name": "HexaFill",
+      "by": "GAMEPUSH",
+      "ifr": "54375b997808f24ceffb10fdb5363b17",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hexafill"
+    },
+    "gamepush/hidden-object-emilys-case": {
+      "name": "Hidden Object: Emily&amp;#x27;s Case",
+      "by": "GAMEPUSH",
+      "ifr": "67dc88c94f92113dafdcd655a0f85985",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hidden-object-emilys-case"
+    },
+    "gamepush/hidden-objects-lost-island-2": {
+      "name": "Hidden objects: Lost Island 2",
+      "by": "GAMEPUSH",
+      "ifr": "4270e8f32f8bc21fa08271803bc4c102",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hidden-objects-lost-island-2"
+    },
+    "gamepush/hide-and-seek-in-block-craft": {
+      "name": "Hide And Seek In Block Craft",
+      "by": "GAMEPUSH",
+      "ifr": "33d31e74b8aaec9c1615e2673374f122",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hide-and-seek-in-block-craft"
+    },
+    "gamepush/hit-ball": {
+      "name": "Hit ball",
+      "by": "GAMEPUSH",
+      "ifr": "edd375ec2042ddbe115e19dab104950c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-hit-ball"
+    },
+    "gamepush/idle-game-dev-simulator": {
+      "name": "Idle Game Dev Simulator",
+      "by": "GAMEPUSH",
+      "ifr": "391736215ed5f26c4e0a2ff5b795f5b8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-idle-game-dev-simulator"
+    },
+    "gamepush/idle-vlogger-simulator": {
+      "name": "Idle Vlogger Simulator",
+      "by": "GAMEPUSH",
+      "ifr": "79751843cb5252ac792801ef09090051",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-idle-vlogger-simulator"
+    },
+    "gamepush/italian-animal-alchemy-open-all-brainrots": {
+      "name": "Italian Animal Alchemy: Open All Brainrots",
+      "by": "GAMEPUSH",
+      "ifr": "e870d023ad689f68bda26feeaddd140c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-italian-animal-alchemy-open-all-brainrots"
+    },
+    "gamepush/italian-animals-create-a-christmas-brainrot": {
+      "name": "Italian Animals: Create a Christmas Brainrot!",
+      "by": "GAMEPUSH",
+      "ifr": "eac5d4e33cf98abf316a2f2dc7b10afe",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-italian-animals-create-a-christmas-brainrot"
+    },
+    "gamepush/jelly-merge": {
+      "name": "Jelly merge",
+      "by": "GAMEPUSH",
+      "ifr": "dc3abc907fd053109a031fde8602aced",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-jelly-merge"
+    },
+    "gamepush/jump-for-brainrot": {
+      "name": "Jump For Brainrot",
+      "by": "GAMEPUSH",
+      "ifr": "daa0a8e44b36edbba4032fb19991297f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-jump-for-brainrot"
+    },
+    "gamepush/just-mahjong": {
+      "name": "Just Mahjong",
+      "by": "GAMEPUSH",
+      "ifr": "792de36074b5fe2614b8a035b5dfd55f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-just-mahjong"
+    },
+    "gamepush/kompots-kitchen": {
+      "name": "Kompot&amp;#x27;s Kitchen",
+      "by": "GAMEPUSH",
+      "ifr": "51435a2b13cb10135689a3ab781d248a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-kompots-kitchen"
+    },
+    "gamepush/last-stand-warrior": {
+      "name": "Last Stand Warrior",
+      "by": "GAMEPUSH",
+      "ifr": "97b919ceec976b62f8efbffa04619d65",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-last-stand-warrior"
+    },
+    "gamepush/loop-ghost": {
+      "name": "Loop Ghost",
+      "by": "GAMEPUSH",
+      "ifr": "2c65883c1f27f6c9221f7f24ad98dd05",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-loop-ghost"
+    },
+    "gamepush/magic-forest-merge-the-secrets": {
+      "name": "Magic Forest",
+      "by": "GAMEPUSH",
+      "ifr": "6beb5254295bc74aa2c5413f078f2852",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-magic-forest-merge-the-secrets"
+    },
+    "gamepush/magic-mahjong": {
+      "name": "Magic mahjong",
+      "by": "GAMEPUSH",
+      "ifr": "cb9cdce7627ec815b6132bd44c781c9d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-magic-mahjong"
+    },
+    "gamepush/mahjong-build-farm": {
+      "name": "Mahjong build farm",
+      "by": "GAMEPUSH",
+      "ifr": "e24e2428d378d9a06f0eb09635ff203c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mahjong-build-farm"
+    },
+    "gamepush/mahjong-classic": {
+      "name": "Mahjong Classic",
+      "by": "GAMEPUSH",
+      "ifr": "43b7e5ec648ecc832dc8e30edbec2fb1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mahjong-classic"
+    },
+    "gamepush/mahjong-connect-tiles": {
+      "name": "Mahjong connect tiles",
+      "by": "GAMEPUSH",
+      "ifr": "932436aea917b9035aaa8b38a2109593",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mahjong-connect-tiles"
+    },
+    "gamepush/mahjong-slide-merge": {
+      "name": "Mahjong Slide &amp;amp; Merge",
+      "by": "GAMEPUSH",
+      "ifr": "4c2bc2c801d3d85c6a778476563056da",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mahjong-slide-merge"
+    },
+    "gamepush/mahjong-solitaire-butterfly-connect": {
+      "name": "Mahjong Solitaire",
+      "by": "GAMEPUSH",
+      "ifr": "b565306623157e65c1cb2a2c51b9a8bc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mahjong-solitaire-butterfly-connect"
+    },
+    "gamepush/maldives-hidden-objects": {
+      "name": "Maldives Hidden Objects",
+      "by": "GAMEPUSH",
+      "ifr": "3d1bd84ad92bb581ded76d86389cb85a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-maldives-hidden-objects"
+    },
+    "gamepush/mate-in-chess": {
+      "name": "Mate in Chess",
+      "by": "GAMEPUSH",
+      "ifr": "46b9d2ee972d852e28dc7a2926f93c29",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mate-in-chess"
+    },
+    "gamepush/max-crusher-2-destruction-drift-and-racing": {
+      "name": "Max Crusher 2",
+      "by": "GAMEPUSH",
+      "ifr": "b3dc5890e493f937bb9046f0db9e57a5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-max-crusher-2-destruction-drift-and-racing"
+    },
+    "gamepush/meatrider": {
+      "name": "MeatRider",
+      "by": "GAMEPUSH",
+      "ifr": "ddb61028de6e9cce4cde5c2126fba87b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-meatrider"
+    },
+    "gamepush/merge-fruit-characters-juicy-drop": {
+      "name": "Merge Fruit Characters",
+      "by": "GAMEPUSH",
+      "ifr": "36a913514b4d00a0c3999c193c25ea7b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-merge-fruit-characters-juicy-drop"
+    },
+    "gamepush/mila-and-the-dancing-farm": {
+      "name": "Mila and the Dancing Farm",
+      "by": "GAMEPUSH",
+      "ifr": "fc65b24ad35709690f82b7025d07c9d9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mila-and-the-dancing-farm"
+    },
+    "gamepush/mind-games-math-crosswords": {
+      "name": "Mind Games: Math Crosswords",
+      "by": "GAMEPUSH",
+      "ifr": "dadc31c03da1beddbeaa6e6f3b4194de",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-mind-games-math-crosswords"
+    },
+    "gamepush/missiles-and-drones-strike-on-military-base": {
+      "name": "Missiles and Drones: Strike On Military Base",
+      "by": "GAMEPUSH",
+      "ifr": "6d792f0bac138b4e421791373709de5e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-missiles-and-drones-strike-on-military-base"
+    },
+    "gamepush/monster-school-challenge": {
+      "name": "Monster School Challenge",
+      "by": "GAMEPUSH",
+      "ifr": "798d7c0e0475b23861e2c29c64b23707",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-monster-school-challenge"
+    },
+    "gamepush/monster-slayers": {
+      "name": "Monster Slayers",
+      "by": "GAMEPUSH",
+      "ifr": "cff643dd5a053db55379b5c1020791da",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-monster-slayers"
+    },
+    "gamepush/moscow-metro-driver-3d": {
+      "name": "Moscow Metro Driver 3D",
+      "by": "GAMEPUSH",
+      "ifr": "89799a0afe858550bfd91b8ec285efb8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-moscow-metro-driver-3d"
+    },
+    "gamepush/move-the-rubber-bands-logic-puzzle": {
+      "name": "Move the rubber bands: Logic puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "7cb10e791783517ff0cf740d7ca5477b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-move-the-rubber-bands-logic-puzzle"
+    },
+    "gamepush/move-the-tile-clear-the-field": {
+      "name": "Move the Tile: Clear the Field",
+      "by": "GAMEPUSH",
+      "ifr": "0c052b4b11cd6d7ad1b8795c63534aeb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-move-the-tile-clear-the-field"
+    },
+    "gamepush/music-tiles-fluffy-hop-beat": {
+      "name": "Music Tiles: Fluffy Hop Beat",
+      "by": "GAMEPUSH",
+      "ifr": "0ac3df917fd1ecadc6e832d30a57d196",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-music-tiles-fluffy-hop-beat"
+    },
+    "gamepush/my-horse-is-amazing": {
+      "name": "My horse is amazing",
+      "by": "GAMEPUSH",
+      "ifr": "f0bc86bad2146bb454307c33d36f6e37",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-my-horse-is-amazing"
+    },
+    "gamepush/nightmare-bedtime": {
+      "name": "Nightmare Bedtime",
+      "by": "GAMEPUSH",
+      "ifr": "9d2fe3d530fb556d8d547c2a15404487",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-nightmare-bedtime"
+    },
+    "gamepush/noobs-great-escape": {
+      "name": "Noob&amp;#x27;s Great Escape",
+      "by": "GAMEPUSH",
+      "ifr": "3bbc3d83ad37181377f6b754a87c007a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-noobs-great-escape"
+    },
+    "gamepush/number-maze-puzzle": {
+      "name": "Number Maze Puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "82549d27f933a22337923e802ef5a590",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-number-maze-puzzle"
+    },
+    "gamepush/numbers-merge-master": {
+      "name": "Numbers",
+      "by": "GAMEPUSH",
+      "ifr": "31d9ff76c6b9abd742500d75245ad71d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-numbers-merge-master"
+    },
+    "gamepush/obby-escape-barrys-jail-parkour": {
+      "name": "Obby",
+      "by": "GAMEPUSH",
+      "ifr": "962fd82e86d261a2295fd8a5ddb4d2a3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-obby-escape-barrys-jail-parkour"
+    },
+    "gamepush/obby-hide-and-seek-battle-royale": {
+      "name": "Obby: Hide and Seek, Battle Royale",
+      "by": "GAMEPUSH",
+      "ifr": "aa25f6e48707d2910ee2db0b00495bbb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-obby-hide-and-seek-battle-royale"
+    },
+    "gamepush/obby-mini-games": {
+      "name": "Obby: Mini Games",
+      "by": "GAMEPUSH",
+      "ifr": "661fc2f04ad29842b70d3819b5c3a63d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-obby-mini-games"
+    },
+    "gamepush/obby-pump-up-your-muscles-1-per-second": {
+      "name": "Obby: Pump Up Your Muscles! +1 per second",
+      "by": "GAMEPUSH",
+      "ifr": "978ad2301f601ae393dec2b854913fe9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-obby-pump-up-your-muscles-1-per-second"
+    },
+    "gamepush/obby-tsunami-escape-1-by-car": {
+      "name": "Obby: Tsunami Escape +1 by Car",
+      "by": "GAMEPUSH",
+      "ifr": "f8555a2c14f533c48d7ae92452c67866",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-obby-tsunami-escape-1-by-car"
+    },
+    "gamepush/onet-monster-book": {
+      "name": "Onet Monster Book",
+      "by": "GAMEPUSH",
+      "ifr": "1bcd4304de4633c552e2f2d83194dc17",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-onet-monster-book"
+    },
+    "gamepush/paper-wars-battles-and-upgrades": {
+      "name": "Paper Wars: Battles and Upgrades",
+      "by": "GAMEPUSH",
+      "ifr": "f520fb06d5b42bf869e4bf9566a1c88b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-paper-wars-battles-and-upgrades"
+    },
+    "gamepush/parkour-obby-jump-to-victory": {
+      "name": "Parkour Obby: Jump to Victory",
+      "by": "GAMEPUSH",
+      "ifr": "e2710a8802d9840dceab65dcf99487bb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-parkour-obby-jump-to-victory"
+    },
+    "gamepush/pasha-online": {
+      "name": "Pasha Online",
+      "by": "GAMEPUSH",
+      "ifr": "d846de58364e4bc72aadd0ee9a6d25c7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pasha-online"
+    },
+    "gamepush/paws-off-my-clues": {
+      "name": "Paws Off My Clues!",
+      "by": "GAMEPUSH",
+      "ifr": "0435d18f3e7251aacdb560fb6305ef4d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-paws-off-my-clues"
+    },
+    "gamepush/people-playground-ragdoll-arena": {
+      "name": "People Playground! Ragdoll Arena!",
+      "by": "GAMEPUSH",
+      "ifr": "dc2942cdcc101ac8c99e97cceba2b7db",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-people-playground-ragdoll-arena"
+    },
+    "gamepush-perfect-match-3d": {
+      "name": "Perfect Match 3D",
+      "by": "GAMEPUSH",
+      "ifr": "8d9b960c0aa7983cc87c3303ac28d1ff",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-perfect-match-3d"
+    },
+    "gamepush/pesky-moles": {
+      "name": "Pesky Moles",
+      "by": "GAMEPUSH",
+      "ifr": "92e0e6c888d7dd6392b6544d5bf37d87",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pesky-moles"
+    },
+    "gamepush/pew-pew-dose": {
+      "name": "Pew Pew Dose",
+      "by": "GAMEPUSH",
+      "ifr": "e69015edfafbae936273f6797c345c46",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pew-pew-dose"
+    },
+    "gamepush/photo-block-journey": {
+      "name": "Photo Block Journey",
+      "by": "GAMEPUSH",
+      "ifr": "738d0f8ffe9beb4d0d8368e749e4232f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-photo-block-journey"
+    },
+    "gamepush/ping-pong-air": {
+      "name": "Ping Pong Air",
+      "by": "GAMEPUSH",
+      "ifr": "f2d8bc1acb2f450d3d5a3c150301cd0c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-ping-pong-air"
+    },
+    "gamepush/pingala": {
+      "name": "Pingala",
+      "by": "GAMEPUSH",
+      "ifr": "062d41ea00b015f216fb8fcf72ade619",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pingala"
+    },
+    "gamepush/pixel-journey": {
+      "name": "Pixel Journey",
+      "by": "GAMEPUSH",
+      "ifr": "63eb918fabf0e9846eb6f6f34de6bdec",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pixel-journey"
+    },
+    "gamepush/pixel-paint-master": {
+      "name": "Pixel Paint Master",
+      "by": "GAMEPUSH",
+      "ifr": "b6019a74808ce52022bacaf54e0d3e4f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pixel-paint-master"
+    },
+    "gamepush/pogo-jumper-3d": {
+      "name": "Pogo Jumper 3D",
+      "by": "GAMEPUSH",
+      "ifr": "a0c7eb3a32c6832edb87b3e7d82048c9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pogo-jumper-3d"
+    },
+    "gamepush/pranker-simulator": {
+      "name": "Pranker Simulator",
+      "by": "GAMEPUSH",
+      "ifr": "094a1b90bbd0438bc66deec65fcedebd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-pranker-simulator"
+    },
+    "gamepush/puzzle-blocks": {
+      "name": "Puzzle Blocks",
+      "by": "GAMEPUSH",
+      "ifr": "057486e73c9576ace409b80dc7820df0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-puzzle-blocks"
+    },
+    "gamepush/puzzlejam": {
+      "name": "PuzzleJam",
+      "by": "GAMEPUSH",
+      "ifr": "0476b587f51341d5a9ed14fee232a280",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-puzzlejam"
+    },
+    "gamepush/rats-house-nonogram": {
+      "name": "Rat&amp;#x27;s House",
+      "by": "GAMEPUSH",
+      "ifr": "1ef3a36d78e4d497917b05cb7dd74bda",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-rats-house-nonogram"
+    },
+    "gamepush/raven-3d-front-line": {
+      "name": "Raven 3D",
+      "by": "GAMEPUSH",
+      "ifr": "15e97176f9bdb1ac1f292967f260d630",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-raven-3d-front-line"
+    },
+    "gamepush/real-fishing": {
+      "name": "Real Fishing",
+      "by": "GAMEPUSH",
+      "ifr": "870d435713966d5f24344b0a78c946fe",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-real-fishing"
+    },
+    "gamepush/red-and-blue-leader-2": {
+      "name": "Red and Blue Leader 2",
+      "by": "GAMEPUSH",
+      "ifr": "406b2fb857205e50d1e07419be139701",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-red-and-blue-leader-2"
+    },
+    "gamepush/red-stickman-vs-craftmans-2": {
+      "name": "Red Stickman vs Craftmans 2",
+      "by": "GAMEPUSH",
+      "ifr": "4150292247a56eb809fbaeea586d6d01",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-red-stickman-vs-craftmans-2"
+    },
+    "gamepush/relaxing-cubes-and-campfire": {
+      "name": "Relaxing cubes and campfire",
+      "by": "GAMEPUSH",
+      "ifr": "a1143418e5091f475e39e0c7ce383cf7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-relaxing-cubes-and-campfire"
+    },
+    "gamepush/river-fishing": {
+      "name": "River Fishing",
+      "by": "GAMEPUSH",
+      "ifr": "0baf81ff04c4ba52d4b230cad9b7a8e9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-river-fishing"
+    },
+    "gamepush/road-hustle-wild-checkers": {
+      "name": "Road hustle: Wild checkers",
+      "by": "GAMEPUSH",
+      "ifr": "2843c694c7bc9a536701baf1d78a81fa",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-road-hustle-wild-checkers"
+    },
+    "gamepush/robberies-3d": {
+      "name": "Robberies 3D",
+      "by": "GAMEPUSH",
+      "ifr": "8102e88175b115bb894fe010c0453a4d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-robberies-3d"
+    },
+    "gamepush/robbery-home-schoolboys": {
+      "name": "Robbery home SchoolBoy&amp;#x27;s",
+      "by": "GAMEPUSH",
+      "ifr": "2b169f28d142abb401404597a2e75c25",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-robbery-home-schoolboys"
+    },
+    "gamepush/robotic-fight": {
+      "name": "Robotic Fight",
+      "by": "GAMEPUSH",
+      "ifr": "47828176223ad8223cd1cd7e49c283b3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-robotic-fight"
+    },
+    "gamepush/robux-grow-a-garden": {
+      "name": "Robux: Grow a Garden!",
+      "by": "GAMEPUSH",
+      "ifr": "3038156a1267726fbc14f53deb290789",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-robux-grow-a-garden"
+    },
+    "gamepush/roller-coaster-3d": {
+      "name": "Roller Coaster 3D",
+      "by": "GAMEPUSH",
+      "ifr": "ba9c4c334b45f0c52c6200e7fc24ae1b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-roller-coaster-3d"
+    },
+    "gamepush/rooster-brawl": {
+      "name": "Rooster Brawl",
+      "by": "GAMEPUSH",
+      "ifr": "8816e61a996bd487622a5f5dc459f03d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-rooster-brawl"
+    },
+    "gamepush/russian-fishing-new": {
+      "name": "Russian Fishing New",
+      "by": "GAMEPUSH",
+      "ifr": "25564434361680d756a58941a5dd79f9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-russian-fishing-new"
+    },
+    "gamepush/russian-mushroom-picker": {
+      "name": "Russian Mushroom Picker",
+      "by": "GAMEPUSH",
+      "ifr": "52f4bf517cc03e1405d12a8d03bc64e0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-russian-mushroom-picker"
+    },
+    "gamepush/russian-treasure-hunter": {
+      "name": "Russian Treasure Hunter",
+      "by": "GAMEPUSH",
+      "ifr": "1502d1f06a4a8010af8800801a55dbd0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-russian-treasure-hunter"
+    },
+    "gamepush/sacura-branch": {
+      "name": "Sacura Branch",
+      "by": "GAMEPUSH",
+      "ifr": "51fbc3f1ea645b09af7140893d116bda",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-sacura-branch"
+    },
+    "gamepush/savage-defenders": {
+      "name": "Savage Defenders",
+      "by": "GAMEPUSH",
+      "ifr": "4d441808701ca712215375cf688c3815",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-savage-defenders"
+    },
+    "gamepush/save-the-deer-3d": {
+      "name": "Save the Deer 3D",
+      "by": "GAMEPUSH",
+      "ifr": "4f7e3651e2746645864149ea96f3aef0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-save-the-deer-3d"
+    },
+    "gamepush/save-your-ex": {
+      "name": "Save your ex",
+      "by": "GAMEPUSH",
+      "ifr": "a6f6610d181c949fec820efc966fe765",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-save-your-ex"
+    },
+    "gamepush/scary-shawarma-kiosk-the-anomaly": {
+      "name": "Scary Shawarma Kiosk: The Anomaly",
+      "by": "GAMEPUSH",
+      "ifr": "5ce92d141c9ee3c5874403bffbb3f42e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-scary-shawarma-kiosk-the-anomaly"
+    },
+    "gamepush/school-simulator-my-school": {
+      "name": "School simulator: My school",
+      "by": "GAMEPUSH",
+      "ifr": "aa0143e7c79f054b3718f98fd49171d4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-school-simulator-my-school"
+    },
+    "gamepush/scrap-car-merge": {
+      "name": "Scrap Car Merge",
+      "by": "GAMEPUSH",
+      "ifr": "00f690dbbfd6d5c3614da1552f276da1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-scrap-car-merge"
+    },
+    "gamepush/sea-battle-2025": {
+      "name": "Sea Battle 2025",
+      "by": "GAMEPUSH",
+      "ifr": "d5c7bd6a73c0fd36afa364c5d826f13a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-sea-battle-2025"
+    },
+    "gamepush/seat-sorting-puzzle": {
+      "name": "Seat Sorting Puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "df566d00e64b8cab1603611d229cd688",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-seat-sorting-puzzle"
+    },
+    "gamepush/shell-strikers": {
+      "name": "Shell Strikers",
+      "by": "GAMEPUSH",
+      "ifr": "74d162eb4b09bef0bdaec102def21a98",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-shell-strikers"
+    },
+    "gamepush/singularity-heist": {
+      "name": "Singularity Heist",
+      "by": "GAMEPUSH",
+      "ifr": "9757bfacd7d85794429a75f037500527",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-singularity-heist"
+    },
+    "gamepush/skate-hooligans": {
+      "name": "Skate Hooligans",
+      "by": "GAMEPUSH",
+      "ifr": "3f40ea41428e3eda5a453e8854f1b12a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-skate-hooligans"
+    },
+    "gamepush/slide-the-ball": {
+      "name": "Slide the Ball",
+      "by": "GAMEPUSH",
+      "ifr": "cfa8054b3694bf85338137df3ad4b781",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-slide-the-ball"
+    },
+    "gamepush/slime-attack-puzzle": {
+      "name": "Slime Attack: Puzzle!",
+      "by": "GAMEPUSH",
+      "ifr": "9620ab4bb85aa2b8785555e0f4ddec9a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-slime-attack-puzzle"
+    },
+    "gamepush/soldiers-capture-and-control": {
+      "name": "Soldiers",
+      "by": "GAMEPUSH",
+      "ifr": "779ed4fdbd83153f24a6d23ebd9d53ad",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-soldiers-capture-and-control"
+    },
+    "gamepush/solitaire-klondike-eternal-russian-classic": {
+      "name": "Solitaire Klondike: Eternal Russian Classic",
+      "by": "GAMEPUSH",
+      "ifr": "57261bf39db38caccfa295305e356a2b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-solitaire-klondike-eternal-russian-classic"
+    },
+    "gamepush/speedrun-platformer": {
+      "name": "Speedrun platformer",
+      "by": "GAMEPUSH",
+      "ifr": "b7e25020cdc66d730a4839f0c91b65c7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-speedrun-platformer"
+    },
+    "gamepush/spellebrew": {
+      "name": "Spellebrew",
+      "by": "GAMEPUSH",
+      "ifr": "0b27f55fc523072b5978db1e7cc153ce",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-spellebrew"
+    },
+    "gamepush/spellmind": {
+      "name": "Spellmind",
+      "by": "GAMEPUSH",
+      "ifr": "d3b887bcf8de96191eb1f3efec6aa2e6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-spellmind"
+    },
+    "gamepush/spherix": {
+      "name": "SPHERIX",
+      "by": "GAMEPUSH",
+      "ifr": "545e4e81e833ea2e9cd4db1a6b400a8e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-spherix"
+    },
+    "gamepush/squad-assembler": {
+      "name": "Squad Assembler",
+      "by": "GAMEPUSH",
+      "ifr": "4192bbda2eeca8100dfa64a14073ebdb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-squad-assembler"
+    },
+    "gamepush/stack-jump": {
+      "name": "Stack Jump",
+      "by": "GAMEPUSH",
+      "ifr": "e56605399ebcc6de61db525d910bafe3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-stack-jump"
+    },
+    "gamepush/steal-brainrot-monsters": {
+      "name": "Steal Brainrot Monsters!",
+      "by": "GAMEPUSH",
+      "ifr": "00df3864d3c282f8f9b4c9a4119f67d3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-steal-brainrot-monsters"
+    },
+    "gamepush/stick-master-teleport": {
+      "name": "Stick Master Teleport",
+      "by": "GAMEPUSH",
+      "ifr": "d86f4faa0246a23489cdda605f8e024c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-stick-master-teleport"
+    },
+    "gamepush/stickman-mega-boss-battles": {
+      "name": "Stickman Mega Boss: Battles!",
+      "by": "GAMEPUSH",
+      "ifr": "cfbe2c814165093cf38aad81aa4e047d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-stickman-mega-boss-battles"
+    },
+    "gamepush/strange-packages": {
+      "name": "Strange packages",
+      "by": "GAMEPUSH",
+      "ifr": "38add5d3df9abf597bee10c5b9ffd6dd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-strange-packages"
+    },
+    "gamepush/sudoku-master-classic-sudoku": {
+      "name": "Sudoku Master",
+      "by": "GAMEPUSH",
+      "ifr": "142025a52701954e1b76aa999ed8bbe7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-sudoku-master-classic-sudoku"
+    },
+    "gamepush/sudoku-online": {
+      "name": "Sudoku Online",
+      "by": "GAMEPUSH",
+      "ifr": "f32627eb29ad65863a45424dcd0d0d52",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-sudoku-online"
+    },
+    "gamepush/sudoku-puzzle": {
+      "name": "SUDOKU puzzle",
+      "by": "GAMEPUSH",
+      "ifr": "1bc3718d6207d7a89c332de9f3bad557",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-sudoku-puzzle"
+    },
+    "gamepush/supermarket-simulator-dream-store": {
+      "name": "Supermarket Simulator: Dream Store",
+      "by": "GAMEPUSH",
+      "ifr": "86800349c3742f72cca18799a3aff1f0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-supermarket-simulator-dream-store"
+    },
+    "gamepush/survev-io-battle-royale": {
+      "name": "Survev.io Battle Royale",
+      "by": "GAMEPUSH",
+      "ifr": "df395cb0ac74eeb480341cbad232a612",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-survev-io-battle-royale"
+    },
+    "gamepush/swat-for-two-players": {
+      "name": "SWAT for two players",
+      "by": "GAMEPUSH",
+      "ifr": "99965cb5757910ad5404a13135cd9980",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-swat-for-two-players"
+    },
+    "gamepush/tap-hold": {
+      "name": "Tap &amp;amp; Hold",
+      "by": "GAMEPUSH",
+      "ifr": "9757e63af08aa47f255d2d5f7d07ecc8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-tap-hold"
+    },
+    "gamepush/the-flowers-merge-and-sell-bouquets": {
+      "name": "The Flowers: Merge and Sell Bouquets",
+      "by": "GAMEPUSH",
+      "ifr": "0f0e8b3a0f876d49c77a85c7d4d6cfcb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-the-flowers-merge-and-sell-bouquets"
+    },
+    "gamepush/the-metro-anomaly": {
+      "name": "The Metro Anomaly",
+      "by": "GAMEPUSH",
+      "ifr": "82c81c0a25fb49983a8293f5a7df5276",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-the-metro-anomaly"
+    },
+    "gamepush/the-roman-empire-colosseum": {
+      "name": "The Roman Empire Colosseum",
+      "by": "GAMEPUSH",
+      "ifr": "8cd8fff5e259b154225fe31b14bad960",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-the-roman-empire-colosseum"
+    },
+    "gamepush/the-three-tiles-in-the-halloween-world": {
+      "name": "The Three Tiles in the Halloween World",
+      "by": "GAMEPUSH",
+      "ifr": "3c1f773fed3b990a214cbce14dbe324c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-the-three-tiles-in-the-halloween-world"
+    },
+    "gamepush/theo-morinis-magical-resort": {
+      "name": "Theo Morini&amp;#x27;s Magical Resort",
+      "by": "GAMEPUSH",
+      "ifr": "3150ecfc42d966b3333153721c710ef1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-theo-morinis-magical-resort"
+    },
+    "gamepush/tic-tac-toe-merge": {
+      "name": "Tic Tac Toe Merge",
+      "by": "GAMEPUSH",
+      "ifr": "e8e443f8f48e1d4320406a6b649d7fd4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-tic-tac-toe-merge"
+    },
+    "gamepush/tile-hexa-sort": {
+      "name": "Tile Hexa Sort",
+      "by": "GAMEPUSH",
+      "ifr": "8394e58069b2ffe43ca3791458aec3e6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-tile-hexa-sort"
+    },
+    "gamepush/tile-match-cafe": {
+      "name": "Tile Match Cafe",
+      "by": "GAMEPUSH",
+      "ifr": "ea3c0a27141304adaf383ee3c25a9bab",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-tile-match-cafe"
+    },
+    "gamepush/traffic-man": {
+      "name": "Traffic Man",
+      "by": "GAMEPUSH",
+      "ifr": "b2969cfad5c6e4ea679b3fe0007fe9b1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-traffic-man"
+    },
+    "gamepush/traitor-beaver": {
+      "name": "Traitor Beaver!",
+      "by": "GAMEPUSH",
+      "ifr": "4add7e9e58f19fe917f9aafd254d9dc3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-traitor-beaver"
+    },
+    "gamepush/triangles-dots-2048": {
+      "name": "Triangles Dots 2048",
+      "by": "GAMEPUSH",
+      "ifr": "f562381e7e98ff83edf9e77da45cdc89",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-triangles-dots-2048"
+    },
+    "gamepush/vega-mix-adventure": {
+      "name": "Vega Mix Adventure",
+      "by": "GAMEPUSH",
+      "ifr": "aeec5f7c889e7287c76c84cfb99e1a9a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-vega-mix-adventure"
+    },
+    "gamepush/vibe-colouring": {
+      "name": "Vibe Colouring",
+      "by": "GAMEPUSH",
+      "ifr": "87363a4f266e2271b746ec69c16738bf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-vibe-colouring"
+    },
+    "gamepush/vikings-age-of-accomplishments": {
+      "name": "Vikings: Age of Accomplishments",
+      "by": "GAMEPUSH",
+      "ifr": "222533e45b708a3c8102faa0fa3ab26f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-vikings-age-of-accomplishments"
+    },
+    "gamepush/vr-world": {
+      "name": "VR World",
+      "by": "GAMEPUSH",
+      "ifr": "8219ca56812aeabdf9e182fbf54e1d09",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-vr-world"
+    },
+    "gamepush/warfare-1942-online-shooter": {
+      "name": "Warfare 1942",
+      "by": "GAMEPUSH",
+      "ifr": "2e8935eb95926955842ef1a1e866e4e4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-warfare-1942-online-shooter"
+    },
+    "gamepush/winter-fishing": {
+      "name": "Winter Fishing",
+      "by": "GAMEPUSH",
+      "ifr": "433cb021e6f98c27c9d81cd1e82399d7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-winter-fishing"
+    },
+    "gamepush/wood-blocks-jam": {
+      "name": "Wood Blocks Jam",
+      "by": "GAMEPUSH",
+      "ifr": "8cbf32006f783c6e38ad552915c72988",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-wood-blocks-jam"
+    },
+    "gamepush/word-mosaic-piece-words-together": {
+      "name": "Word Mosaic",
+      "by": "GAMEPUSH",
+      "ifr": "c9456ab67005f2fffadc0c9df920f6d9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-word-mosaic-piece-words-together"
+    },
+    "gamepush/word-search-puzzle-game": {
+      "name": "Word Search: Puzzle Game",
+      "by": "GAMEPUSH",
+      "ifr": "de02be44a3db572fde9647a9bd6538c8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-word-search-puzzle-game"
+    },
+    "gamepush/world-of-wartanks": {
+      "name": "World of WarTanks",
+      "by": "GAMEPUSH",
+      "ifr": "b092185099559da20d8caba1d7455748",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-world-of-wartanks"
+    },
+    "gamepush/world-wars-tanks": {
+      "name": "World Wars",
+      "by": "GAMEPUSH",
+      "ifr": "d99f34ff2a2ee1dfe5748ac73b26172c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-world-wars-tanks"
+    },
+    "gamepush/worm-apple-quest": {
+      "name": "Worm: Apple Quest",
+      "by": "GAMEPUSH",
+      "ifr": "f23ca6fffaa49cc7434379569e46b8c5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-worm-apple-quest"
+    },
+    "gamepush/worms-fill-in-all-the-cells": {
+      "name": "Worms",
+      "by": "GAMEPUSH",
+      "ifr": "a964c196087e1e830a59a2d845f2718a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-worms-fill-in-all-the-cells"
+    },
+    "gamepush/yummy-merge": {
+      "name": "Yummy merge",
+      "by": "GAMEPUSH",
+      "ifr": "cfc6a3dd4c38462f613bc40231d8b784",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-yummy-merge"
+    },
+    "gamepush/zero-to-millionaire": {
+      "name": "Zero to Millionaire!",
+      "by": "GAMEPUSH",
+      "ifr": "a4d4f0aeb813081a7d62fcbfbf0c8471",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-zero-to-millionaire"
+    },
+    "gamepush/zombie-road-shooter-with-destruction": {
+      "name": "Zombie Road: Shooter with Destruction",
+      "by": "GAMEPUSH",
+      "ifr": "15fb1e32b17af48674e870688ed954df",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gamepush-zombie-road-shooter-with-destruction"
+    },
+    "gmg-studios/animal-path-puzzle": {
+      "name": "Animal Path Puzzle",
+      "by": "GMG Studios",
+      "ifr": "65541b59008ccf9c68b7687c8c8b91aa",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-animal-path-puzzle"
+    },
+    "gmg-studios/archer-vs-monsters": {
+      "name": "Archer vs Monsters",
+      "by": "GMG Studios",
+      "ifr": "80a09f78032e3469e3b800c92050d7bc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-archer-vs-monsters"
+    },
+    "gmg-studios/arctic-path-puzzle": {
+      "name": "Arctic Path Puzzle",
+      "by": "GMG Studios",
+      "ifr": "d85816221c0bb6b271945f7c83481793",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-arctic-path-puzzle"
+    },
+    "gmg-studios/boat-parking-jam": {
+      "name": "Boat Parking Jam",
+      "by": "GMG Studios",
+      "ifr": "f34a66d7e4241e1a01ba2bb77938572b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-boat-parking-jam"
+    },
+    "gmg-studios/bubble-pop": {
+      "name": "Bubble Pop",
+      "by": "GMG Studios",
+      "ifr": "8e7d51fb35ef7615d2e063d307b4c649",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-bubble-pop"
+    },
+    "gmg-studios/bump-me-free": {
+      "name": "Bump Me Free",
+      "by": "GMG Studios",
+      "ifr": "99b1f4d765bf82d57ab7b1f251532220",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-bump-me-free"
+    },
+    "gmg-studios/chess-field": {
+      "name": "Chess Field",
+      "by": "GMG Studios",
+      "ifr": "2b921d5f21f562bbdb2c551736863c71",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-chess-field"
+    },
+    "gmg-studios/color-slide-fit": {
+      "name": "Color Slide Fit",
+      "by": "GMG Studios",
+      "ifr": "5db1ab200aa4c7e19befa3bf407169ec",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-color-slide-fit"
+    },
+    "gmg-studios/cookie-unfold": {
+      "name": "Cookie Unfold",
+      "by": "GMG Studios",
+      "ifr": "4097868ecbbcc2f5150f04eff3490b8e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-cookie-unfold"
+    },
+    "gmg-studios/cyber-monday": {
+      "name": "Cyber Monday",
+      "by": "GMG Studios",
+      "ifr": "da024033872b887f1fb2476265004c42",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-cyber-monday"
+    },
+    "gmg-studios/drop-people": {
+      "name": "Drop People",
+      "by": "GMG Studios",
+      "ifr": "893c86448ba3dde6013b0093dddaa51a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-drop-people"
+    },
+    "gmg-studios/elevator-sort": {
+      "name": "Elevator Sort",
+      "by": "GMG Studios",
+      "ifr": "65c2095d3e77d84e8d2d6310072976fa",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-elevator-sort"
+    },
+    "gmg-studios/fish-feed": {
+      "name": "Fish Feed",
+      "by": "GMG Studios",
+      "ifr": "05e53cc897274c7b243b6aa4a3d13284",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-fish-feed"
+    },
+    "gmg-studios/flower-hexa-block-puzzle": {
+      "name": "Flower Hexa Block Puzzle",
+      "by": "GMG Studios",
+      "ifr": "25f4f0bb17c13847ffadf230c3a5e1d6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-flower-hexa-block-puzzle"
+    },
+    "gmg-studios/goal-io": {
+      "name": "Goal.io",
+      "by": "GMG Studios",
+      "ifr": "68342f8831ae48730d777dee2651af64",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-goal-io"
+    },
+    "gmg-studios/hungry-woolly": {
+      "name": "Hungry Woolly",
+      "by": "GMG Studios",
+      "ifr": "beb91d12ae0355d2fa78803969b326b1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-hungry-woolly"
+    },
+    "gmg-studios/infinity-path": {
+      "name": "Infinity Path",
+      "by": "GMG Studios",
+      "ifr": "d93677f192e571293350ddf6dfb82409",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-infinity-path"
+    },
+    "gmg-studios/italian-brainrot-iq-mystery": {
+      "name": "Italian Brainrot: IQ Mystery",
+      "by": "GMG Studios",
+      "ifr": "3220691be0811c3f75454007e29483ca",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-italian-brainrot-iq-mystery"
+    },
+    "gmg-studios/jelly-merge-math-3d": {
+      "name": "Jelly Merge Math 3D",
+      "by": "GMG Studios",
+      "ifr": "1d4b8945e7c6b830240f0fcba41f9a0c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-jelly-merge-math-3d"
+    },
+    "gmg-studios/little-doctor-pet-hospital": {
+      "name": "Little Doctor : Pet Hospital",
+      "by": "GMG Studios",
+      "ifr": "3dfd3ae02b0a97fa5481581dfda48697",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-little-doctor-pet-hospital"
+    },
+    "gmg-studios/make-ten-tile-merge": {
+      "name": "Make Ten",
+      "by": "GMG Studios",
+      "ifr": "d86f218ea352e03cc8c97e41c4c6ef47",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-make-ten-tile-merge"
+    },
+    "gmg-studios/math-kingdom-quest": {
+      "name": "Math Kingdom Quest",
+      "by": "GMG Studios",
+      "ifr": "215bd58e717abccca7d6b38401757b9b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-math-kingdom-quest"
+    },
+    "gmg-studios/merge-to-zero": {
+      "name": "Merge to Zero",
+      "by": "GMG Studios",
+      "ifr": "5ce5381bf142e69e1affa859e71d92de",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-merge-to-zero"
+    },
+    "gmg-studios/orange-puzzle-lab": {
+      "name": "Orange Puzzle Lab",
+      "by": "GMG Studios",
+      "ifr": "c38fa50efddc519919f7053476ffdea4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-orange-puzzle-lab"
+    },
+    "gmg-studios/pipes-flood-puzzle": {
+      "name": "Pipes Flood Puzzle",
+      "by": "GMG Studios",
+      "ifr": "6c12294fa8d21538ad2a35856e1e79b0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-pipes-flood-puzzle"
+    },
+    "gmg-studios/play-4-in-a-row-brain-challenge": {
+      "name": "Play 4 in a Row – Brain Challenge",
+      "by": "GMG Studios",
+      "ifr": "ed1684876940f65a035a0d10c61166ed",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-play-4-in-a-row-brain-challenge"
+    },
+    "gmg-studios/shine-seek": {
+      "name": "Shine Seek",
+      "by": "GMG Studios",
+      "ifr": "9b73196b1d27b7aff4fb7c78b001e3c2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-shine-seek"
+    },
+    "gmg-studios/spin-spin": {
+      "name": "Spin Spin",
+      "by": "GMG Studios",
+      "ifr": "1115ace523cb12af57d9a5c5b35d90b6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-spin-spin"
+    },
+    "gmg-studios/surgery-doctor": {
+      "name": "Surgery Doctor",
+      "by": "GMG Studios",
+      "ifr": "250c290fadd95815ad5004c4800e6e6f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-surgery-doctor"
+    },
+    "gmg-studios/swap-color": {
+      "name": "Swap Color",
+      "by": "GMG Studios",
+      "ifr": "8a74bd18b5b73b568c3e519fdd9a30f1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-swap-color"
+    },
+    "gmg-studios/tap-race-duel": {
+      "name": "Tap Race Duel",
+      "by": "GMG Studios",
+      "ifr": "3f8d0f1dd2153cb2a4e2111c65bffbb5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-tap-race-duel"
+    },
+    "gmg-studios/vortex-helix-drop": {
+      "name": "Vortex Helix Drop",
+      "by": "GMG Studios",
+      "ifr": "dcd30183202196bbcd447ebf79ea8abf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-vortex-helix-drop"
+    },
+    "gmg-studios/watermelon-suika": {
+      "name": "Watermelon Suika",
+      "by": "GMG Studios",
+      "ifr": "16b585a272d3c262905edd96d8796f39",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-watermelon-suika"
+    },
+    "gmg-studios/waterpark-sort": {
+      "name": "Waterpark Sort",
+      "by": "GMG Studios",
+      "ifr": "be30c4f06f8553d7cce4ce5bbb7cac4a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "gmg-studios-waterpark-sort"
+    },
+    "green-train/arrow-puzzle": {
+      "name": "Arrow puzzle",
+      "by": "Green Train",
+      "ifr": "a4f91db9121485999e19ae7218041578",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "green-train-arrow-puzzle"
+    },
+    "hazmob/hazmob-io": {
+      "name": "Hazmob.io",
+      "by": "Hazmob",
+      "ifr": "b7491702970e3b0b6de397f80a0a1844",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "hazmob-hazmob-io"
+    },
+    "inlogic-software/road-fury": {
+      "name": "Road Fury",
+      "by": "Inlogic Software",
+      "ifr": "a418388ec4a2c4b069b0b12812fc5c02",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "inlogic-software-road-fury"
+    },
+    "inlogic-software/zumba-mania": {
+      "name": "Zumba Mania",
+      "by": "Inlogic Software",
+      "ifr": "b659708828fea2992102e98e03ad1355",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "inlogic-software-zumba-mania"
+    },
+    "kbvpneofit/nubik-create-your-place": {
+      "name": "Nubik: Create Your Place",
+      "by": "kbvpneofit",
+      "ifr": "d23dceb077c4de8f85ea473b3f1c3c87",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kbvpneofit-nubik-create-your-place"
+    },
+    "kbvpneofit/snowball-platformer": {
+      "name": "SnowBall: Platformer",
+      "by": "kbvpneofit",
+      "ifr": "0c69f29f9f140ac8ef4dcbd2a5a86e20",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kbvpneofit-snowball-platformer"
+    },
+    "kirlanik/cyvasse-chess-ice-and-flame": {
+      "name": "Cyvasse: Chess ice and flame",
+      "by": "Kirlanik",
+      "ifr": "e9f8cb16ee026db7cbc6e6f1b4e0c9c1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-cyvasse-chess-ice-and-flame"
+    },
+    "kirlanik/gala-farm-chess": {
+      "name": "Gala: Farm chess",
+      "by": "Kirlanik",
+      "ifr": "ccc882ecfafdbe4175f1eb17951e0ab1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-gala-farm-chess"
+    },
+    "kirlanik/hexagonal-chess": {
+      "name": "Hexagonal chess",
+      "by": "Kirlanik",
+      "ifr": "c7718d9fb9d13aa241913abaa3f208a2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-hexagonal-chess"
+    },
+    "kirlanik/pillar-checkers-duel": {
+      "name": "Pillar checkers, duel",
+      "by": "Kirlanik",
+      "ifr": "888b7d01bd5290b78c3aacd16a33947c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-pillar-checkers-duel"
+    },
+    "kirlanik/shogi-japanese-chess": {
+      "name": "Shogi: Japanese Chess",
+      "by": "Kirlanik",
+      "ifr": "1a0f3070bb33bb742c577a55a63c2c66",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-shogi-japanese-chess"
+    },
+    "kirlanik/the-end-of-the-tunnel": {
+      "name": "The end of the tunnel",
+      "by": "Kirlanik",
+      "ifr": "aea8484e285dcf1bf783f1ee68b59017",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-the-end-of-the-tunnel"
+    },
+    "kirlanik/triminos-dominoes-triangles": {
+      "name": "Triminos, dominoes triangles",
+      "by": "Kirlanik",
+      "ifr": "275a5f60404ca0a9f4a2d77424e77fea",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "kirlanik-triminos-dominoes-triangles"
+    },
+    "lucky-try/strykon": {
+      "name": "Strykon",
+      "by": "LUCKY TRY",
+      "ifr": "62a6c43aa0a58f9f5c875c3ef1f9f0f2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "lucky-try-strykon"
+    },
+    "lucky-try/vexon": {
+      "name": "Vexon",
+      "by": "LUCKY TRY",
+      "ifr": "a7ae750e0acb798e13ea47d778a5739c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "lucky-try-vexon"
+    },
+    "mathnook/cake-link-master": {
+      "name": "Cake Link Master",
+      "by": "MathNook",
+      "ifr": "07eb2541fe0a5be4559301ecffca345d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "mathnook-cake-link-master"
+    },
+    "mathnook/halloween-match-trio": {
+      "name": "Halloween Match Trio",
+      "by": "MathNook",
+      "ifr": "c61fdd7657688cb40cf9c7683bacb504",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "mathnook-halloween-match-trio"
+    },
+    "mathnook/hidden-horrors": {
+      "name": "Hidden Horrors",
+      "by": "MathNook",
+      "ifr": "022260b54a89f33878538adc99992504",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "mathnook-hidden-horrors"
+    },
+    "mathnook/nine-cards-of-winter": {
+      "name": "Nine Cards Of Winter",
+      "by": "MathNook",
+      "ifr": "1559283c124df6fda5ec72cafbbfe883",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "mathnook-nine-cards-of-winter"
+    },
+    "menimen/chroma-echo": {
+      "name": "Chroma Echo",
+      "by": "Meni Men",
+      "ifr": "3afd5fe5317bf1694bb7e8ac43f06b3b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "menimen-chroma-echo"
+    },
+    "mksoft/battleship": {
+      "name": "Battleship",
+      "by": "MKSoft",
+      "ifr": "96049a3d6ebbaf97f57885a235733f5d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "mksoft-battleship"
+    },
+    "naptech-labs/catch-the-berry": {
+      "name": "Catch The Berry",
+      "by": "NapTech Labs",
+      "ifr": "7d4ff31df1b33627ce9e4956d2d72134",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-catch-the-berry"
+    },
+    "naptech-labs/fruit-picking-fun": {
+      "name": "Fruit Picking Fun",
+      "by": "NapTech Labs",
+      "ifr": "d34fc6f96295c82f0915751f75d64ccc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-fruit-picking-fun"
+    },
+    "naptech-labs/halloween-match": {
+      "name": "Halloween Match",
+      "by": "NapTech Labs",
+      "ifr": "efb30bffdc10a51f0e6a1b947af4c818",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-halloween-match"
+    },
+    "naptech-labs/halloween-racing": {
+      "name": "Halloween Racing",
+      "by": "NapTech Labs",
+      "ifr": "475b4cabbd4913e2145c623513334d81",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-halloween-racing"
+    },
+    "naptech-labs/hop-to-rescue": {
+      "name": "Hop To Rescue",
+      "by": "NapTech Labs",
+      "ifr": "2fc7208a14f92869fe2b522dd98edd6d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-hop-to-rescue"
+    },
+    "naptech-labs/mushroom-match-master": {
+      "name": "Mushroom Match Master",
+      "by": "NapTech Labs",
+      "ifr": "6e1d14e5faa39f98e75eacbdd2f59c18",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-mushroom-match-master"
+    },
+    "naptech-labs/number-quest": {
+      "name": "Number Quest",
+      "by": "NapTech Labs",
+      "ifr": "a232cfc0ccce1db9081e20d9882e80e9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-number-quest"
+    },
+    "naptech-labs/tap-the-frog": {
+      "name": "Tap The Frog",
+      "by": "NapTech Labs",
+      "ifr": "c2d087cc068e4c224a3136abeb611aae",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-tap-the-frog"
+    },
+    "naptech-labs/the-genius-crow": {
+      "name": "The Genius Crow",
+      "by": "NapTech Labs",
+      "ifr": "07adc5cd1dc4244de3d4a70f4147e764",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-the-genius-crow"
+    },
+    "naptech-labs/veggie-friends": {
+      "name": "Veggie Friends",
+      "by": "NapTech Labs",
+      "ifr": "cf82b1fe058eb3e65f84cbf5fc5ac777",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-veggie-friends"
+    },
+    "naptech-labs/vowel-vs-consonant": {
+      "name": "Vowel Vs Consonant",
+      "by": "NapTech Labs",
+      "ifr": "c9f6f33706eb9fcff4d185ed1d7b8a80",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "naptech-labs-vowel-vs-consonant"
+    },
+    "new-kids-games/3d-halloween-jigsaw": {
+      "name": "3D Halloween Jigsaw",
+      "by": "New Kids Games",
+      "ifr": "87cac4361c87a940b5a38687b5875114",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-3d-halloween-jigsaw"
+    },
+    "new-kids-games/3d-kid-sliding-puzzle": {
+      "name": "3D Kid Sliding Puzzle",
+      "by": "New Kids Games",
+      "ifr": "19832d178db7ca569a5b3d941cd28f4e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-3d-kid-sliding-puzzle"
+    },
+    "new-kids-games/3d-maze-control": {
+      "name": "3D Maze Control",
+      "by": "New Kids Games",
+      "ifr": "df5f40aeb34f31fa753583a5631c72bb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-3d-maze-control"
+    },
+    "new-kids-games/battle-of-towers": {
+      "name": "Battle of Towers",
+      "by": "New Kids Games",
+      "ifr": "ed6c92ab54bb41598ad8c7fb5e4a2a01",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-battle-of-towers"
+    },
+    "new-kids-games/drift-boss-3d": {
+      "name": "Drift Boss 3D",
+      "by": "New Kids Games",
+      "ifr": "5eebb54710ec50fc5857563e171c0ae3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-drift-boss-3d"
+    },
+    "new-kids-games/escape-again": {
+      "name": "Escape Again",
+      "by": "New Kids Games",
+      "ifr": "959c7cab075db908bf08de1fc740333f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-escape-again"
+    },
+    "new-kids-games/formula-racers": {
+      "name": "Formula Racers",
+      "by": "New Kids Games",
+      "ifr": "07816883c23506562051062e9f7d2552",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-formula-racers"
+    },
+    "new-kids-games/halloween-sprunki-coloring-book": {
+      "name": "Halloween Sprunki Coloring Book",
+      "by": "New Kids Games",
+      "ifr": "2c902d0ce11da5c538b5125226322123",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-halloween-sprunki-coloring-book"
+    },
+    "new-kids-games/head-ball-2026": {
+      "name": "Head Ball 2026",
+      "by": "New Kids Games",
+      "ifr": "fa0f9f80e83eb793857fed7cdd520532",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-head-ball-2026"
+    },
+    "new-kids-games/hidden-car-tires": {
+      "name": "Hidden Car Tires",
+      "by": "New Kids Games",
+      "ifr": "c34a3deccaa753642cea75a5d5354321",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-hidden-car-tires"
+    },
+    "new-kids-games/ice-cream-memory": {
+      "name": "Ice Cream Memory",
+      "by": "New Kids Games",
+      "ifr": "8b8388dbbb7b012dc718f718c9759fd3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-ice-cream-memory"
+    },
+    "new-kids-games/italian-brainrot-hidden-stars": {
+      "name": "Italian Brainrot Hidden Stars",
+      "by": "New Kids Games",
+      "ifr": "bff541f410ea6b9b186dbd8fbeb62841",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-italian-brainrot-hidden-stars"
+    },
+    "new-kids-games/italian-brainrot-quiz": {
+      "name": "Italian Brainrot Quiz",
+      "by": "New Kids Games",
+      "ifr": "f7f216a31aa9547a78089f1fe35d4a7a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-italian-brainrot-quiz"
+    },
+    "new-kids-games/mega-block-puzzle": {
+      "name": "Mega Block Puzzle",
+      "by": "New Kids Games",
+      "ifr": "5882ff78c7a6bbc71faae59a499d7630",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-mega-block-puzzle"
+    },
+    "new-kids-games/miami-streets": {
+      "name": "Miami Streets",
+      "by": "New Kids Games",
+      "ifr": "c600f341d932e10ea720748a39b90368",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-miami-streets"
+    },
+    "new-kids-games/mr-bean-3d-jigsaw": {
+      "name": "Mr. Bean 3D Jigsaw",
+      "by": "New Kids Games",
+      "ifr": "6a1fd8f4c9cf8421664d065dbcf78730",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-mr-bean-3d-jigsaw"
+    },
+    "new-kids-games/mr-bean-find-the-stars": {
+      "name": "Mr. Bean Find the Stars",
+      "by": "New Kids Games",
+      "ifr": "d2c312118828b9250f4aec6c7b00ef5c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-mr-bean-find-the-stars"
+    },
+    "new-kids-games/passengers-bus-sorting": {
+      "name": "Passengers Bus Sorting",
+      "by": "New Kids Games",
+      "ifr": "c54677c881ff33936a25c684448f3ee3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-passengers-bus-sorting"
+    },
+    "new-kids-games/santa-claus-adventures": {
+      "name": "Santa Claus Adventures",
+      "by": "New Kids Games",
+      "ifr": "f620d94206b8640952b9a9755026e11f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-santa-claus-adventures"
+    },
+    "new-kids-games/solitaire-pro-plus": {
+      "name": "Solitaire Pro Plus",
+      "by": "New Kids Games",
+      "ifr": "30ff30e8736ddf186d8eac15e8eef0bf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-solitaire-pro-plus"
+    },
+    "new-kids-games/stop-now": {
+      "name": "Stop Now",
+      "by": "New Kids Games",
+      "ifr": "4badd5f6a7173eb20a0f5f421b0c3987",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "new-kids-games-stop-now"
+    },
+    "oleg-antipov/chain-gain": {
+      "name": "Chain &amp;amp; Gain!",
+      "by": "Oleg Antipov",
+      "ifr": "8602dc4ecc8fef08cc78723211ff5c80",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "oleg-antipov-chain-gain"
+    },
+    "pitigamedev/a-butterfly": {
+      "name": "A butterfly",
+      "by": "Pitigamedev",
+      "ifr": "52c438a8c42ec2f5720542b02399bf1e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "pitigamedev-a-butterfly"
+    },
+    "pitigamedev/alien-wreckage-1": {
+      "name": "Alien Wreckage 1",
+      "by": "Pitigamedev",
+      "ifr": "f388c9dabcca57b48f17fcdbeaaf3012",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "pitigamedev-alien-wreckage-1"
+    },
+    "pitigamedev/dont-shoot": {
+      "name": "Don&amp;#x27;t Shoot",
+      "by": "Pitigamedev",
+      "ifr": "0556b5b72713d0ce9ea789b5edd14290",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "pitigamedev-dont-shoot"
+    },
+    "rad-brothers/fun-colors": {
+      "name": "Fun Colors",
+      "by": "RAD BROTHERS",
+      "ifr": "7ec3ae1957683ba976caac108d41af5a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "rad-brothers-fun-colors"
+    },
+    "safing/route-66-russian-traffic": {
+      "name": "Route 66 Russian Traffic",
+      "by": "SAFING",
+      "ifr": "30db8a884f9888845f63636a384cf629",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "safing-route-66-russian-traffic"
+    },
+    "slimoban/match-match": {
+      "name": "Match Match",
+      "by": "slimoban",
+      "ifr": "8050b33fad1f838b32abd9e193e50e51",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "slimoban-match-match"
+    },
+    "starodymov/crime-wars-san-andreas": {
+      "name": "Crime Wars San Andreas",
+      "by": "Starodymov",
+      "ifr": "4d2d5eef38a32ef598e5de3d36dff605",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "starodymov-crime-wars-san-andreas"
+    },
+    "tgc/goldrush": {
+      "name": "GoldRush",
+      "by": "TGC",
+      "ifr": "0b9a37ba8f53ec2bf95ad86151d1206d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tgc-goldrush"
+    },
+    "tiny-castle-studio/animal-sort-cute-puzzle-game": {
+      "name": "Animal Sort",
+      "by": "Tiny Castle Studio",
+      "ifr": "2aaf409f4564734144b75bf7dfcf0e2f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-animal-sort-cute-puzzle-game"
+    },
+    "tiny-castle-studio/bubble-ball": {
+      "name": "Bubble Ball",
+      "by": "Tiny Castle Studio",
+      "ifr": "e58ea300f6772bdc90e3f75ac551dffa",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-bubble-ball"
+    },
+    "tiny-castle-studio/bubblehead-ball": {
+      "name": "Bubblehead Ball",
+      "by": "Tiny Castle Studio",
+      "ifr": "d5d13df3aa403a58a740049cf9e433b6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-bubblehead-ball"
+    },
+    "tiny-castle-studio/color-3d-bump-it-up": {
+      "name": "Color 3D",
+      "by": "Tiny Castle Studio",
+      "ifr": "bbf70cb1a2807e67d213d97065bfa59c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-color-3d-bump-it-up"
+    },
+    "tiny-castle-studio/delivery-now": {
+      "name": "Delivery Now",
+      "by": "Tiny Castle Studio",
+      "ifr": "7fdac1ed8c2e450a77c76f011334cbcf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-delivery-now"
+    },
+    "tiny-castle-studio/fun-farm-wonderland": {
+      "name": "Fun Farm",
+      "by": "Tiny Castle Studio",
+      "ifr": "62819e4768f7fdd32576fca9695ec4ec",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-fun-farm-wonderland"
+    },
+    "tiny-castle-studio/kitkat-puzzle": {
+      "name": "KitKat Puzzle",
+      "by": "Tiny Castle Studio",
+      "ifr": "71928d89b5887cf583e2b0eb1dbd5bcc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-kitkat-puzzle"
+    },
+    "tiny-castle-studio/screw-puzzle": {
+      "name": "Screw Puzzle",
+      "by": "Tiny Castle Studio",
+      "ifr": "ad93bfeaeb42dd60444a46dc945516c7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "tiny-castle-studio-screw-puzzle"
+    },
+    "ugrgames/mazeloop-neon": {
+      "name": "MazeLoop NEON",
+      "by": "Ugrgames",
+      "ifr": "8d8b666148b824c1a7b07725412920e2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "ugrgames-mazeloop-neon"
+    },
+    "videoigrice/baby-taylor-memory-quest": {
+      "name": "Baby Taylor Memory Quest",
+      "by": "VideoIgrice",
+      "ifr": "40e16fe7114df19aa6692b481041bbc7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-baby-taylor-memory-quest"
+    },
+    "videoigrice/ben-5-difference": {
+      "name": "Ben 5 Difference",
+      "by": "VideoIgrice",
+      "ifr": "59ec54af5b26e02486bd5bd33b2803df",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-ben-5-difference"
+    },
+    "videoigrice/ben-car-adventure": {
+      "name": "Ben Car Adventure",
+      "by": "VideoIgrice",
+      "ifr": "8d6087838161346c47cbf138ceab7e58",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-ben-car-adventure"
+    },
+    "videoigrice/billiard-diamond-challenge": {
+      "name": "Billiard Diamond Challenge",
+      "by": "VideoIgrice",
+      "ifr": "39366e066b06d3d56f4757bd5f9bdae3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-billiard-diamond-challenge"
+    },
+    "videoigrice/bts-minecraft-coloring-time": {
+      "name": "BTS Minecraft Coloring Time",
+      "by": "VideoIgrice",
+      "ifr": "6c18a4886a6f813ebc6cd492d732c5a3",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-bts-minecraft-coloring-time"
+    },
+    "videoigrice/bts-roblox-coloring": {
+      "name": "BTS Roblox Coloring",
+      "by": "VideoIgrice",
+      "ifr": "b72e626b9a0068ab646c9da090a45258",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-bts-roblox-coloring"
+    },
+    "videoigrice/candy-match-puzzle-challenge": {
+      "name": "Candy Match Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "5b06f1c985827c9aa755cd29b49ea00d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-candy-match-puzzle-challenge"
+    },
+    "videoigrice/car-line-rider": {
+      "name": "Car Line Rider",
+      "by": "VideoIgrice",
+      "ifr": "5b2d54a14e18b3ad1beeec90d23deaa0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-car-line-rider"
+    },
+    "videoigrice/celebrity-lol-funny-face": {
+      "name": "Celebrity LOL Funny Face",
+      "by": "VideoIgrice",
+      "ifr": "ed34e6b7481a7905c6afcb1a2cb4797f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-celebrity-lol-funny-face"
+    },
+    "videoigrice/christmas-puzzle-with-santa": {
+      "name": "Christmas Puzzle With Santa",
+      "by": "VideoIgrice",
+      "ifr": "29e16e69a5bfa803f3cfdd317ba4221a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-christmas-puzzle-with-santa"
+    },
+    "videoigrice/connect-em-all": {
+      "name": "Connect Em All",
+      "by": "VideoIgrice",
+      "ifr": "af9616438eb5a9adc350214438462ba6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-connect-em-all"
+    },
+    "videoigrice/crazy-rocket-man": {
+      "name": "Crazy Rocket Man",
+      "by": "VideoIgrice",
+      "ifr": "9cfa8096a657086b30ff6bdf1b25d8ef",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-crazy-rocket-man"
+    },
+    "videoigrice/cute-tiles-mahjong": {
+      "name": "Cute Tiles Mahjong",
+      "by": "VideoIgrice",
+      "ifr": "2e0613a999b10f4417c7140569e893b0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-cute-tiles-mahjong"
+    },
+    "videoigrice/daily-mahjong-challenge": {
+      "name": "Daily Mahjong Challenge",
+      "by": "VideoIgrice",
+      "ifr": "6d191aadf68b751978b364ce17a5ee10",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-daily-mahjong-challenge"
+    },
+    "videoigrice/dora-puzzle-challenge": {
+      "name": "Dora Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "2eac172c9881c068513b1d43ec8d20a2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-dora-puzzle-challenge"
+    },
+    "videoigrice/easter-match-3-saga": {
+      "name": "Easter Match 3 Saga",
+      "by": "VideoIgrice",
+      "ifr": "8ac479ff9f0c860c69fbfd812b91c2ec",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-easter-match-3-saga"
+    },
+    "videoigrice/easy-apple-coloring-book": {
+      "name": "Easy Apple Coloring Book",
+      "by": "VideoIgrice",
+      "ifr": "e84e720b4fd0e7a67c0877ec8c25e5dc",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-easy-apple-coloring-book"
+    },
+    "videoigrice/easy-coloring-spongy-adventure": {
+      "name": "Easy Coloring Spongy Adventure",
+      "by": "VideoIgrice",
+      "ifr": "2d3e6690731213d769c613e48e03b457",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-easy-coloring-spongy-adventure"
+    },
+    "videoigrice/easy-coloring-sprunki-time": {
+      "name": "Easy Coloring Sprunki Time",
+      "by": "VideoIgrice",
+      "ifr": "f5cd2efd1b9f14f95681a3ff0b2d49f6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-easy-coloring-sprunki-time"
+    },
+    "videoigrice/easy-easter-coloring-eggs": {
+      "name": "Easy Easter Coloring Eggs",
+      "by": "VideoIgrice",
+      "ifr": "67c0d6ea407e61d034fe5d532378e692",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-easy-easter-coloring-eggs"
+    },
+    "videoigrice/elvis-funny-face": {
+      "name": "Elvis Funny Face",
+      "by": "VideoIgrice",
+      "ifr": "ed7abb460ceee57333a908a51c163ca4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-elvis-funny-face"
+    },
+    "videoigrice/farmer-squid-game-challenge": {
+      "name": "Farmer Squid Game Challenge",
+      "by": "VideoIgrice",
+      "ifr": "312d7421515e3677f6cbbe3c16515095",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-farmer-squid-game-challenge"
+    },
+    "videoigrice/flaggy-reveal": {
+      "name": "Flaggy Reveal",
+      "by": "VideoIgrice",
+      "ifr": "13afbcd29236529869f6f169e8a3b5d4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-flaggy-reveal"
+    },
+    "videoigrice/funny-celebrity-face-moments": {
+      "name": "Funny Celebrity Face Moments",
+      "by": "VideoIgrice",
+      "ifr": "21a72d05bf2ffd42a51df81c43e9dc4a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-funny-celebrity-face-moments"
+    },
+    "videoigrice/galaxy-blaster": {
+      "name": "Galaxy Blaster",
+      "by": "VideoIgrice",
+      "ifr": "ecb3f293fbdd9b13ca80a82d004c6675",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-galaxy-blaster"
+    },
+    "videoigrice/get-rich-in": {
+      "name": "Get rich in",
+      "by": "VideoIgrice",
+      "ifr": "71cbb918b12a37149248029f41721f4f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-get-rich-in"
+    },
+    "videoigrice/halloween-tom-math-challenge": {
+      "name": "Halloween Tom Math Challenge",
+      "by": "VideoIgrice",
+      "ifr": "59f9f35d2dbc6c314bd2b473ea583bd7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-halloween-tom-math-challenge"
+    },
+    "videoigrice/hazel-tic-tac-toe": {
+      "name": "Hazel Tic Tac Toe",
+      "by": "VideoIgrice",
+      "ifr": "87cc1646d216c134b20b91db70763d3e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-hazel-tic-tac-toe"
+    },
+    "videoigrice/ice-cream-toppings": {
+      "name": "Ice Cream Toppings",
+      "by": "VideoIgrice",
+      "ifr": "10efb46b961e88469b3f44d863dced91",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-ice-cream-toppings"
+    },
+    "videoigrice/jennifer-dress-up-challenge": {
+      "name": "Jennifer Dress Up Challenge",
+      "by": "VideoIgrice",
+      "ifr": "7f9e47f94c9310dc64041b5f02899bfb",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-jennifer-dress-up-challenge"
+    },
+    "videoigrice/labubu-antistress-game": {
+      "name": "Labubu Antistress Game",
+      "by": "VideoIgrice",
+      "ifr": "beeb354e24bad64e346df89f00e6e739",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-antistress-game"
+    },
+    "videoigrice/labubu-arrow-shooter": {
+      "name": "Labubu Arrow Shooter",
+      "by": "VideoIgrice",
+      "ifr": "3c66ee1c51a9f4848cd92d073b7c9505",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-arrow-shooter"
+    },
+    "videoigrice/labubu-auto-adventure": {
+      "name": "Labubu Auto Adventure",
+      "by": "VideoIgrice",
+      "ifr": "d5348c34fd4456eca0f0265915d465dd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-auto-adventure"
+    },
+    "videoigrice/labubu-find-the-differences": {
+      "name": "Labubu Find the Differences",
+      "by": "VideoIgrice",
+      "ifr": "6a2ef5097770dbf947ec943134112e11",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-find-the-differences"
+    },
+    "videoigrice/labubu-hidden-burger": {
+      "name": "Labubu Hidden Burger",
+      "by": "VideoIgrice",
+      "ifr": "684e227c2cc006e10eb8ab6dc6ab74d1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-hidden-burger"
+    },
+    "videoigrice/labubu-jigsaw-puzzle-time": {
+      "name": "Labubu Jigsaw Puzzle Time",
+      "by": "VideoIgrice",
+      "ifr": "8eb00041859d6ff673f7f1fa158fd0b4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-jigsaw-puzzle-time"
+    },
+    "videoigrice/labubu-memory-challenge": {
+      "name": "Labubu Memory Challenge",
+      "by": "VideoIgrice",
+      "ifr": "95ddfa826a359749102de384d6549479",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-memory-challenge"
+    },
+    "videoigrice/labubu-platform-challenge": {
+      "name": "Labubu Platform Challenge",
+      "by": "VideoIgrice",
+      "ifr": "fd306569c281269bf6d55861e1977d0d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-platform-challenge"
+    },
+    "videoigrice/labubu-puzzle-challenge": {
+      "name": "Labubu Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "0b4a22a8ca542abe9ddd96c8ce46137e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-puzzle-challenge"
+    },
+    "videoigrice/labubu-tic-tac-toe": {
+      "name": "Labubu Tic Tac Toe",
+      "by": "VideoIgrice",
+      "ifr": "113150fdfdee7177fd45ba7696f76bdf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-labubu-tic-tac-toe"
+    },
+    "videoigrice/lol-football-funny-face": {
+      "name": "LOL Football Funny Face",
+      "by": "VideoIgrice",
+      "ifr": "b481b78cb668fdb6d855a0efe3b3cfd2",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-lol-football-funny-face"
+    },
+    "videoigrice/minecraft-parkour-trials": {
+      "name": "Minecraft Parkour Trials",
+      "by": "VideoIgrice",
+      "ifr": "a75f5beca738c6737533c4315a04f4d6",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-minecraft-parkour-trials"
+    },
+    "videoigrice/monster-jeep-coloring": {
+      "name": "Monster Jeep Coloring",
+      "by": "VideoIgrice",
+      "ifr": "7704b3f36694235af1cff9721b785bcd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-monster-jeep-coloring"
+    },
+    "videoigrice/mr-bean-puzzle-time": {
+      "name": "Mr. Bean Puzzle Time",
+      "by": "VideoIgrice",
+      "ifr": "e242f463ef4f723c173164568489434f",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-mr-bean-puzzle-time"
+    },
+    "videoigrice/plumber-differences": {
+      "name": "Plumber Differences",
+      "by": "VideoIgrice",
+      "ifr": "c34d9b6e4bcc8b3b65f9beb99de7de66",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-plumber-differences"
+    },
+    "videoigrice/racing-cars-puzzle-time": {
+      "name": "Racing Cars Puzzle Time",
+      "by": "VideoIgrice",
+      "ifr": "f750243af2bc19085b77e1355295612e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-racing-cars-puzzle-time"
+    },
+    "videoigrice/roblox-jigsaw-puzzle-challenge": {
+      "name": "Roblox Jigsaw Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "276cca915437c5a1fabac6d572c7af36",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-roblox-jigsaw-puzzle-challenge"
+    },
+    "videoigrice/santa-claus-xmas-run": {
+      "name": "Santa Claus Xmas Run",
+      "by": "VideoIgrice",
+      "ifr": "73f558d35684ff392d3fa9dea878d243",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-santa-claus-xmas-run"
+    },
+    "videoigrice/sport-cars-puzzle-challenge": {
+      "name": "Sport Cars Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "8acca52fbfa4d03a171246af92c5acce",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-sport-cars-puzzle-challenge"
+    },
+    "videoigrice/sprunki-puzzle-time-game": {
+      "name": "Sprunki Puzzle Time Game",
+      "by": "VideoIgrice",
+      "ifr": "ffd2ee6518ad6c604b9401251d80b0c9",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-sprunki-puzzle-time-game"
+    },
+    "videoigrice/summer-spot-the-differense": {
+      "name": "Summer Spot the Differense",
+      "by": "VideoIgrice",
+      "ifr": "ed8bfee07d6703a4943c12dfc5488b8c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-summer-spot-the-differense"
+    },
+    "videoigrice/tic-tac-toe-multiplayer": {
+      "name": "Tic Tac Toe Multiplayer",
+      "by": "VideoIgrice",
+      "ifr": "2e83c33d477ec3fb7fe470ca5af38ecd",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-tic-tac-toe-multiplayer"
+    },
+    "videoigrice/trail-rider": {
+      "name": "Trail Rider",
+      "by": "VideoIgrice",
+      "ifr": "b6fb3c94c1971343b8f845280cda94df",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-trail-rider"
+    },
+    "videoigrice/tralalero-tralala-endless-run": {
+      "name": "Tralalero Tralala Endless Run",
+      "by": "VideoIgrice",
+      "ifr": "79d260a9e9f6d3558d6ea9fbc291ed99",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-tralalero-tralala-endless-run"
+    },
+    "videoigrice/trump-the-puppet": {
+      "name": "Trump the Puppet",
+      "by": "VideoIgrice",
+      "ifr": "fbfa6aeb9118903fdd6721de34c9b41b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-trump-the-puppet"
+    },
+    "videoigrice/trump-the-ragdoll": {
+      "name": "Trump the Ragdoll",
+      "by": "VideoIgrice",
+      "ifr": "ba03ef0009766c4241e2c403707d3d74",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-trump-the-ragdoll"
+    },
+    "videoigrice/trump-winter-adventure": {
+      "name": "Trump Winter Adventure",
+      "by": "VideoIgrice",
+      "ifr": "76d81078528ded4e215846d282a4ba4a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-trump-winter-adventure"
+    },
+    "videoigrice/unicorn-coloring-challenge": {
+      "name": "Unicorn Coloring Challenge",
+      "by": "VideoIgrice",
+      "ifr": "6c63bf7266d787969ca21ac9981aed63",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-unicorn-coloring-challenge"
+    },
+    "videoigrice/winter-labubu-pacman-adventure": {
+      "name": "Winter Labubu Pacman Adventure",
+      "by": "VideoIgrice",
+      "ifr": "67a82212e67400af4a12cdd460992a42",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-winter-labubu-pacman-adventure"
+    },
+    "videoigrice/world-cup-2026-coloring": {
+      "name": "World Cup 2026 Coloring",
+      "by": "VideoIgrice",
+      "ifr": "30c4daa40c8fb55d457459ee453920f8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-world-cup-2026-coloring"
+    },
+    "videoigrice/world-cup-2026-memory-quest": {
+      "name": "World Cup 2026 Memory Quest",
+      "by": "VideoIgrice",
+      "ifr": "ddb701000b5cb701854be4c24059929d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-world-cup-2026-memory-quest"
+    },
+    "videoigrice/world-cup-2026-puzzle-challenge": {
+      "name": "World Cup 2026 Puzzle Challenge",
+      "by": "VideoIgrice",
+      "ifr": "596e2cb4cd3da5032baf0f4368f481b4",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "videoigrice-world-cup-2026-puzzle-challenge"
+    },
+    "welwise-studio/cool-tuning-paint-the-car": {
+      "name": "Cool Tuning",
+      "by": "Welwise Studio",
+      "ifr": "ff0e2a67ade09a519cbad31249a6254d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-cool-tuning-paint-the-car"
+    },
+    "welwise-studio/cute-knitting-yarn-sorting": {
+      "name": "Cute Knitting: Yarn Sorting",
+      "by": "Welwise Studio",
+      "ifr": "3777b6209c796f2dee0b6b16df20daa1",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-cute-knitting-yarn-sorting"
+    },
+    "welwise-studio/kind-shelter-animal-care-and-treatment": {
+      "name": "Kind Shelter",
+      "by": "Welwise Studio",
+      "ifr": "7034541a53230ba7f393494eed291431",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-kind-shelter-animal-care-and-treatment"
+    },
+    "welwise-studio/playground-ragdoll-sandbox": {
+      "name": "Playground Ragdoll Sandbox",
+      "by": "Welwise Studio",
+      "ifr": "03d630b8b7ff95b3c13bd697bd9b7d2b",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-playground-ragdoll-sandbox"
+    },
+    "welwise-studio/relaxing-mini-games": {
+      "name": "Relaxing Mini Games",
+      "by": "Welwise Studio",
+      "ifr": "94b8bf65b632a41069e0b4114d9e9cd8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-relaxing-mini-games"
+    },
+    "welwise-studio/satisroom-perfectly-organized": {
+      "name": "Satisroom",
+      "by": "Welwise Studio",
+      "ifr": "1592b04c0337b4426d5118f383a5cc5e",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-satisroom-perfectly-organized"
+    },
+    "welwise-studio/tricky-challenges-mini-games": {
+      "name": "Tricky Challenges: Mini Games",
+      "by": "Welwise Studio",
+      "ifr": "fb4098af8649cc35a0f3d78643db3dd7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "welwise-studio-tricky-challenges-mini-games"
+    },
+    "zorlex/abductrator": {
+      "name": "abductrator",
+      "by": "Zorlex",
+      "ifr": "512f544e152a8948a72a3c489bce7522",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-abductrator"
+    },
+    "zorlex/avalanch": {
+      "name": "avalanch",
+      "by": "Zorlex",
+      "ifr": "bda5cd629e085634ffe0410a02eca0b7",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-avalanch"
+    },
+    "zorlex/blob-clash": {
+      "name": "Blob Clash",
+      "by": "Zorlex",
+      "ifr": "1bf2f8ca9fe2e89467a3557b2889e782",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-blob-clash"
+    },
+    "zorlex/bunny-jumping": {
+      "name": "Bunny Jumping",
+      "by": "Zorlex",
+      "ifr": "1ae7dbe1d601cf6030814465bf8f057a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-bunny-jumping"
+    },
+    "zorlex/cat-adventure": {
+      "name": "cat adventure",
+      "by": "Zorlex",
+      "ifr": "4e8848fabe586021fd5b0eb1f010f4d5",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-cat-adventure"
+    },
+    "zorlex/cellf-defense": {
+      "name": "cellf defense",
+      "by": "Zorlex",
+      "ifr": "d9b80b707fbdc4aa170bb582d6b900e0",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-cellf-defense"
+    },
+    "zorlex/crashy-chashy": {
+      "name": "Crashy Chashy",
+      "by": "Zorlex",
+      "ifr": "73a9af854732a7199024aa6e4374f0e8",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-crashy-chashy"
+    },
+    "zorlex/draw-guess": {
+      "name": "Draw Guess",
+      "by": "Zorlex",
+      "ifr": "c960c00d443a75c2710f06bac23f66bf",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-draw-guess"
+    },
+    "zorlex/hill-climb": {
+      "name": "Hill Climb",
+      "by": "Zorlex",
+      "ifr": "0a683c141ee645a584b1a9ac33fc70da",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-hill-climb"
+    },
+    "zorlex/hole-burton-survivors": {
+      "name": "Hole burton survivors",
+      "by": "Zorlex",
+      "ifr": "08c15a0c0d6edf48922e7bec77b9ea7d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-hole-burton-survivors"
+    },
+    "zorlex/lets-run": {
+      "name": "LETS RUN",
+      "by": "Zorlex",
+      "ifr": "7bcff600bae6941fa304a46c1de1765d",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-lets-run"
+    },
+    "zorlex/mud-racer": {
+      "name": "Mud Racer",
+      "by": "Zorlex",
+      "ifr": "77ca4db17764a0de8b9bd1caeefb1498",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-mud-racer"
+    },
+    "zorlex/racer-x": {
+      "name": "racer x",
+      "by": "Zorlex",
+      "ifr": "3e2a492c04728097081a1d1729cfdb7a",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-racer-x"
+    },
+    "zorlex/relic-hunter": {
+      "name": "relic hunter",
+      "by": "Zorlex",
+      "ifr": "027468cc5df31ae95b65d106af6ce7ae",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-relic-hunter"
+    },
+    "zorlex/the-bodyguard-space": {
+      "name": "The BodyGuard Space",
+      "by": "Zorlex",
+      "ifr": "7c521b81eedf76dc0a02125cbc392d09",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-the-bodyguard-space"
+    },
+    "zorlex/tile-2-match": {
+      "name": "Tile 2 match",
+      "by": "Zorlex",
+      "ifr": "f45e24bc93eaaa6df028dbf5e894a561",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-tile-2-match"
+    },
+    "zorlex/tracing-kids": {
+      "name": "Tracing kids",
+      "by": "Zorlex",
+      "ifr": "86e995eb76885bc34d14f2ba3823e6ed",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-tracing-kids"
+    },
+    "zorlex/vegetable-spelling-puzzle": {
+      "name": "Vegetable Spelling Puzzle",
+      "by": "Zorlex",
+      "ifr": "fcb5ffae55cf6967f583b9ffa7e64d8c",
+      "cats": [
+        "Casual",
+        "Puzzles"
+      ],
+      "c": "#6366f1",
+      "slug": "zorlex-vegetable-spelling-puzzle"
+    }
+  }
+}

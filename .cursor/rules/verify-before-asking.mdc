@@ -1,0 +1,29 @@
+---
+description: Verify work is solid before asking the user about commits or next steps
+alwaysApply: true
+---
+
+# Verify Before Asking
+
+Never ask the user to commit, review, ship, or choose next work until the change is verified as working.
+
+## Required before any ask
+
+1. **Reproduce the user path** — open the real URL/page (or run the real command) that the change affects.
+2. **Check the critical UX** — for UI: layout, click targets, LCP/hero, console errors; for scripts: exit code + expected output.
+3. **Fix failures first** — if anything looks broken, incomplete, or “kinda works”, keep fixing. Do not hand off.
+4. **Only then ask** — commit / PR / “làm tiếp P1?” only after verification passes.
+
+## Anti-patterns
+
+```text
+❌ “Em tối ưu xong, anh commit không?”  (chưa mở trang kiểm tra kỹ)
+❌ “Có vẻ ổn, anh xem giúp…”           (agent chưa tự verify)
+✅ Open page → click Play / rails / console → fix issues → then report + ask
+```
+
+## Bar for “ổn”
+
+- Happy path works without console errors that block use
+- No obvious layout collapse, unclickable CTAs, or missing assets on the changed surface
+- Regressions on the same page type are checked (not only one file in isolation)

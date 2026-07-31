@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 
 # Block non-public / duplicate pages from indexing
+Disallow: /admin/
 Disallow: /404.html
 Disallow: /indexbackup.html
 Disallow: /tools/

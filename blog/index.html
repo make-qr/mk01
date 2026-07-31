@@ -3,26 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Game Guides - Free Online Game Tips & Browser Game Guides | Monkey Mart</title>
-  <meta name="description" content="Browse free online game guides for Monkey Mart, Slope, FNAF, Retro Bowl, Tetris, Wordle Unlimited, Block Blast, and more popular browser games.">
+  <title>Game Guides - Free Online Game Tips &amp; Browser Game Guides | Monkey Mart</title>
+  <meta name="description" content="Browse free online game guides for Monkey Mart, Slope, FNAF, Retro Bowl, Tetris, Wordle Unlimited, Block Blast, and more. Tips, how-to-play, then jump in and play free.">
   <link rel="canonical" href="https://monkeymart.one/blog/">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/wg-grids.css" />
+  <link rel="stylesheet" href="../assets/css/mm-blog.css" />
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="Game Guides - Free Online Game Tips | Monkey Mart">
-  <meta property="og:description" content="Browse free online game guides for Monkey Mart, Slope, FNAF, Retro Bowl, Tetris, and more popular browser games.">
+  <meta property="og:description" content="Guides that help you play — tips, controls, and free browser games on Monkey Mart.">
   <meta property="og:url" content="https://monkeymart.one/blog/">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://monkeymart.one/assets/img/img-up/monkey-mart.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://monkeymart.one/"},{"@type":"ListItem","position":2,"name":"Game Guides","item":"https://monkeymart.one/blog/"}]}</script>
-
   <link rel="dns-prefetch" href="https://universal.wgplayer.com"/><script type="text/javascript" async>!function(e,t){a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='high',m.parentNode.insertBefore(a,m)}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
 </head>
-<body>
-  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu">
-    <i class="fas fa-bars"></i>
-  </button>
+<body class="mm-blog-page">
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu"><i class="fas fa-bars"></i></button>
   <div class="menu-overlay" id="menu-overlay"></div>
   <div class="main-wrapper">
     <main class="main-content">
@@ -30,13 +30,19 @@
         <div class="container">
           <div class="header-content">
             <div class="logo">
-              <a href="/"><img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo"></a>
+              <a href="/"><img src="../assets/img/monkeymart.png" alt="Monkey Mart Logo" width="120" height="56" decoding="async"></a>
             </div>
+            <form class="mm-home-search" action="/category/game.html" method="get" role="search">
+              <label class="visually-hidden" for="mm-blog-nav-search">Search games</label>
+              <input type="search" class="search-input" id="mm-blog-nav-search" name="q" placeholder="Search games…" autocomplete="off" />
+              <button type="submit" class="mm-home-search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+            </form>
             <nav class="nav-menu">
               <ul>
                 <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="../category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
-                <li><a href="../category/play-more.html"><i class="fas fa-cogs"></i> Play More</a></li>
+                <li><a href="/category/game.html"><i class="fas fa-gamepad"></i> All Games</a></li>
+                <li><a href="/category/classic.html"><i class="fas fa-clock-rotate-left"></i> Classic</a></li>
+                <li><a href="/" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</a></li>
                 <li class="active"><a href="/blog/"><i class="fas fa-book"></i> Game Guides</a></li>
               </ul>
             </nav>
@@ -44,111 +50,211 @@
         </div>
       </header>
 
-      <section class="game-description">
-        <div class="container">
+      <div class="mm-blog">
+        <section class="mm-blog-hero">
           <h1>Game Guides</h1>
-          <p>Explore beginner-friendly guides for popular browser games on <a href="/">Monkey Mart</a>. Learn how to play, find useful tips, and jump directly into free online games like Monkey Mart, Slope, FNAF, Retro Bowl, Tetris, Wordle Unlimited, and Block Blast.</p>
-          <p class="guide-inline-links"><a href="/">Play Monkey Mart</a> · <a href="../category/game.html">Browse all games</a> · <a href="/how-to-play-monkey-mart/">How to Play</a> · <a href="/monkey-mart-tips/">Tips</a> · <a href="/monkey-mart-unblocked/">Unblocked</a></p>
-        </div>
-      </section>
+          <p class="mm-blog-hero-lead">Quick tips and how-to-play pages for free browser games — then jump straight into play on Monkey Mart. No download.</p>
+          <form class="mm-blog-search" id="mm-guide-search" role="search">
+            <label class="visually-hidden" for="mm-guide-search-input">Search guides</label>
+            <input type="search" class="search-input" id="mm-guide-search-input" placeholder="Filter guides…" autocomplete="off" />
+            <button type="submit" class="mm-blog-search-btn" aria-label="Filter"><i class="fas fa-search"></i></button>
+          </form>
+          <nav class="mm-blog-chips" aria-label="Guide sections">
+            <a class="mm-blog-chip" href="#featured"><i class="fas fa-star"></i> Featured</a>
+            <a class="mm-blog-chip" href="#monkey-mart"><i class="fas fa-store"></i> Monkey Mart</a>
+            <a class="mm-blog-chip" href="#hot-guides"><i class="fas fa-fire"></i> Hot guides</a>
+            <a class="mm-blog-chip" href="#all-guides"><i class="fas fa-list"></i> All play guides</a>
+            <a class="mm-blog-chip" href="/">Play Monkey Mart</a>
+            <a class="mm-blog-chip" href="/category/game.html">All games</a>
+          </nav>
+        </section>
 
-      <h2 class="related-games-title">Monkey Mart Guides</h2>
-      <section class="games-grid">
-        <a class="game-item" href="../how-to-play-monkey-mart/"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="How to Play Monkey Mart"><span>How to Play Monkey Mart</span></a>
-        <a class="game-item" href="../monkey-mart-tips/"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Monkey Mart Tips"><span>Monkey Mart Tips &amp; Tricks</span></a>
-        <a class="game-item" href="../monkey-mart-unblocked/"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Monkey Mart Unblocked"><span>Monkey Mart Unblocked</span></a>
-        <a class="game-item" href="play-monkey-mart-online.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Play Monkey Mart Online"><span>Play Monkey Mart Online Free</span></a>
-        <a class="game-item" href="monkey-mart-upgrades-guide.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Monkey Mart Upgrades"><span>Monkey Mart Upgrades Guide</span></a>
-        <a class="game-item" href="monkey-mart-vs-monkey-mart-2.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Monkey Mart vs 2"><span>Monkey Mart vs Monkey Mart 2</span></a>
-        <a class="game-item" href="monkey-mart-helper-monkeys.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Helper Monkeys"><span>When to Hire Helper Monkeys</span></a>
-        <a class="game-item" href="monkey-mart-early-game-strategy.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Early Game Strategy"><span>Early Game Strategy</span></a>
-        <a class="game-item" href="monkey-mart-mobile-guide.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Mobile Guide"><span>Mobile Guide</span></a>
-        <a class="game-item" href="monkey-mart-store-expansion.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="Store Expansion"><span>Store Expansion Guide</span></a>
-        <a class="game-item" href="monkey-mart-all-products.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart.png" alt="All Products"><span>All Products Unlock List</span></a>
-      </section>
+        <section class="mm-blog-section" id="featured">
+          <div class="mm-blog-section-head">
+            <h2><i class="fas fa-star"></i> Featured guides</h2>
+            <a class="mm-blog-see-all" href="/">Play now →</a>
+          </div>
+          <div class="mm-blog-grid mm-blog-grid--featured" id="mm-guide-featured">
+            <a class="mm-blog-card" data-guide href="play-slope-online.html" data-tags="slope racing hot">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/slope.png')"></div>
+              <div class="mm-blog-card-body"><strong>Play Slope Online</strong><span>Speed run tips + play free</span></div>
+            </a>
+            <a class="mm-blog-card" data-guide href="play-monkey-mart-online.html" data-tags="monkey mart simulation">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart-2.webp')"></div>
+              <div class="mm-blog-card-body"><strong>Play Monkey Mart Online</strong><span>Idle store guide</span></div>
+            </a>
+            <a class="mm-blog-card" data-guide href="play-retro-bowl-online.html" data-tags="retro bowl sports football">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/retro-bowl.png')"></div>
+              <div class="mm-blog-card-body"><strong>Play Retro Bowl Online</strong><span>Football management tips</span></div>
+            </a>
+            <a class="mm-blog-card" data-guide href="play-2048-online.html" data-tags="2048 puzzle">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/2048.png')"></div>
+              <div class="mm-blog-card-body"><strong>Play 2048 Online</strong><span>Merge strategy basics</span></div>
+            </a>
+            <a class="mm-blog-card" data-guide href="play-geometry-dash-lite-online.html" data-tags="geometry dash platformer">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/geometry-dash-lite.png')"></div>
+              <div class="mm-blog-card-body"><strong>Geometry Dash Lite</strong><span>Timing &amp; practice tips</span></div>
+            </a>
+            <a class="mm-blog-card" data-guide href="play-block-blast-online.html" data-tags="block blast puzzle">
+              <div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/block-blast.png')"></div>
+              <div class="mm-blog-card-body"><strong>Play Block Blast Online</strong><span>Clear the board faster</span></div>
+            </a>
+          </div>
+        </section>
 
-      <h2 class="related-games-title">Play Online — Game Guides</h2>
-      <section class="games-grid">
-        <a class="game-item" href="play-2048-online.html"><img loading="lazy" src="../assets/img/img-up/2048.png" alt="2048"><span>Play 2048 Online Free</span></a>
-        <a class="game-item" href="play-8-ball-pool-online.html"><img loading="lazy" src="../assets/img/img-up/8-ball-pool-billiard.png" alt="8 Ball Pool"><span>Play 8 Ball Pool Online Free</span></a>
-        <a class="game-item" href="play-9007199254740992-online.html"><img loading="lazy" src="../assets/img/img-up/9007199254740992.png" alt="9007199254740992"><span>Play 9007199254740992 Online Free</span></a>
-        <a class="game-item" href="play-a-small-world-cup-online.html"><img loading="lazy" src="../assets/img/img-up/a-small-world-cup.png" alt="A Small World Cup"><span>Play A Small World Cup Online Free</span></a>
-        <a class="game-item" href="play-ages-of-conflict-online.html"><img loading="lazy" src="../assets/img/img-up/ages-of-conflict.png" alt="Ages of Conflict"><span>Play Ages of Conflict Online Free</span></a>
-        <a class="game-item" href="play-among-us-online.html"><img loading="lazy" src="../assets/img/img-up/among-us.png" alt="Among Us"><span>Play Among Us Online Free</span></a>
-        <a class="game-item" href="play-baldis-basics-online.html"><img loading="lazy" src="../assets/img/img-up/baldis-basics.png" alt="Baldis Basics"><span>Play Baldis Basics Online Free</span></a>
-        <a class="game-item" href="play-ball-puzzle-online.html"><img loading="lazy" src="../assets/img/img-up/ball-puzzle.png" alt="Ball Puzzle"><span>Play Ball Puzzle Online Free</span></a>
-        <a class="game-item" href="play-ball-sort-puzzle-online.html"><img loading="lazy" src="../assets/img/img-up/ball-sort-puzzle.png" alt="Ball Sort Puzzle"><span>Play Ball Sort Puzzle Online Free</span></a>
-        <a class="game-item" href="play-basket-and-ball-online.html"><img loading="lazy" src="../assets/img/img-up/basket-and-ball.png" alt="Basket and Ball"><span>Play Basket and Ball Online Free</span></a>
-        <a class="game-item" href="play-basket-random-online.html"><img loading="lazy" src="../assets/img/img-up/basket-random.png" alt="Basket Random"><span>Play Basket Random Online Free</span></a>
-        <a class="game-item" href="play-bitlife-online.html"><img loading="lazy" src="../assets/img/img-up/bitlife.png" alt="Bitlife"><span>Play Bitlife Online Free</span></a>
-        <a class="game-item" href="play-blackjack-online.html"><img loading="lazy" src="../assets/img/img-up/blackjack.png" alt="Blackjack"><span>Play Blackjack Online Free</span></a>
-        <a class="game-item" href="play-block-blast-online.html"><img loading="lazy" src="../assets/img/img-up/block-blast.png" alt="Block Blast"><span>Play Block Blast Online Free</span></a>
-        <a class="game-item" href="play-block-the-pig-online.html"><img loading="lazy" src="../assets/img/img-up/block-the-pig.png" alt="Block the Pig"><span>Play Block the Pig Online Free</span></a>
-        <a class="game-item" href="play-bloons-td-2-online.html"><img loading="lazy" src="../assets/img/img-up/bloons-td-2.png" alt="Bloons TD 2"><span>Play Bloons TD 2 Online Free</span></a>
-        <a class="game-item" href="play-bloons-td-3-online.html"><img loading="lazy" src="../assets/img/img-up/bloons-td-3.png" alt="Bloons TD 3"><span>Play Bloons TD 3 Online Free</span></a>
-        <a class="game-item" href="play-bloons-td-4-online.html"><img loading="lazy" src="../assets/img/img-up/bloons-td-4.png" alt="Bloons TD 4"><span>Play Bloons TD 4 Online Free</span></a>
-        <a class="game-item" href="play-bloons-td-online.html"><img loading="lazy" src="../assets/img/img-up/bloons-td.png" alt="Bloons TD"><span>Play Bloons TD Online Free</span></a>
-        <a class="game-item" href="play-boxing-random-online.html"><img loading="lazy" src="../assets/img/img-up/boxing-random.png" alt="Boxing Random"><span>Play Boxing Random Online Free</span></a>
-        <a class="game-item" href="play-cell-machine-online.html"><img loading="lazy" src="../assets/img/img-up/cell-machine.png" alt="Cell Machine"><span>Play Cell Machine Online Free</span></a>
-        <a class="game-item" href="play-chrome-dino-online.html"><img loading="lazy" src="../assets/img/img-up/chrome-dino.png" alt="Chrome Dino"><span>Play Chrome Dino Online Free</span></a>
-        <a class="game-item" href="play-circlo-online.html"><img loading="lazy" src="../assets/img/img-up/circlo.png" alt="Circlo"><span>Play Circlo Online Free</span></a>
-        <a class="game-item" href="play-flappy-bird-online.html"><img loading="lazy" src="../assets/img/img-up/flappy-bird.png" alt="Flappy Bird"><span>Play Flappy Bird Online Free</span></a>
-        <a class="game-item" href="play-fnaf-1-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-1.png" alt="FNAF 1"><span>Play FNAF 1 Online Free</span></a>
-        <a class="game-item" href="play-fnaf-2-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-2.png" alt="FNAF 2"><span>Play FNAF 2 Online Free</span></a>
-        <a class="game-item" href="play-fnaf-3-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-3.png" alt="FNAF 3"><span>Play FNAF 3 Online Free</span></a>
-        <a class="game-item" href="play-fnaf-4-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-4.png" alt="FNAF 4"><span>Play FNAF 4 Online Free</span></a>
-        <a class="game-item" href="play-fnaf-5-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-5.png" alt="FNAF 5"><span>Play FNAF 5 Online Free</span></a>
-        <a class="game-item" href="play-fnaf-ucn-online.html"><img loading="lazy" src="../assets/img/img-up/fnaf-ucn.png" alt="FNAF UCN"><span>Play FNAF UCN Online Free</span></a>
-        <a class="game-item" href="play-friday-night-funkin-online.html"><img loading="lazy" src="../assets/img/img-up/friday-night-funkin.png" alt="Friday Night Funkin"><span>Play Friday Night Funkin Online Free</span></a>
-        <a class="game-item" href="play-geometry-dash-lite-online.html"><img loading="lazy" src="../assets/img/img-up/geometry-dash-lite.png" alt="Geometry Dash Lite"><span>Play Geometry Dash Lite Online Free</span></a>
-        <a class="game-item" href="play-infinite-craft-online.html"><img loading="lazy" src="../assets/img/img-up/infinite-craft.png" alt="Infinite Craft"><span>Play Infinite Craft Online Free</span></a>
-        <a class="game-item" href="play-monkey-mart-online.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Monkey Mart"><span>Play Monkey Mart Online Free</span></a>
-        <a class="game-item" href="play-papas-freezeria-online.html"><img loading="lazy" src="../assets/img/img-up/papas-freezeria.png" alt="Papas Freezeria"><span>Play Papas Freezeria Online Free</span></a>
-        <a class="game-item" href="play-poptropica-online.html"><img loading="lazy" src="../assets/img/img-up/poptropica.png" alt="Poptropica"><span>Play Poptropica Online Free</span></a>
-        <a class="game-item" href="play-retro-bowl-online.html"><img loading="lazy" src="../assets/img/img-up/retro-bowl.png" alt="Retro Bowl"><span>Play Retro Bowl Online Free</span></a>
-        <a class="game-item" href="play-slope-online.html"><img loading="lazy" src="../assets/img/img-up/slope.png" alt="Slope"><span>Play Slope Online Free</span></a>
-        <a class="game-item" href="play-snow-rider-3d-online.html"><img loading="lazy" src="../assets/img/img-up/snow-rider-3d.png" alt="Snow Rider 3D"><span>Play Snow Rider 3D Online Free</span></a>
-        <a class="game-item" href="play-tetris-online.html"><img loading="lazy" src="../assets/img/img-up/tetris.png" alt="Tetris"><span>Play Tetris Online Free</span></a>
-        <a class="game-item" href="play-wordle-unlimited-online.html"><img loading="lazy" src="../assets/img/img-up/wordle-unlimited.png" alt="Wordle Unlimited"><span>Play Wordle Unlimited Online Free</span></a>
-      </section>
+        <section class="mm-blog-section" id="monkey-mart">
+          <div class="mm-blog-section-head">
+            <h2><i class="fas fa-store"></i> Monkey Mart guides</h2>
+            <a class="mm-blog-see-all" href="/game/monkey-mart.html">Play Monkey Mart →</a>
+          </div>
+          <div class="mm-blog-grid">
+            <a class="mm-blog-card" data-guide href="../how-to-play-monkey-mart/" data-tags="monkey mart how to play"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>How to Play</strong><span>Beginner overview</span></div></a>
+            <a class="mm-blog-card" data-guide href="../monkey-mart-tips/" data-tags="monkey mart tips"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Tips &amp; Tricks</strong><span>Grow your store faster</span></div></a>
+            <a class="mm-blog-card" data-guide href="../monkey-mart-unblocked/" data-tags="monkey mart unblocked"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Unblocked</strong><span>Play at school / work</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-upgrades-guide.html" data-tags="monkey mart upgrades"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Upgrades Guide</strong><span>What to buy first</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-early-game-strategy.html" data-tags="monkey mart early strategy"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Early Game Strategy</strong><span>First hours plan</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-mobile-guide.html" data-tags="monkey mart mobile"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Mobile Guide</strong><span>Touch controls</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-vs-monkey-mart-2.html" data-tags="monkey mart 2 vs"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart-2.webp')"></div><div class="mm-blog-card-body"><strong>vs Monkey Mart 2</strong><span>Which should you play?</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-helper-monkeys.html" data-tags="monkey mart helpers"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Helper Monkeys</strong><span>When to hire</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-store-expansion.html" data-tags="monkey mart store expansion"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>Store Expansion</strong><span>Layout &amp; growth</span></div></a>
+            <a class="mm-blog-card" data-guide href="monkey-mart-all-products.html" data-tags="monkey mart products"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart.png')"></div><div class="mm-blog-card-body"><strong>All Products</strong><span>Unlock list</span></div></a>
+          </div>
+        </section>
 
-      <h2 class="related-games-title">Monkey Mart Tips &amp; Updates</h2>
-      <section class="games-grid">
-        <a class="game-item" href="first-week-success-tips.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="First Week Tips"><span>First Week Success Tips</span></a>
-        <a class="game-item" href="advanced-store-layout-strategies.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Store Layout"><span>Advanced Store Layout Strategies</span></a>
-        <a class="game-item" href="advanced-employee-training-system.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Employee Training"><span>Advanced Employee Training System</span></a>
-        <a class="game-item" href="new-store-expansion-features.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Store Expansion"><span>New Store Expansion Features</span></a>
-        <a class="game-item" href="seasonal-events-special-promotions.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Seasonal Events"><span>Seasonal Events &amp; Promotions</span></a>
-        <a class="game-item" href="customer-feedback-system-update.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Customer Feedback"><span>Customer Feedback System Update</span></a>
-        <a class="game-item" href="../note/monkey-mart-level-3-guide.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Level 3 Guide"><span>Monkey Mart Level 3 Guide</span></a>
-        <a class="game-item" href="../note/monkey-mart-ultimate-guide-gameplay-characters-versions.html"><img loading="lazy" src="../assets/img/img-up/monkey-mart-2.png" alt="Ultimate Guide"><span>Monkey Mart Ultimate Guide</span></a>
-      </section>
+        <section class="mm-blog-section" id="hot-guides">
+          <div class="mm-blog-section-head">
+            <h2><i class="fas fa-fire"></i> Hot play guides</h2>
+          </div>
+          <div class="mm-blog-grid">
+            <a class="mm-blog-card" data-guide href="play-among-us-online.html" data-tags="among us multiplayer"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/among-us.png')"></div><div class="mm-blog-card-body"><strong>Among Us</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-1-online.html" data-tags="fnaf horror"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-1.png')"></div><div class="mm-blog-card-body"><strong>FNAF 1</strong><span>Survive the night</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-snow-rider-3d-online.html" data-tags="snow rider racing"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/snow-rider-3d.png')"></div><div class="mm-blog-card-body"><strong>Snow Rider 3D</strong><span>Endless ski tips</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-tetris-online.html" data-tags="tetris puzzle"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/tetris.png')"></div><div class="mm-blog-card-body"><strong>Tetris</strong><span>Classic stack guide</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-wordle-unlimited-online.html" data-tags="wordle word"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/wordle-unlimited.png')"></div><div class="mm-blog-card-body"><strong>Wordle Unlimited</strong><span>Guess smarter</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-8-ball-pool-online.html" data-tags="pool billiards sports"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/8-ball-pool-billiard.png')"></div><div class="mm-blog-card-body"><strong>8 Ball Pool</strong><span>Aim &amp; bank shots</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-flappy-bird-online.html" data-tags="flappy bird arcade"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/flappy-bird.png')"></div><div class="mm-blog-card-body"><strong>Flappy Bird</strong><span>Timing taps</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-friday-night-funkin-online.html" data-tags="fnf rhythm"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/friday-night-funkin.png')"></div><div class="mm-blog-card-body"><strong>Friday Night Funkin</strong><span>Hit the notes</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-circlo-online.html" data-tags="circlo arcade"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/circlo.png')"></div><div class="mm-blog-card-body"><strong>Circlo</strong><span>One-button focus</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-basket-random-online.html" data-tags="basket random sports"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/basket-random.png')"></div><div class="mm-blog-card-body"><strong>Basket Random</strong><span>Chaotic hoops</span></div></a>
+          </div>
+        </section>
+
+        <section class="mm-blog-section" id="all-guides">
+          <div class="mm-blog-section-head">
+            <h2><i class="fas fa-list"></i> All play-online guides</h2>
+            <span id="mm-guide-count" class="mm-blog-see-all"></span>
+          </div>
+          <div class="mm-blog-grid" id="mm-guide-all">
+            <a class="mm-blog-card" data-guide href="play-2048-online.html" data-tags="2048"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/2048.png')"></div><div class="mm-blog-card-body"><strong>2048</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-8-ball-pool-online.html" data-tags="8 ball pool"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/8-ball-pool-billiard.png')"></div><div class="mm-blog-card-body"><strong>8 Ball Pool</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-9007199254740992-online.html" data-tags="9007199254740992"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/9007199254740992.png')"></div><div class="mm-blog-card-body"><strong>9007199254740992</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-a-small-world-cup-online.html" data-tags="small world cup"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/a-small-world-cup.png')"></div><div class="mm-blog-card-body"><strong>A Small World Cup</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-ages-of-conflict-online.html" data-tags="ages of conflict"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/ages-of-conflict.png')"></div><div class="mm-blog-card-body"><strong>Ages of Conflict</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-among-us-online.html" data-tags="among us"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/among-us.png')"></div><div class="mm-blog-card-body"><strong>Among Us</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-baldis-basics-online.html" data-tags="baldis basics"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/baldis-basics.png')"></div><div class="mm-blog-card-body"><strong>Baldi's Basics</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-ball-puzzle-online.html" data-tags="ball puzzle"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/ball-puzzle.png')"></div><div class="mm-blog-card-body"><strong>Ball Puzzle</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-ball-sort-puzzle-online.html" data-tags="ball sort"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/ball-sort-puzzle.png')"></div><div class="mm-blog-card-body"><strong>Ball Sort Puzzle</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-basket-and-ball-online.html" data-tags="basket and ball"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/basket-and-ball.png')"></div><div class="mm-blog-card-body"><strong>Basket and Ball</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-basket-random-online.html" data-tags="basket random"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/basket-random.png')"></div><div class="mm-blog-card-body"><strong>Basket Random</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-bitlife-online.html" data-tags="bitlife"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/bitlife.png')"></div><div class="mm-blog-card-body"><strong>Bitlife</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-blackjack-online.html" data-tags="blackjack"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/blackjack.png')"></div><div class="mm-blog-card-body"><strong>Blackjack</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-block-blast-online.html" data-tags="block blast"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/block-blast.png')"></div><div class="mm-blog-card-body"><strong>Block Blast</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-block-the-pig-online.html" data-tags="block the pig"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/block-the-pig.png')"></div><div class="mm-blog-card-body"><strong>Block the Pig</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-bloons-td-online.html" data-tags="bloons td"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/bloons-td.png')"></div><div class="mm-blog-card-body"><strong>Bloons TD</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-bloons-td-2-online.html" data-tags="bloons td 2"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/bloons-td-2.png')"></div><div class="mm-blog-card-body"><strong>Bloons TD 2</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-bloons-td-3-online.html" data-tags="bloons td 3"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/bloons-td-3.png')"></div><div class="mm-blog-card-body"><strong>Bloons TD 3</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-bloons-td-4-online.html" data-tags="bloons td 4"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/bloons-td-4.png')"></div><div class="mm-blog-card-body"><strong>Bloons TD 4</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-boxing-random-online.html" data-tags="boxing random"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/boxing-random.png')"></div><div class="mm-blog-card-body"><strong>Boxing Random</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-cell-machine-online.html" data-tags="cell machine"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/cell-machine.png')"></div><div class="mm-blog-card-body"><strong>Cell Machine</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-chrome-dino-online.html" data-tags="chrome dino"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/chrome-dino.png')"></div><div class="mm-blog-card-body"><strong>Chrome Dino</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-circlo-online.html" data-tags="circlo"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/circlo.png')"></div><div class="mm-blog-card-body"><strong>Circlo</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-flappy-bird-online.html" data-tags="flappy bird"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/flappy-bird.png')"></div><div class="mm-blog-card-body"><strong>Flappy Bird</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-1-online.html" data-tags="fnaf 1"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-1.png')"></div><div class="mm-blog-card-body"><strong>FNAF 1</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-2-online.html" data-tags="fnaf 2"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-2.png')"></div><div class="mm-blog-card-body"><strong>FNAF 2</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-3-online.html" data-tags="fnaf 3"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-3.png')"></div><div class="mm-blog-card-body"><strong>FNAF 3</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-4-online.html" data-tags="fnaf 4"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-4.png')"></div><div class="mm-blog-card-body"><strong>FNAF 4</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-5-online.html" data-tags="fnaf 5"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-5.png')"></div><div class="mm-blog-card-body"><strong>FNAF 5</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-fnaf-ucn-online.html" data-tags="fnaf ucn"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/fnaf-ucn.png')"></div><div class="mm-blog-card-body"><strong>FNAF UCN</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-friday-night-funkin-online.html" data-tags="friday night funkin"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/friday-night-funkin.png')"></div><div class="mm-blog-card-body"><strong>Friday Night Funkin</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-geometry-dash-lite-online.html" data-tags="geometry dash"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/geometry-dash-lite.png')"></div><div class="mm-blog-card-body"><strong>Geometry Dash Lite</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-infinite-craft-online.html" data-tags="infinite craft"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/infinite-craft.png')"></div><div class="mm-blog-card-body"><strong>Infinite Craft</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-monkey-mart-online.html" data-tags="monkey mart"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/monkey-mart-2.webp')"></div><div class="mm-blog-card-body"><strong>Monkey Mart</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-poptropica-online.html" data-tags="poptropica"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/poptropica.png')"></div><div class="mm-blog-card-body"><strong>Poptropica</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-retro-bowl-online.html" data-tags="retro bowl"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/retro-bowl.png')"></div><div class="mm-blog-card-body"><strong>Retro Bowl</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-slope-online.html" data-tags="slope"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/slope.png')"></div><div class="mm-blog-card-body"><strong>Slope</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-snow-rider-3d-online.html" data-tags="snow rider"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/snow-rider-3d.png')"></div><div class="mm-blog-card-body"><strong>Snow Rider 3D</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-tetris-online.html" data-tags="tetris"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/tetris.png')"></div><div class="mm-blog-card-body"><strong>Tetris</strong><span>Play online free</span></div></a>
+            <a class="mm-blog-card" data-guide href="play-wordle-unlimited-online.html" data-tags="wordle"><div class="mm-blog-card-art" style="background-image:url('../assets/img/img-up/wordle-unlimited.png')"></div><div class="mm-blog-card-body"><strong>Wordle Unlimited</strong><span>Play online free</span></div></a>
+          </div>
+        </section>
+      </div>
     </main>
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>About</h3>
-        <ul>
-          <li><a href="../about.html">About Us</a></li>
-          <li><a href="../contact.html">Contact</a></li>
-          <li><a href="../faq.html">FAQ</a></li>
-        </ul>
+  <footer class="mm-footer">
+    <div class="mm-footer-inner">
+      <div class="mm-footer-top">
+        <div class="mm-footer-brand">
+          <div class="mm-footer-brand-logo"><a href="/"><img src="/assets/img/monkeymart.png" alt="Monkey Mart"/></a></div>
+          <p>Play free online games at MonkeyMart.one — no download, instant play. Guides help you learn, then jump in.</p>
+        </div>
+        <div class="mm-footer-col">
+          <h3>About</h3>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+        <div class="mm-footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/category/game.html">All Games</a></li>
+            <li><a href="/category/classic.html">Classic Games</a></li>
+            <li><a href="/blog/">Game Guides</a></li>
+          </ul>
+        </div>
+        <div class="mm-footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="/disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="footer-section">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="../category/game.html">All Games</a></li>
-          <li><a href="/blog/">Game Guides</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 Monkey Mart. All rights reserved.</p>
+      <div class="mm-footer-bottom"><p>&copy; 2026 Monkey Mart. All rights reserved.</p></div>
     </div>
   </footer>
   <script src="../assets/js/main.js"></script>
+  <script>
+    (function () {
+      var input = document.getElementById('mm-guide-search-input');
+      var form = document.getElementById('mm-guide-search');
+      var countEl = document.getElementById('mm-guide-count');
+      function filterGuides() {
+        var q = (input && input.value || '').trim().toLowerCase();
+        var cards = document.querySelectorAll('[data-guide]');
+        var shown = 0;
+        cards.forEach(function (card) {
+          var hay = ((card.getAttribute('data-tags') || '') + ' ' + (card.textContent || '')).toLowerCase();
+          var ok = !q || hay.indexOf(q) !== -1;
+          card.classList.toggle('is-hidden', !ok);
+          if (ok) shown++;
+        });
+        if (countEl) countEl.textContent = q ? shown + ' matches' : '';
+      }
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          filterGuides();
+        });
+      }
+      if (input) input.addEventListener('input', filterGuides);
+    })();
+  </script>
 </body>
 </html>

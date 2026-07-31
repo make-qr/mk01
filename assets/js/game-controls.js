@@ -1,4 +1,4 @@
-// Game controls — share, fullscreen; optional click-to-play for legacy pages
+// Game controls — share, fullscreen, click-to-play, copy toast
 document.addEventListener('DOMContentLoaded', function () {
   const gameContainer =
     document.querySelector('.wg-player-wrap') ||
@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const shareMenu = document.getElementById('share-menu');
   const fullscreenButton = document.getElementById('fullscreen-btn');
   const loadingOverlay = document.querySelector('.loading-overlay');
+  const actionBar =
+    document.querySelector('.mm-player-chrome .mm-action-bar') ||
+    document.querySelector('.mm-action-bar');
 
   if (!gameContainer) return;
 
@@ -17,28 +20,67 @@ document.addEventListener('DOMContentLoaded', function () {
     (gameFrame && (gameFrame.getAttribute('src') || gameFrame.getAttribute('data-src'))) || '';
   var isWgEmbed = wgSrc.indexOf('play.wgplayground.com/ifr/') !== -1;
 
-  // Legacy click-to-play (native games with poster)
-  if (playButton && gameFrame && thumbnail) {
-    playButton.addEventListener('click', function () {
-      thumbnail.style.display = 'none';
-      if (loadingOverlay) loadingOverlay.style.display = 'flex';
-
-      const gameUrl = gameFrame.getAttribute('data-src') || gameFrame.src;
-      if (gameUrl && !gameFrame.src) gameFrame.src = gameUrl;
-
-      gameFrame.onload = function () {
-        if (loadingOverlay) loadingOverlay.style.display = 'none';
-        gameFrame.style.display = 'block';
-      };
-    });
+  function frameAttrSrc() {
+    return (gameFrame && gameFrame.getAttribute('src')) || '';
   }
 
-  // Direct-load (no play button): load the game immediately — skip for WG embeds
-  // (mm-player-recovery.js owns WG iframe launch / consent).
+  function resolvePlayUrl() {
+    if (!gameFrame) return '';
+    return gameFrame.getAttribute('data-src') || frameAttrSrc() || '';
+  }
+
+  function showShareToast(message) {
+    if (!actionBar) return;
+    var toast = actionBar.querySelector('.mm-share-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.className = 'mm-share-toast';
+      toast.setAttribute('role', 'status');
+      actionBar.appendChild(toast);
+    }
+    toast.textContent = message || 'Link copied';
+    toast.classList.add('is-visible');
+    clearTimeout(showShareToast._timer);
+    showShareToast._timer = setTimeout(function () {
+      toast.classList.remove('is-visible');
+    }, 1800);
+  }
+
+  function startGameFromPoster() {
+    if (!gameFrame || !thumbnail) return;
+    thumbnail.style.display = 'none';
+    if (loadingOverlay) loadingOverlay.style.display = 'flex';
+
+    var gameUrl = resolvePlayUrl();
+    if (gameUrl) {
+      gameFrame.setAttribute('src', gameUrl);
+      gameFrame.src = gameUrl;
+    }
+    gameFrame.style.display = 'block';
+
+    var settled = false;
+    function settle() {
+      if (settled) return;
+      settled = true;
+      if (loadingOverlay) loadingOverlay.style.display = 'none';
+    }
+    gameFrame.addEventListener('load', settle);
+    setTimeout(settle, isWgEmbed ? 2500 : 8000);
+
+    if (typeof window.MM_WG_ON_PLAY === 'function') {
+      try {
+        window.MM_WG_ON_PLAY();
+      } catch (e) {}
+    }
+  }
+
+  if (playButton && gameFrame && thumbnail) {
+    playButton.addEventListener('click', startGameFromPoster);
+  }
+
   if (gameFrame && !playButton && !isWgEmbed) {
     const dataSrc = gameFrame.getAttribute('data-src');
-    if (dataSrc && !gameFrame.src) {
-      // We trigger the load, so show the spinner until the frame is ready.
+    if (dataSrc && !frameAttrSrc()) {
       if (loadingOverlay) {
         loadingOverlay.style.display = 'flex';
         gameFrame.addEventListener('load', function () {
@@ -48,8 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {
       gameFrame.src = dataSrc;
       gameFrame.style.display = 'block';
     }
-    // Otherwise the iframe already has a native src and shows WG's own
-    // loading/play screen, so no extra overlay is needed.
   }
 
   if (shareButton && shareMenu) {
@@ -71,9 +111,30 @@ document.addEventListener('DOMContentLoaded', function () {
   const pinterestBtn = document.getElementById('pinterest-btn');
 
   if (copyLinkBtn) {
-    copyLinkBtn.addEventListener('click', function () {
-      navigator.clipboard.writeText(window.location.href);
-      alert('Link copied to clipboard!');
+    copyLinkBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var href = window.location.href;
+      function done() {
+        showShareToast('Link copied');
+        if (shareMenu) shareMenu.classList.remove('active');
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(href).then(done).catch(done);
+      } else {
+        try {
+          var ta = document.createElement('textarea');
+          ta.value = href;
+          ta.setAttribute('readonly', '');
+          ta.style.position = 'fixed';
+          ta.style.left = '-9999px';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+        } catch (err) {}
+        done();
+      }
     });
   }
   if (facebookBtn) {
@@ -81,7 +142,8 @@ document.addEventListener('DOMContentLoaded', function () {
       window.open(
         'https://www.facebook.com/sharer/sharer.php?u=' +
           encodeURIComponent(window.location.href),
-        '_blank'
+        '_blank',
+        'width=600,height=400'
       );
     });
   }
@@ -89,8 +151,11 @@ document.addEventListener('DOMContentLoaded', function () {
     twitterBtn.addEventListener('click', function () {
       window.open(
         'https://twitter.com/intent/tweet?url=' +
-          encodeURIComponent(window.location.href),
-        '_blank'
+          encodeURIComponent(window.location.href) +
+          '&text=' +
+          encodeURIComponent(document.title),
+        '_blank',
+        'width=600,height=400'
       );
     });
   }
@@ -99,31 +164,37 @@ document.addEventListener('DOMContentLoaded', function () {
       window.open(
         'https://pinterest.com/pin/create/button/?url=' +
           encodeURIComponent(window.location.href),
-        '_blank'
+        '_blank',
+        'width=600,height=400'
       );
     });
   }
 
-  if (!fullscreenButton) return;
+  function setFullscreenLabel(active) {
+    if (!fullscreenButton) return;
+    fullscreenButton.innerHTML = active
+      ? '<i class="fas fa-compress"></i> Exit'
+      : '<i class="fas fa-expand"></i> Fullscreen';
+  }
 
-  fullscreenButton.addEventListener('click', function () {
-    if (!document.fullscreenElement) {
-      const el = gameContainer;
-      if (el.requestFullscreen) el.requestFullscreen();
-      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-      else if (el.msRequestFullscreen) el.msRequestFullscreen();
-      fullscreenButton.innerHTML = '<i class="fas fa-compress"></i>';
-    } else {
-      if (document.exitFullscreen) document.exitFullscreen();
-      else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
-      else if (document.msExitFullscreen) document.msExitFullscreen();
-      fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
-    }
-  });
+  if (fullscreenButton) {
+    fullscreenButton.addEventListener('click', function () {
+      if (!document.fullscreenElement) {
+        const el = gameContainer;
+        if (el.requestFullscreen) el.requestFullscreen();
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+        else if (el.msRequestFullscreen) el.msRequestFullscreen();
+        setFullscreenLabel(true);
+      } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+        else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+        else if (document.msExitFullscreen) document.msExitFullscreen();
+        setFullscreenLabel(false);
+      }
+    });
 
-  document.addEventListener('fullscreenchange', function () {
-    if (!document.fullscreenElement) {
-      fullscreenButton.innerHTML = '<i class="fas fa-expand"></i>';
-    }
-  });
+    document.addEventListener('fullscreenchange', function () {
+      setFullscreenLabel(!!document.fullscreenElement);
+    });
+  }
 });

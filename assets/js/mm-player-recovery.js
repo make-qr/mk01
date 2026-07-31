@@ -1,6 +1,6 @@
 /**
  * WGPlayground embed helper — postMessage launch, ad consent, black-screen recovery.
- * Ported from the working MonkeyMart WG portal (playerIframe → game-frame).
+ * Supports click-to-play: iframe may start with data-src only until Play is pressed.
  */
 (function () {
   'use strict';
@@ -20,19 +20,26 @@
   var DEV_REFERRER = 'monkeymart.one';
   document.body.classList.add('mm-wg-game');
 
+  var booted = false;
+  var lastLaunchAt = 0;
+  var launched = false;
+  var interacted = false;
+  var recoveryTimer = null;
+  var recoveryEl = null;
+  var bootLaunchDone = false;
+
   /** WG reads parent hostname for ?r= on the game URL; localhost is not whitelisted. */
   function patchDevReferrer() {
     var host = location.hostname;
     if (host !== 'localhost' && host !== '127.0.0.1' && host !== '0.0.0.0') return;
     var current = iframe.getAttribute('src') || src;
-    if (!current || current.indexOf('r=') !== -1) return;
+    if (!current || current.indexOf('play.wgplayground.com/ifr/') === -1) return;
+    if (current.indexOf('r=') !== -1) return;
     var sep = current.indexOf('?') === -1 ? '?' : '&';
     var next = current + sep + 'r=' + encodeURIComponent(DEV_REFERRER);
     iframe.setAttribute('src', next);
     src = next;
   }
-
-  patchDevReferrer();
 
   function grantAdConsent() {
     if (typeof window.gtag !== 'function') return;
@@ -44,8 +51,6 @@
       });
     } catch (e) {}
   }
-
-  var lastLaunchAt = 0;
 
   function postLaunch() {
     if (!iframe.contentWindow) return;
@@ -67,26 +72,13 @@
     }
   }
 
-  var launched = false;
-  var interacted = false;
-  var recoveryTimer = null;
-  var recoveryEl = null;
-  var bootLaunchDone = false;
-
-  window.addEventListener('message', function (e) {
-    if (e.source !== iframe.contentWindow) return;
-    if (!e.data || e.data.type !== 'wgp-launched') return;
-    launched = true;
-    hideRecovery();
-  });
-
   function showRecovery() {
     if (launched || recoveryEl) return;
     recoveryEl = document.createElement('div');
     recoveryEl.className = 'mm-player-recovery';
     recoveryEl.setAttribute('role', 'status');
     recoveryEl.innerHTML =
-      '<p class="mm-player-recovery__text">Game stuck on a black screen?</p>' +
+      '<p class="mm-player-recovery__text">Still preparing the game?</p>' +
       '<button type="button" class="mm-player-recovery__btn">Reload game</button>';
     frame.appendChild(recoveryEl);
     recoveryEl.querySelector('button').addEventListener('click', function () {
@@ -123,12 +115,45 @@
     scheduleRecoveryCheck();
   }
 
-  frame.addEventListener('pointerdown', onInteract, { passive: true });
-
-  iframe.addEventListener('load', function () {
+  function onIframeLoad() {
     if (interacted) postLaunch();
     if (bootLaunchDone) return;
     bootLaunchDone = true;
     setTimeout(postLaunch, 400);
+  }
+
+  function boot() {
+    if (booted) return;
+    src = iframe.getAttribute('src') || iframe.getAttribute('data-src') || src;
+    if (!src || src.indexOf('play.wgplayground.com/ifr/') === -1) return;
+    if (!iframe.getAttribute('src')) return;
+    booted = true;
+    patchDevReferrer();
+    iframe.addEventListener('load', onIframeLoad);
+    // If already loaded (cached), kick launch once.
+    try {
+      if (iframe.contentWindow) setTimeout(postLaunch, 400);
+    } catch (e) {}
+  }
+
+  window.addEventListener('message', function (e) {
+    if (e.source !== iframe.contentWindow) return;
+    if (!e.data || e.data.type !== 'wgp-launched') return;
+    launched = true;
+    hideRecovery();
   });
+
+  frame.addEventListener('pointerdown', onInteract, { passive: true });
+
+  window.MM_WG_ON_PLAY = function () {
+    boot();
+    interacted = true;
+    grantAdConsent();
+    scheduleRecoveryCheck();
+  };
+
+  // Eager iframe (legacy) — boot immediately. Click-to-play waits for Play.
+  if (iframe.getAttribute('src')) {
+    boot();
+  }
 })();

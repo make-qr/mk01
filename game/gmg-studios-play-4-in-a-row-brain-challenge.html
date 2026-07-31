@@ -17,7 +17,7 @@
 <meta name="twitter:image" content="https://monkeymart.one/assets/img/wg/gmg-studios-play-4-in-a-row-brain-challenge/og.webp"/>
 <link rel="canonical" href="https://monkeymart.one/game/gmg-studios-play-4-in-a-row-brain-challenge.html"/>
 <meta name="robots" content="index, follow"/>
-<link rel="dns-prefetch" href="https://universal.wgplayer.com"/><script type="text/javascript" async>!function(e,t){a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='high',m.parentNode.insertBefore(a,m)}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
+<link rel="dns-prefetch" href="https://universal.wgplayer.com"/><link rel="preload" as="image" href="/assets/img/wg/gmg-studios-play-4-in-a-row-brain-challenge/thumbnail.webp" fetchpriority="high"/><script type="text/javascript" async>!function(e,t){a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='auto',m.parentNode.insertBefore(a,m)}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -45,7 +45,8 @@
   }
 }
 </script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/></noscript>
 <link href="../assets/css/style.css" rel="stylesheet"/>
 <link href="../assets/css/wg-grids.css" rel="stylesheet"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
@@ -105,17 +106,36 @@ window.MM_CURRENT_GAME = {"id": "gmg-studios-play-4-in-a-row-brain-challenge", "
 </aside>
 <div class="wg-stage-center">
 <div class="wg-player-wrap" id="mm-player">
+<div class="game-thumbnail">
+<img src="/assets/img/wg/gmg-studios-play-4-in-a-row-brain-challenge/thumbnail.webp" width="320" height="320" alt="Play 4 in a Row – Brain Challenge" fetchpriority="high" decoding="async"/>
+<button class="play-frame-button" id="playGameButton" type="button"><i class="fas fa-play"></i> Play now</button>
+</div>
 <iframe
   allow="autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write; gyroscope; accelerometer"
   allowfullscreen
   id="game-frame"
-  src="https://play.wgplayground.com/ifr/ed1684876940f65a035a0d10c61166ed"
-  style="display: block;"
+  data-src="https://play.wgplayground.com/ifr/ed1684876940f65a035a0d10c61166ed"
+  style="display: none;"
   title="Play 4 in a Row – Brain Challenge"></iframe>
-<script>(function(){var h=location.hostname,f=document.getElementById('game-frame');if(!f)return;if(h!=='localhost'&&h!=='127.0.0.1'&&h!=='0.0.0.0')return;var s=f.getAttribute('src')||'';if(s.indexOf('play.wgplayground.com/ifr/')===-1||s.indexOf('r=')!==-1)return;f.src=s+(s.indexOf('?')===-1?'?':'&')+'r=monkeymart.one';})();</script>
 <div class="loading-overlay" style="display: none;">
 <div class="loading-spinner"></div>
-<div class="loading-text">Loading Play 4 in a Row – Brain Challenge...</div>
+<div class="loading-text">Preparing…</div>
+<div class="loading-subtext">We'll be back after a short break</div>
+</div>
+</div>
+
+<div class="mm-player-chrome" aria-label="Game controls">
+<div class="mm-action-bar">
+<button class="mm-action-btn mm-like-btn" id="mm-like-btn" type="button" title="Add to favorites" aria-pressed="false"><i class="fas fa-heart"></i> Like <span class="mm-like-count" id="mm-like-count"></span></button>
+<button class="mm-action-btn" id="share-btn" title="Share" type="button"><i class="fas fa-share-alt"></i> Share</button>
+<button class="mm-action-btn" id="fullscreen-btn" title="Fullscreen" type="button"><i class="fas fa-expand"></i> Fullscreen</button>
+<button class="mm-action-btn mm-action-btn--surprise" type="button" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</button>
+<div class="share-menu" id="share-menu">
+<button class="control-btn" id="copy-link-btn" title="Copy Link" type="button"><i class="fas fa-link"></i></button>
+<button class="control-btn" id="facebook-btn" title="Facebook" type="button"><i class="fab fa-facebook-f"></i></button>
+<button class="control-btn" id="twitter-btn" title="Twitter" type="button"><i class="fab fa-twitter"></i></button>
+<button class="control-btn" id="pinterest-btn" title="Pinterest" type="button"><i class="fab fa-pinterest-p"></i></button>
+</div>
 </div>
 </div>
 </div>
@@ -131,20 +151,10 @@ window.MM_CURRENT_GAME = {"id": "gmg-studios-play-4-in-a-row-brain-challenge", "
 <div class="wg-game-meta">
 <a class="mm-tag mm-tag-link" href="../category/game.html?cat=Puzzles">Puzzles</a>
 <span class="mm-publisher">by GMG Studios</span>
+<span class="mm-device-hint" id="mm-device-hint"></span>
 </div>
 </div>
-<div class="mm-action-bar">
-<button class="mm-action-btn mm-like-btn" id="mm-like-btn" type="button" title="Add to favorites" aria-pressed="false"><i class="fas fa-heart"></i> Like</button>
-<button class="mm-action-btn" id="share-btn" title="Share" type="button"><i class="fas fa-share-alt"></i> Share</button>
-<button class="mm-action-btn" id="fullscreen-btn" title="Fullscreen" type="button"><i class="fas fa-expand"></i> Fullscreen</button>
-<button class="mm-action-btn mm-action-btn--surprise" type="button" data-mm-surprise><i class="fas fa-dice"></i> Surprise me</button>
-<div class="share-menu" id="share-menu">
-<button class="control-btn" id="copy-link-btn" title="Copy Link" type="button"><i class="fas fa-link"></i></button>
-<button class="control-btn" id="facebook-btn" title="Facebook" type="button"><i class="fab fa-facebook-f"></i></button>
-<button class="control-btn" id="twitter-btn" title="Twitter" type="button"><i class="fab fa-twitter"></i></button>
-<button class="control-btn" id="pinterest-btn" title="Pinterest" type="button"><i class="fab fa-pinterest-p"></i></button>
-</div>
-</div>
+
 </div>
 
 <section class="mm-rail-section mm-rail-section--grid2" id="mm-related-section">
@@ -152,12 +162,17 @@ window.MM_CURRENT_GAME = {"id": "gmg-studios-play-4-in-a-row-brain-challenge", "
 <div class="mm-rail-track mm-rail-track--grid2" id="mm-related-rail"></div>
 </section>
 
-<section class="mm-rail-section mm-rail-section--grid2">
+<section class="mm-rail-section mm-rail-section--grid2" id="mm-publisher-section" hidden>
+<h2 class="mm-rail-heading" id="mm-publisher-heading"><i class="fas fa-user"></i> More by this creator</h2>
+<div class="mm-rail-track mm-rail-track--grid2" id="mm-publisher-rail"></div>
+</section>
+
+<section class="mm-rail-section mm-rail-section--grid2 mm-rail-secondary" id="mm-trending-section" hidden>
 <h2 class="mm-rail-heading"><i class="fas fa-bolt"></i> Trending now</h2>
 <div class="mm-rail-track mm-rail-track--grid2" id="mm-trending-rail"></div>
 </section>
 
-<div class="wg-picks-section">
+<div class="wg-picks-section mm-rail-secondary" id="mm-picks-section" hidden>
 <h2 class="related-games-title">Popular picks</h2>
 <div class="wg-picks-grid" id="mm-picks-grid"></div>
 </div>
@@ -173,10 +188,13 @@ window.MM_CURRENT_GAME = {"id": "gmg-studios-play-4-in-a-row-brain-challenge", "
 </section>
 
 <div class="game-description">
-<p>Play <strong>Play 4 in a Row – Brain Challenge</strong> free in your browser at MonkeyMart.one — no download required. The game loads automatically above.</p>
+<p class="mm-game-facts" id="mm-game-facts"></p>
+<div class="mm-controls-blurb" id="mm-controls-blurb"></div>
+
+<p>Play <strong>Play 4 in a Row – Brain Challenge</strong> free in your browser at MonkeyMart.one — no download required. Click <strong>Play Game</strong> above to start.</p>
 <h2>How to Play Play 4 in a Row – Brain Challenge</h2>
 <ul>
-<li>The game loads right away — tap or click <strong>Play</strong> inside the game frame to start</li>
+<li>Tap or click <strong>Play Game</strong> to load the player</li>
 <li>A short video ad may play before the game begins</li>
 <li>Use fullscreen for the best experience on desktop</li>
 <li>Works on mobile, tablet, and desktop browsers</li>
@@ -278,12 +296,11 @@ window.MM_CURRENT_GAME = {"id": "gmg-studios-play-4-in-a-row-brain-challenge", "
 <button class="mm-suggest-dismiss" type="button" data-mm-close>Keep playing</button>
 </div>
 </div>
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/game-controls.js"></script>
-<script src="../assets/js/wg-grids-home.js"></script>
-<script src="../assets/js/wg-featured.js"></script>
-<script src="../assets/js/wg-games.js"></script>
-<script src="../assets/js/mm-player-recovery.js?v=2"></script>
-<script src="../assets/js/mm-engage.js"></script>
+<script defer src="../assets/js/main.js"></script>
+<script defer src="../assets/js/game-controls.js"></script>
+<script defer src="../assets/js/wg-grids-home.js"></script>
+<script defer src="../assets/js/wg-featured.js"></script>
+<script defer src="../assets/js/mm-player-recovery.js?v=3"></script>
+<script defer src="../assets/js/mm-engage.js"></script>
 </body>
 </html>

@@ -557,6 +557,936 @@ const games = [
     name: 'Retro Bowl College',
     image: '../assets/img/img-up/retro-bowl-college.png',
     categories: ['sports', 'arcade']
+  },
+  {
+    id: '8-ball-pool',
+    name: "8 Ball Pool",
+    image: '../assets/img/img-up/8-ball-pool.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: '3d-bowling',
+    name: "3 D Bowling",
+    image: '../assets/img/img-up/3d-bowling.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'awesome-tanks-2',
+    name: "Awesome Tanks 2",
+    image: '../assets/img/img-up/awesome-tanks-2.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: '3-pandas-in-japan',
+    name: "3 Pandas In Japan",
+    image: '../assets/img/img-up/3-pandas-in-japan.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: '1-on-1-soccer',
+    name: "1 On 1 Soccer",
+    image: '../assets/img/img-up/1-on-1-soccer.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'adam-and-eve-6',
+    name: "Adam And Eve 6",
+    image: '../assets/img/img-up/adam-and-eve-6.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: '1010-color-match',
+    name: "1010 Color Match",
+    image: '../assets/img/img-up/1010-color-match.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'apple-shooter',
+    name: "Apple Shooter",
+    image: '../assets/img/img-up/apple-shooter.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: 'arcane-archer',
+    name: "Arcane Archer",
+    image: '../assets/img/img-up/arcane-archer.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'ball-sort-halloween',
+    name: "Ball Sort Halloween",
+    image: '../assets/img/img-up/ball-sort-halloween.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: '8-ball-billiards-classic',
+    name: "8 Ball Billiards Classic",
+    image: '../assets/img/img-up/8-ball-billiards-classic.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'adam-and-eve-51',
+    name: "Adam And Eve 51",
+    image: '../assets/img/img-up/adam-and-eve-51.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: '1010-deluxe',
+    name: "1010 Deluxe",
+    image: '../assets/img/img-up/1010-deluxe.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: '2048-hexa-merge-block',
+    name: "2048 Hexa Merge Block",
+    image: '../assets/img/img-up/2048-hexa-merge-block.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'adam-and-eve-7',
+    name: "Adam And Eve 7",
+    image: '../assets/img/img-up/adam-and-eve-7.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'adam-and-eve-52',
+    name: "Adam And Eve 52",
+    image: '../assets/img/img-up/adam-and-eve-52.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'basketball-stars',
+    name: "Basketball Stars",
+    image: '../assets/img/img-up/basketball-stars.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'basketball-line',
+    name: "Basketball Line",
+    image: '../assets/img/img-up/basketball-line.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'basket-champs',
+    name: "Basket Champs",
+    image: '../assets/img/img-up/basket-champs.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'ballistic',
+    name: "Ballistic",
+    image: '../assets/img/img-up/ballistic.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'big-tower-tiny-square',
+    name: "Big Tower Tiny Square",
+    image: '../assets/img/img-up/big-tower-tiny-square.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'biker-street',
+    name: "Biker Street",
+    image: '../assets/img/img-up/biker-street.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'bubble-pop-adventures',
+    name: "Bubble Pop Adventures",
+    image: '../assets/img/img-up/bubble-pop-adventures.png',
+    categories: ['adventure', 'casual']
+  },
+  {
+    id: 'basketball-legends-2020',
+    name: "Basketball Legends 2020",
+    image: '../assets/img/img-up/basketball-legends-2020.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'bottle-flip',
+    name: "Bottle Flip",
+    image: '../assets/img/img-up/bottle-flip.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'bomb-it-6',
+    name: "Bomb It 6",
+    image: '../assets/img/img-up/bomb-it-6.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'bubble-tower-3-d',
+    name: "Bubble Tower 3 D",
+    image: '../assets/img/img-up/bubble-tower-3-d.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'blumgi-slime',
+    name: "Blumgi Slime",
+    image: '../assets/img/img-up/blumgi-slime.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'car-rush',
+    name: "Car Rush",
+    image: '../assets/img/img-up/car-rush.png',
+    categories: ['racing', 'casual']
+  },
+  {
+    id: 'checkers-legend',
+    name: "Checkers Legend",
+    image: '../assets/img/img-up/checkers-legend.png',
+    categories: ['board', 'casual']
+  },
+  {
+    id: 'bouncy-woods',
+    name: "Bouncy Woods",
+    image: '../assets/img/img-up/bouncy-woods.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'chicken-merge',
+    name: "Chicken Merge",
+    image: '../assets/img/img-up/chicken-merge.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'circlo-o',
+    name: "Circlo O",
+    image: '../assets/img/img-up/circlo-o.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'clicker-heroes',
+    name: "Clicker Heroes",
+    image: '../assets/img/img-up/clicker-heroes.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'clash-of-tanks',
+    name: "Clash Of Tanks",
+    image: '../assets/img/img-up/clash-of-tanks.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: 'circlo-o-2',
+    name: "Circlo O 2",
+    image: '../assets/img/img-up/circlo-o-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'climb-over-it',
+    name: "Climb Over It",
+    image: '../assets/img/img-up/climb-over-it.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'dinosaurs-merge-master',
+    name: "Dinosaurs Merge Master",
+    image: '../assets/img/img-up/dinosaurs-merge-master.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'crazy-cars',
+    name: "Crazy Cars",
+    image: '../assets/img/img-up/crazy-cars.png',
+    categories: ['racing', 'casual']
+  },
+  {
+    id: 'cursed-treasure-2',
+    name: "Cursed Treasure 2",
+    image: '../assets/img/img-up/cursed-treasure-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'crossy-road',
+    name: "Crossy Road",
+    image: '../assets/img/img-up/crossy-road.png',
+    categories: ['racing', 'casual']
+  },
+  {
+    id: 'cubefield',
+    name: "Cubefield",
+    image: '../assets/img/img-up/cubefield.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'dead-again',
+    name: "Dead Again",
+    image: '../assets/img/img-up/dead-again.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'dino-bros',
+    name: "Dino Bros",
+    image: '../assets/img/img-up/dino-bros.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'down-the-hill',
+    name: "Down The Hill",
+    image: '../assets/img/img-up/down-the-hill.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'eggy-car',
+    name: "Eggy Car",
+    image: '../assets/img/img-up/eggy-car.png',
+    categories: ['racing', 'casual']
+  },
+  {
+    id: 'endless-truck',
+    name: "Endless Truck",
+    image: '../assets/img/img-up/endless-truck.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'fnaf',
+    name: "FNAF",
+    image: '../assets/img/img-up/fnaf.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'farm-match-seasons',
+    name: "Farm Match Seasons",
+    image: '../assets/img/img-up/farm-match-seasons.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'fishing-and-lines',
+    name: "Fishing And Lines",
+    image: '../assets/img/img-up/fishing-and-lines.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'fishing-frenzy',
+    name: "Fishing Frenzy",
+    image: '../assets/img/img-up/fishing-frenzy.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'g-switch',
+    name: "G Switch",
+    image: '../assets/img/img-up/g-switch.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'football-brawl',
+    name: "Football Brawl",
+    image: '../assets/img/img-up/football-brawl.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'football-legends',
+    name: "Football Legends",
+    image: '../assets/img/img-up/football-legends.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'football-strike',
+    name: "Football Strike",
+    image: '../assets/img/img-up/football-strike.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'g-switch-2',
+    name: "G Switch 2",
+    image: '../assets/img/img-up/g-switch-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'football-masters',
+    name: "Football Masters",
+    image: '../assets/img/img-up/football-masters.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'fruita-crush',
+    name: "Fruita Crush",
+    image: '../assets/img/img-up/fruita-crush.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'geometry-dash',
+    name: "Geometry Dash",
+    image: '../assets/img/img-up/geometry-dash.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'g-switch-4',
+    name: "G Switch 4",
+    image: '../assets/img/img-up/g-switch-4.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'g-switch-3',
+    name: "G Switch 3",
+    image: '../assets/img/img-up/g-switch-3.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'geometry-jump',
+    name: "Geometry Jump",
+    image: '../assets/img/img-up/geometry-jump.png',
+    categories: ['adventure', 'casual']
+  },
+  {
+    id: 'get-on-top',
+    name: "Get On Top",
+    image: '../assets/img/img-up/get-on-top.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'cookie-clicker-2',
+    name: "Cookie Clicker 2",
+    image: '../assets/img/img-up/cookie-clicker-2.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'getting-over-it',
+    name: "Getting Over It",
+    image: '../assets/img/img-up/getting-over-it.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'head-soccer-2023',
+    name: "Head Soccer 2023",
+    image: '../assets/img/img-up/head-soccer-2023.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'gobdun',
+    name: "Gobdun",
+    image: '../assets/img/img-up/gobdun.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'hanger',
+    name: "Hanger",
+    image: '../assets/img/img-up/hanger.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'guess-the-kitty',
+    name: "Guess The Kitty",
+    image: '../assets/img/img-up/guess-the-kitty.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'groovy-ski',
+    name: "Groovy Ski",
+    image: '../assets/img/img-up/groovy-ski.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'happy-fishing',
+    name: "Happy Fishing",
+    image: '../assets/img/img-up/happy-fishing.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'hoop-royale',
+    name: "Hoop Royale",
+    image: '../assets/img/img-up/hoop-royale.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'hide-and-smash',
+    name: "Hide And Smash",
+    image: '../assets/img/img-up/hide-and-smash.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'heads-arena-soccer-all-stars',
+    name: "Heads Arena Soccer All Stars",
+    image: '../assets/img/img-up/heads-arena-soccer-all-stars.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'icy-purple-head-3',
+    name: "Icy Purple Head 3",
+    image: '../assets/img/img-up/icy-purple-head-3.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'icy-purple-head-2',
+    name: "Icy Purple Head 2",
+    image: '../assets/img/img-up/icy-purple-head-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'idle-mining-empire',
+    name: "Idle Mining Empire",
+    image: '../assets/img/img-up/idle-mining-empire.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'hop-pop-it',
+    name: "Hop Pop It",
+    image: '../assets/img/img-up/hop-pop-it.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'idle-restaurants',
+    name: "Idle Restaurants",
+    image: '../assets/img/img-up/idle-restaurants.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'infinite-soccer',
+    name: "Infinite Soccer",
+    image: '../assets/img/img-up/infinite-soccer.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'jewels-blitz-5',
+    name: "Jewels Blitz 5",
+    image: '../assets/img/img-up/jewels-blitz-5.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'iron-snout',
+    name: "Iron Snout",
+    image: '../assets/img/img-up/iron-snout.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'linebacker-alley-2',
+    name: "Linebacker Alley 2",
+    image: '../assets/img/img-up/linebacker-alley-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'marbles-sorting',
+    name: "Marbles Sorting",
+    image: '../assets/img/img-up/marbles-sorting.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'minecraft-case-simulator',
+    name: "Minecraft Case Simulator",
+    image: '../assets/img/img-up/minecraft-case-simulator.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'little-alchemy-2',
+    name: "Little Alchemy 2",
+    image: '../assets/img/img-up/little-alchemy-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'money-movers',
+    name: "Money Movers",
+    image: '../assets/img/img-up/money-movers.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'mr-bullet',
+    name: "Mr Bullet",
+    image: '../assets/img/img-up/mr-bullet.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'money-movers-3',
+    name: "Money Movers 3",
+    image: '../assets/img/img-up/money-movers-3.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'mergest-kingdom',
+    name: "Mergest Kingdom",
+    image: '../assets/img/img-up/mergest-kingdom.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'money-movers-2',
+    name: "Money Movers 2",
+    image: '../assets/img/img-up/money-movers-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'mr-bullet-3-d',
+    name: "Mr Bullet 3 D",
+    image: '../assets/img/img-up/mr-bullet-3-d.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'moving-truck',
+    name: "Moving Truck",
+    image: '../assets/img/img-up/moving-truck.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'mutazone',
+    name: "Mutazone",
+    image: '../assets/img/img-up/mutazone.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'ninja-cat-exploit',
+    name: "Ninja Cat Exploit",
+    image: '../assets/img/img-up/ninja-cat-exploit.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'ov-o',
+    name: "Ov O",
+    image: '../assets/img/img-up/ov-o.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'parking-fury',
+    name: "Parking Fury",
+    image: '../assets/img/img-up/parking-fury.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'ov-o-2',
+    name: "Ov O 2",
+    image: '../assets/img/img-up/ov-o-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'papa-cherry-saga',
+    name: "Papa Cherry Saga",
+    image: '../assets/img/img-up/papa-cherry-saga.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'park-out',
+    name: "Park Out",
+    image: '../assets/img/img-up/park-out.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'parking-fury-3',
+    name: "Parking Fury 3",
+    image: '../assets/img/img-up/parking-fury-3.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'parking-fury-2',
+    name: "Parking Fury 2",
+    image: '../assets/img/img-up/parking-fury-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'pizza-tower',
+    name: "Pizza Tower",
+    image: '../assets/img/img-up/pizza-tower.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'pou',
+    name: "Pou",
+    image: '../assets/img/img-up/pou.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'penalty-kick-online',
+    name: "Penalty Kick Online",
+    image: '../assets/img/img-up/penalty-kick-online.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'penalty-shooters-3',
+    name: "Penalty Shooters 3",
+    image: '../assets/img/img-up/penalty-shooters-3.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: 'pixel-smash-duel',
+    name: "Pixel Smash Duel",
+    image: '../assets/img/img-up/pixel-smash-duel.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'rabbit-samurai-2',
+    name: "Rabbit Samurai 2",
+    image: '../assets/img/img-up/rabbit-samurai-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'pudding-monsters',
+    name: "Pudding Monsters",
+    image: '../assets/img/img-up/pudding-monsters.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'poly-art-3-d',
+    name: "Poly Art 3 D",
+    image: '../assets/img/img-up/poly-art-3-d.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'racing-monster-trucks',
+    name: "Racing Monster Trucks",
+    image: '../assets/img/img-up/racing-monster-trucks.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'raft-wars',
+    name: "Raft Wars",
+    image: '../assets/img/img-up/raft-wars.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: 'slope-game',
+    name: "Slope Game",
+    image: '../assets/img/img-up/slope-game.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'roper',
+    name: "Roper",
+    image: '../assets/img/img-up/roper.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'run-3-space',
+    name: "Run 3 Space",
+    image: '../assets/img/img-up/run-3-space.png',
+    categories: ['adventure', 'casual']
+  },
+  {
+    id: 'scary-maze',
+    name: "Scary Maze",
+    image: '../assets/img/img-up/scary-maze.png',
+    categories: ['racing', 'horror', 'casual']
+  },
+  {
+    id: 'rusher-crusher',
+    name: "Rusher Crusher",
+    image: '../assets/img/img-up/rusher-crusher.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'soccer-heads',
+    name: "Soccer Heads",
+    image: '../assets/img/img-up/soccer-heads.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'sling-tomb',
+    name: "Sling Tomb",
+    image: '../assets/img/img-up/sling-tomb.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'space-bar-clicker',
+    name: "Space Bar Clicker",
+    image: '../assets/img/img-up/space-bar-clicker.png',
+    categories: ['simulation', 'casual']
+  },
+  {
+    id: 'solitaire-classic',
+    name: "Solitaire Classic",
+    image: '../assets/img/img-up/solitaire-classic.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'soccer-masters-euro-2020',
+    name: "Soccer Masters Euro 2020",
+    image: '../assets/img/img-up/soccer-masters-euro-2020.png',
+    categories: ['sports', 'casual']
+  },
+  {
+    id: 'spider-solitaire',
+    name: "Spider Solitaire",
+    image: '../assets/img/img-up/spider-solitaire.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'stick-merge',
+    name: "Stick Merge",
+    image: '../assets/img/img-up/stick-merge.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'stick-merge-2',
+    name: "Stick Merge 2",
+    image: '../assets/img/img-up/stick-merge-2.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'subway-surfers',
+    name: "Subway Surfers",
+    image: '../assets/img/img-up/subway-surfers.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'sudoku',
+    name: "Sudoku",
+    image: '../assets/img/img-up/sudoku.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'super-mario-wonder',
+    name: "Super Mario Wonder",
+    image: '../assets/img/img-up/super-mario-wonder.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'swingo',
+    name: "Swingo",
+    image: '../assets/img/img-up/swingo.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tag',
+    name: "Tag",
+    image: '../assets/img/img-up/tag.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tap-tap-shots',
+    name: "Tap Tap Shots",
+    image: '../assets/img/img-up/tap-tap-shots.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tank-trouble',
+    name: "Tank Trouble",
+    image: '../assets/img/img-up/tank-trouble.png',
+    categories: ['action', 'casual']
+  },
+  {
+    id: 'tiny-fishing',
+    name: "Tiny Fishing",
+    image: '../assets/img/img-up/tiny-fishing.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'timber-guy',
+    name: "Timber Guy",
+    image: '../assets/img/img-up/timber-guy.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tunnel-rush-2',
+    name: "Tunnel Rush 2",
+    image: '../assets/img/img-up/tunnel-rush-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'traffic-control',
+    name: "Traffic Control",
+    image: '../assets/img/img-up/traffic-control.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'turn-turn',
+    name: "Turn Turn",
+    image: '../assets/img/img-up/turn-turn.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tower-crash-3-d',
+    name: "Tower Crash 3 D",
+    image: '../assets/img/img-up/tower-crash-3-d.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'vex-8',
+    name: "Vex 8",
+    image: '../assets/img/img-up/vex-8.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'vex-7',
+    name: "Vex 7",
+    image: '../assets/img/img-up/vex-7.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'tropical-merge',
+    name: "Tropical Merge",
+    image: '../assets/img/img-up/tropical-merge.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'wheelie-bike',
+    name: "Wheelie Bike",
+    image: '../assets/img/img-up/wheelie-bike.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheelie-bike-2',
+    name: "Wheelie Bike 2",
+    image: '../assets/img/img-up/wheelie-bike-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-2',
+    name: "Wheely 2",
+    image: '../assets/img/img-up/wheely-2.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-6',
+    name: "Wheely 6",
+    image: '../assets/img/img-up/wheely-6.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-3',
+    name: "Wheely 3",
+    image: '../assets/img/img-up/wheely-3.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-4',
+    name: "Wheely 4",
+    image: '../assets/img/img-up/wheely-4.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-5',
+    name: "Wheely 5",
+    image: '../assets/img/img-up/wheely-5.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wheely-7',
+    name: "Wheely 7",
+    image: '../assets/img/img-up/wheely-7.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wiggle',
+    name: "Wiggle",
+    image: '../assets/img/img-up/wiggle.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'woodventure',
+    name: "Woodventure",
+    image: '../assets/img/img-up/woodventure.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'word-slide',
+    name: "Word Slide",
+    image: '../assets/img/img-up/word-slide.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'wood-block-puzzle',
+    name: "Wood Block Puzzle",
+    image: '../assets/img/img-up/wood-block-puzzle.png',
+    categories: ['puzzle', 'casual']
+  },
+  {
+    id: 'wordle-unlimited',
+    name: "Wordle Unlimited",
+    image: '../assets/img/img-up/wordle-unlimited.png',
+    categories: ['arcade', 'casual']
+  },
+  {
+    id: 'worlds-hardest-game',
+    name: "Worlds Hardest Game",
+    image: '../assets/img/img-up/worlds-hardest-game.png',
+    categories: ['arcade', 'casual']
   }
 ];
 
@@ -700,9 +1630,17 @@ const CAT_ICONS = {
 };
 
 function getPopularityRank() {
-  const data = window.__WG_GRIDS_HOME__ || {};
   const rank = {};
   let i = 0;
+  const featured = (typeof window !== 'undefined' && window.MM_FEATURED) || {};
+  ['trending', 'new', 'topRated', 'picks'].forEach((key) => {
+    (featured[key] || []).forEach((id) => {
+      if (id && rank[id] === undefined) rank[id] = i++;
+    });
+  });
+  if (i > 0) return rank;
+
+  const data = window.__WG_GRIDS_HOME__ || {};
   ['trending', 'new', 'topRated'].forEach((key) => {
     (data[key] || []).forEach((g) => {
       if (g.id && rank[g.id] === undefined) rank[g.id] = i++;
@@ -769,15 +1707,22 @@ function bindCatalogResize() {
 }
 
 function getAllGames() {
+  const hidden = new Set(
+    (typeof window !== 'undefined' && Array.isArray(window.MM_HIDDEN))
+      ? window.MM_HIDDEN
+      : []
+  );
   if (typeof window !== 'undefined' && window.MM_CLASSIC_ONLY && window.MM_CLASSIC_GAMES) {
-    return window.MM_CLASSIC_GAMES.map((g) => ({
-      ...g,
-      image: g.image && g.image.indexOf('/') === 0 ? '..' + g.image : g.image,
-      url: g.url || '../game/' + g.id + '.html',
-    }));
+    return window.MM_CLASSIC_GAMES
+      .filter((g) => g && g.id && !hidden.has(g.id))
+      .map((g) => ({
+        ...g,
+        image: g.image && g.image.indexOf('/') === 0 ? '..' + g.image : g.image,
+        url: g.url || '../game/' + g.id + '.html',
+      }));
   }
   const wg = (typeof window !== 'undefined' && window.WG_GAMES) ? window.WG_GAMES : [];
-  return games.concat(wg);
+  return games.concat(wg).filter((g) => g && g.id && !hidden.has(g.id));
 }
 
 // Hàm lọc game theo từ khóa và danh mục
@@ -838,6 +1783,7 @@ function sortGames(gameList, sortValue = 'popular') {
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const wgCat = params.get('cat');
+  const qParam = params.get('q') || '';
   let initialCat = wgCat || 'all';
 
   if (window.MM_CLASSIC_ONLY && window.MM_CLASSIC_GAMES) {
@@ -854,11 +1800,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   renderCategoryChips(initialCat);
 
+  const searchInputEarly = document.getElementById('game-search');
+  if (searchInputEarly && qParam) {
+    searchInputEarly.value = qParam;
+  }
+
   let initialList = getAllGames();
   if (wgCat) {
     initialList = initialList.filter((game) => matchesCategory(game, wgCat));
     const title = document.querySelector('.page-title');
     if (title) title.textContent = `${wgCat} Games`;
+  }
+  if (qParam) {
+    initialList = filterGames(qParam, wgCat || 'all');
+    const title = document.querySelector('.page-title, .mm-catalog-hero h1, h1');
+    if (title && !wgCat) title.textContent = `Search: ${qParam}`;
   }
 
   const sortSelect = document.getElementById('sort-select');

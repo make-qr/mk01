@@ -440,7 +440,8 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
 <meta name="twitter:image" content="{BASE_URL}{og}"/>
 <link rel="canonical" href="{page_url}"/>
 <meta name="robots" content="index, follow"/>
-<link rel="dns-prefetch" href="https://universal.wgplayer.com"/><script type="text/javascript" async>!function(e,t){{a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='high',m.parentNode.insertBefore(a,m)}}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
+<link rel="dns-prefetch" href="https://universal.wgplayer.com"/><link rel="preload" as="image" href="{thumb}" fetchpriority="high"/>
+<script type="text/javascript" async>!function(e,t){{a=e.createElement("script"),m=e.getElementsByTagName("script")[0],a.async=1,a.src=t,a.fetchPriority='auto',m.parentNode.insertBefore(a,m)}}(document,"https://universal.wgplayer.com/tag/?lh="+window.location.hostname+"&wp="+window.location.pathname+"&ws="+window.location.search);</script>
 <script type="application/ld+json">
 {json.dumps({
   "@context": "https://schema.org",
@@ -458,7 +459,8 @@ def build_game_page(slug: str, game: dict, related: list[dict]) -> str:
   "publisher": {"@type": "Organization", "name": pub},
 }, indent=2)}
 </script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/></noscript>
 <link href="../assets/css/style.css" rel="stylesheet"/>
 <link href="../assets/css/wg-grids.css" rel="stylesheet"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWBWGBV5PB"></script>
@@ -521,14 +523,17 @@ window.MM_CURRENT_GAME = {json.dumps({
 </aside>
 <div class="wg-stage-center">
 <div class="wg-player-wrap" id="mm-player">
+<div class="game-thumbnail">
+<img src="{thumb}" width="320" height="320" alt="{html.escape(name)}" fetchpriority="high" decoding="async"/>
+<button class="play-frame-button" id="playGameButton" type="button"><i class="fas fa-play"></i> Play Game</button>
+</div>
 <iframe
   allow="autoplay; fullscreen; encrypted-media; picture-in-picture; clipboard-write; gyroscope; accelerometer"
   allowfullscreen
   id="game-frame"
-  src="https://play.wgplayground.com/ifr/{ifr}"
-  style="display: block;"
+  data-src="https://play.wgplayground.com/ifr/{ifr}"
+  style="display: none;"
   title="{html.escape(name)}"></iframe>
-<script>(function(){{var h=location.hostname,f=document.getElementById('game-frame');if(!f)return;if(h!=='localhost'&&h!=='127.0.0.1'&&h!=='0.0.0.0')return;var s=f.getAttribute('src')||'';if(s.indexOf('play.wgplayground.com/ifr/')===-1||s.indexOf('r=')!==-1)return;f.src=s+(s.indexOf('?')===-1?'?':'&')+'r=monkeymart.one';}})();</script>
 <div class="loading-overlay" style="display: none;">
 <div class="loading-spinner"></div>
 <div class="loading-text">Loading {html.escape(name)}...</div>
@@ -576,6 +581,22 @@ window.MM_CURRENT_GAME = {json.dumps({
 <div class="mm-rail-track mm-rail-track--grid2" id="mm-trending-rail"></div>
 </section>
 
+<section class="mm-rail-section mm-rail-section--grid2">
+<div class="mm-rail-head">
+<h2 class="mm-rail-heading"><i class="fas fa-sparkles"></i> New games</h2>
+<a class="mm-rail-see-all" href="../category/game.html">See all →</a>
+</div>
+<div class="mm-rail-track mm-rail-track--grid2" id="mm-rail-new"></div>
+</section>
+
+<section class="mm-rail-section mm-rail-section--grid2">
+<div class="mm-rail-head">
+<h2 class="mm-rail-heading"><i class="fas fa-trophy"></i> Top rated</h2>
+<a class="mm-rail-see-all" href="../category/game.html">See all →</a>
+</div>
+<div class="mm-rail-track mm-rail-track--grid2" id="mm-rail-top"></div>
+</section>
+
 <div class="wg-picks-section">
 <h2 class="related-games-title">Popular picks</h2>
 <div class="wg-picks-grid" id="mm-picks-grid"></div>
@@ -592,10 +613,10 @@ window.MM_CURRENT_GAME = {json.dumps({
 </section>
 
 <div class="game-description">
-<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. The game loads automatically above.</p>
+<p>Play <strong>{html.escape(name)}</strong> free in your browser at MonkeyMart.one — no download required. Click <strong>Play Game</strong> above to start.</p>
 <h2>How to Play {html.escape(name)}</h2>
 <ul>
-<li>The game loads right away — tap or click <strong>Play</strong> inside the game frame to start</li>
+<li>Tap or click <strong>Play Game</strong> to load the player</li>
 <li>A short video ad may play before the game begins</li>
 <li>Use fullscreen for the best experience on desktop</li>
 <li>Works on mobile, tablet, and desktop browsers</li>
@@ -617,13 +638,12 @@ window.MM_CURRENT_GAME = {json.dumps({
 <button class="mm-suggest-dismiss" type="button" data-mm-close>Keep playing</button>
 </div>
 </div>
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/game-controls.js"></script>
-<script src="../assets/js/wg-grids-home.js"></script>
-<script src="../assets/js/wg-featured.js"></script>
-<script src="../assets/js/wg-games.js"></script>
-<script src="../assets/js/mm-player-recovery.js?v=2"></script>
-<script src="../assets/js/mm-engage.js"></script>
+<script defer src="../assets/js/main.js"></script>
+<script defer src="../assets/js/game-controls.js"></script>
+<script defer src="../assets/js/wg-grids-home.js"></script>
+<script defer src="../assets/js/wg-featured.js"></script>
+<script defer src="../assets/js/mm-player-recovery.js?v=3"></script>
+<script defer src="../assets/js/mm-engage.js"></script>
 </body>
 </html>
 """
@@ -702,14 +722,19 @@ def main() -> None:
         grid_item_local(item, routes, catalog) for item in raw_grids.get("trending", [])
     ]
     new_local = [grid_item_local(item, routes, catalog) for item in raw_grids.get("new", [])]
-    trending_slugs = {g["id"] for g in trending_local if g.get("id")}
-    top_rated = build_top_rated(catalog, trending_slugs)
+    if trending_local or new_local:
+        trending_slugs = {g["id"] for g in trending_local if g.get("id")}
+        top_rated = build_top_rated(catalog, trending_slugs)
+        grids_home = {
+            "trending": [g for g in trending_local if g.get("id")],
+            "new": [g for g in new_local if g.get("id")],
+            "topRated": top_rated,
+        }
+    else:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from home_grids import build_home_grids
 
-    grids_home = {
-        "trending": [g for g in trending_local if g.get("id")],
-        "new": [g for g in new_local if g.get("id")],
-        "topRated": top_rated,
-    }
+        grids_home = build_home_grids()
 
     OUT_GAME_DIR.mkdir(parents=True, exist_ok=True)
     OUT_IMG_DIR.mkdir(parents=True, exist_ok=True)
@@ -745,6 +770,16 @@ def main() -> None:
             page_count += 1
 
     if not dry_run:
+        if not wg_games:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from home_grids import load_wg_games
+
+            existing = load_wg_games()
+            if existing:
+                raise SystemExit(
+                    f"WG catalog is empty — aborting to protect {len(existing)} existing games.\n"
+                    f"Restore {WG_CATALOG_JS} first, then re-run import."
+                )
         write_js_files(wg_games, grids_home, by_id)
 
     print(f"Generated pages: {page_count} (skipped no-ifr: {skip_no_ifr})")

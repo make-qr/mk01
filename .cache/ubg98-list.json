@@ -1,0 +1,622 @@
+[
+  {
+    "id": "woodventure",
+    "url": "https://ubg98.github.io/Woodventure/"
+  },
+  {
+    "id": "space-bar-clicker",
+    "url": "https://ubg98.github.io/SpaceBarClicker/"
+  },
+  {
+    "id": "geometry-jump",
+    "url": "https://ubg98.github.io/GeometryJump/"
+  },
+  {
+    "id": "solitaire-classic",
+    "url": "https://ubg98.github.io/SolitaireClassic/"
+  },
+  {
+    "id": "swingo",
+    "url": "https://ubg98.github.io/Swingo/"
+  },
+  {
+    "id": "ballistic",
+    "url": "https://ubg98.github.io/Ballistic/"
+  },
+  {
+    "id": "clicker-heroes",
+    "url": "https://ubg98.github.io/ClickerHeroes/"
+  },
+  {
+    "id": "little-alchemy-2",
+    "url": "https://ubg98.github.io/LittleAlchemy2/"
+  },
+  {
+    "id": "football-masters",
+    "url": "https://ubg98.github.io/FootballMasters/"
+  },
+  {
+    "id": "mr-bullet",
+    "url": "https://ubg98.github.io/MrBullet/"
+  },
+  {
+    "id": "basket-champs",
+    "url": "https://ubg98.github.io/BasketChamps/"
+  },
+  {
+    "id": "wheely-6",
+    "url": "https://ubg98.github.io/Wheely6/"
+  },
+  {
+    "id": "1-on-1-soccer",
+    "url": "https://ubg98.github.io/1On1Soccer/"
+  },
+  {
+    "id": "bouncy-woods",
+    "url": "https://ubg98.github.io/BouncyWoods/"
+  },
+  {
+    "id": "circlo-o-2",
+    "url": "https://ubg98.github.io/CircloO2/"
+  },
+  {
+    "id": "raft-wars",
+    "url": "https://ubg98.github.io/RaftWars/"
+  },
+  {
+    "id": "sudoku",
+    "url": "https://ubg98.github.io/Sudoku/"
+  },
+  {
+    "id": "3d-bowling",
+    "url": "https://ubg98.github.io/3DBowling/"
+  },
+  {
+    "id": "rusher-crusher",
+    "url": "https://ubg98.github.io/RusherCrusher/"
+  },
+  {
+    "id": "icy-purple-head-3",
+    "url": "https://ubg98.github.io/IcyPurpleHead3/"
+  },
+  {
+    "id": "icy-purple-head-2",
+    "url": "https://ubg98.github.io/IcyPurpleHead2/"
+  },
+  {
+    "id": "bubble-pop-adventures",
+    "url": "https://ubg98.github.io/BubblePopAdventures/"
+  },
+  {
+    "id": "soccer-heads",
+    "url": "https://ubg98.github.io/SoccerHeads/"
+  },
+  {
+    "id": "money-movers",
+    "url": "https://ubg98.github.io/MoneyMovers/"
+  },
+  {
+    "id": "g-switch-3",
+    "url": "https://ubg98.github.io/GSwitch3/"
+  },
+  {
+    "id": "car-rush",
+    "url": "https://ubg98.github.io/CarRush/"
+  },
+  {
+    "id": "bottle-flip",
+    "url": "https://ubg98.github.io/BottleFlip/"
+  },
+  {
+    "id": "groovy-ski",
+    "url": "https://ubg98.github.io/GroovySki/"
+  },
+  {
+    "id": "football-strike",
+    "url": "https://ubg98.github.io/FootballStrike/"
+  },
+  {
+    "id": "tap-tap-shots",
+    "url": "https://ubg98.github.io/TapTapShots/"
+  },
+  {
+    "id": "tunnel-rush-2",
+    "url": "https://ubg98.github.io/TunnelRush2/"
+  },
+  {
+    "id": "biker-street",
+    "url": "https://ubg98.github.io/BikerStreet/"
+  },
+  {
+    "id": "tower-crash-3-d",
+    "url": "https://ubg98.github.io/TowerCrash3D/"
+  },
+  {
+    "id": "ninja-cat-exploit",
+    "url": "https://ubg98.github.io/NinjaCatExploit/"
+  },
+  {
+    "id": "chicken-merge",
+    "url": "https://ubg98.github.io/ChickenMerge/"
+  },
+  {
+    "id": "marbles-sorting",
+    "url": "https://ubg98.github.io/MarblesSorting/"
+  },
+  {
+    "id": "3-pandas-in-japan",
+    "url": "https://ubg98.github.io/3PandasInJapan/"
+  },
+  {
+    "id": "apple-shooter",
+    "url": "https://ubg98.github.io/AppleShooter/"
+  },
+  {
+    "id": "crazy-cars",
+    "url": "https://ubg98.github.io/CrazyCars/"
+  },
+  {
+    "id": "penalty-shooters-3",
+    "url": "https://ubg98.github.io/PenaltyShooters3/"
+  },
+  {
+    "id": "8-ball-billiards-classic",
+    "url": "https://ubg98.github.io/8BallBilliardsClassic/"
+  },
+  {
+    "id": "endless-truck",
+    "url": "https://ubg98.github.io/EndlessTruck/"
+  },
+  {
+    "id": "tank-trouble",
+    "url": "https://ubg98.github.io/TankTrouble/"
+  },
+  {
+    "id": "money-movers-3",
+    "url": "https://ubg98.github.io/MoneyMovers3/"
+  },
+  {
+    "id": "poly-art-3-d",
+    "url": "https://ubg98.github.io/PolyArt3D/"
+  },
+  {
+    "id": "geometry-dash",
+    "url": "https://ubg98.github.io/GeometryDash/"
+  },
+  {
+    "id": "eggy-car",
+    "url": "https://ubg98.github.io/EggyCar/"
+  },
+  {
+    "id": "bomb-it-6",
+    "url": "https://ubg98.github.io/BombIt6/"
+  },
+  {
+    "id": "football-brawl",
+    "url": "https://ubg98.github.io/FootballBrawl/"
+  },
+  {
+    "id": "mr-bullet-3-d",
+    "url": "https://ubg98.github.io/MrBullet3D/"
+  },
+  {
+    "id": "super-mario-wonder",
+    "url": "https://ubg98.github.io/SuperMarioWonder/"
+  },
+  {
+    "id": "gobdun",
+    "url": "https://ubg98.github.io/Gobdun/"
+  },
+  {
+    "id": "g-switch-4",
+    "url": "https://ubg98.github.io/GSwitch4/"
+  },
+  {
+    "id": "subway-surfers",
+    "url": "https://ubg98.github.io/SubwaySurfers/"
+  },
+  {
+    "id": "wheely-5",
+    "url": "https://ubg98.github.io/Wheely5/"
+  },
+  {
+    "id": "stick-merge-2",
+    "url": "https://ubg98.github.io/StickMerge2/"
+  },
+  {
+    "id": "tropical-merge",
+    "url": "https://ubg98.github.io/TropicalMerge/"
+  },
+  {
+    "id": "jewels-blitz-5",
+    "url": "https://ubg98.github.io/JewelsBlitz5/"
+  },
+  {
+    "id": "wheely-7",
+    "url": "https://ubg98.github.io/Wheely7/"
+  },
+  {
+    "id": "checkers-legend",
+    "url": "https://ubg98.github.io/CheckersLegend/"
+  },
+  {
+    "id": "stick-merge",
+    "url": "https://ubg98.github.io/StickMerge/"
+  },
+  {
+    "id": "awesome-tanks-2",
+    "url": "https://ubg98.github.io/AwesomeTanks2/"
+  },
+  {
+    "id": "basketball-stars",
+    "url": "https://ubg98.github.io/BasketballStars/"
+  },
+  {
+    "id": "iron-snout",
+    "url": "https://ubg98.github.io/IronSnout/"
+  },
+  {
+    "id": "circlo-o",
+    "url": "https://ubg98.github.io/CircloO/"
+  },
+  {
+    "id": "parking-fury",
+    "url": "https://ubg98.github.io/ParkingFury/"
+  },
+  {
+    "id": "timber-guy",
+    "url": "https://ubg98.github.io/TimberGuy/"
+  },
+  {
+    "id": "dead-again",
+    "url": "https://ubg98.github.io/DeadAgain/"
+  },
+  {
+    "id": "run-3-space",
+    "url": "https://ubg98.github.io/Run3Space/"
+  },
+  {
+    "id": "fnaf",
+    "url": "https://ubg98.github.io/FNAF/"
+  },
+  {
+    "id": "wheely-2",
+    "url": "https://ubg98.github.io/Wheely2/"
+  },
+  {
+    "id": "cookie-clicker-2",
+    "url": "https://ubg98.github.io/CookieClicker2/"
+  },
+  {
+    "id": "slope-game",
+    "url": "https://ubg98.github.io/SlopeGame/"
+  },
+  {
+    "id": "pizza-tower",
+    "url": "https://ubg98.github.io/PizzaTower/"
+  },
+  {
+    "id": "wheely-3",
+    "url": "https://ubg98.github.io/Wheely3/"
+  },
+  {
+    "id": "roper",
+    "url": "https://ubg98.github.io/Roper/"
+  },
+  {
+    "id": "wheely-4",
+    "url": "https://ubg98.github.io/Wheely4/"
+  },
+  {
+    "id": "ball-sort-halloween",
+    "url": "https://ubg98.github.io/BallSortHalloween/"
+  },
+  {
+    "id": "sling-tomb",
+    "url": "https://ubg98.github.io/SlingTomb/"
+  },
+  {
+    "id": "bubble-tower-3-d",
+    "url": "https://ubg98.github.io/BubbleTower3D/"
+  },
+  {
+    "id": "racing-monster-trucks",
+    "url": "https://ubg98.github.io/RacingMonsterTrucks/"
+  },
+  {
+    "id": "fruita-crush",
+    "url": "https://ubg98.github.io/FruitaCrush/"
+  },
+  {
+    "id": "scary-maze",
+    "url": "https://ubg98.github.io/ScaryMaze/"
+  },
+  {
+    "id": "farm-match-seasons",
+    "url": "https://ubg98.github.io/FarmMatchSeasons/"
+  },
+  {
+    "id": "pou",
+    "url": "https://ubg98.github.io/Pou/"
+  },
+  {
+    "id": "happy-fishing",
+    "url": "https://ubg98.github.io/HappyFishing/"
+  },
+  {
+    "id": "g-switch",
+    "url": "https://ubg98.github.io/GSwitch/"
+  },
+  {
+    "id": "clash-of-tanks",
+    "url": "https://ubg98.github.io/ClashOfTanks/"
+  },
+  {
+    "id": "arcane-archer",
+    "url": "https://ubg98.github.io/ArcaneArcher/"
+  },
+  {
+    "id": "get-on-top",
+    "url": "https://ubg98.github.io/GetOnTop/"
+  },
+  {
+    "id": "park-out",
+    "url": "https://ubg98.github.io/ParkOut/"
+  },
+  {
+    "id": "mutazone",
+    "url": "https://ubg98.github.io/Mutazone/"
+  },
+  {
+    "id": "basketball-legends-2020",
+    "url": "https://ubg98.github.io/BasketballLegends2020/"
+  },
+  {
+    "id": "climb-over-it",
+    "url": "https://ubg98.github.io/ClimbOverIt/"
+  },
+  {
+    "id": "adam-and-eve-6",
+    "url": "https://ubg98.github.io/AdamAndEve6/"
+  },
+  {
+    "id": "worlds-hardest-game",
+    "url": "https://ubg98.github.io/WorldsHardestGame/"
+  },
+  {
+    "id": "mergest-kingdom",
+    "url": "https://ubg98.github.io/MergestKingdom/"
+  },
+  {
+    "id": "tag",
+    "url": "https://ubg98.github.io/Tag/"
+  },
+  {
+    "id": "rabbit-samurai-2",
+    "url": "https://ubg98.github.io/RabbitSamurai2/"
+  },
+  {
+    "id": "wheelie-bike-2",
+    "url": "https://ubg98.github.io/WheelieBike2/"
+  },
+  {
+    "id": "g-switch-2",
+    "url": "https://ubg98.github.io/GSwitch2/"
+  },
+  {
+    "id": "wheelie-bike",
+    "url": "https://ubg98.github.io/WheelieBike/"
+  },
+  {
+    "id": "vex-8",
+    "url": "https://ubg98.github.io/Vex8/"
+  },
+  {
+    "id": "down-the-hill",
+    "url": "https://ubg98.github.io/DownTheHill/"
+  },
+  {
+    "id": "heads-arena-soccer-all-stars",
+    "url": "https://ubg98.github.io/HeadsArenaSoccerAllStars/"
+  },
+  {
+    "id": "hoop-royale",
+    "url": "https://ubg98.github.io/HoopRoyale/"
+  },
+  {
+    "id": "basketball-line",
+    "url": "https://ubg98.github.io/BasketballLine/"
+  },
+  {
+    "id": "wordle-unlimited",
+    "url": "https://ubg98.github.io/WordleUnlimited/"
+  },
+  {
+    "id": "spider-solitaire",
+    "url": "https://ubg98.github.io/SpiderSolitaire/"
+  },
+  {
+    "id": "turn-turn",
+    "url": "https://ubg98.github.io/TurnTurn/"
+  },
+  {
+    "id": "soccer-masters-euro-2020",
+    "url": "https://ubg98.github.io/SoccerMastersEuro2020/"
+  },
+  {
+    "id": "fishing-and-lines",
+    "url": "https://ubg98.github.io/FishingAndLines/"
+  },
+  {
+    "id": "cubefield",
+    "url": "https://ubg98.github.io/Cubefield/"
+  },
+  {
+    "id": "wiggle",
+    "url": "https://ubg98.github.io/Wiggle/"
+  },
+  {
+    "id": "adam-and-eve-7",
+    "url": "https://ubg98.github.io/AdamAndEve7/"
+  },
+  {
+    "id": "guess-the-kitty",
+    "url": "https://ubg98.github.io/GuessTheKitty/"
+  },
+  {
+    "id": "crossy-road",
+    "url": "https://ubg98.github.io/CrossyRoad/"
+  },
+  {
+    "id": "word-slide",
+    "url": "https://ubg98.github.io/WordSlide/"
+  },
+  {
+    "id": "tiny-fishing",
+    "url": "https://ubg98.github.io/TinyFishing/"
+  },
+  {
+    "id": "hide-and-smash",
+    "url": "https://ubg98.github.io/HideAndSmash/"
+  },
+  {
+    "id": "parking-fury-2",
+    "url": "https://ubg98.github.io/ParkingFury2/"
+  },
+  {
+    "id": "idle-restaurants",
+    "url": "https://ubg98.github.io/IdleRestaurants/"
+  },
+  {
+    "id": "money-movers-2",
+    "url": "https://ubg98.github.io/MoneyMovers2/"
+  },
+  {
+    "id": "hanger",
+    "url": "https://ubg98.github.io/Hanger/"
+  },
+  {
+    "id": "big-tower-tiny-square",
+    "url": "https://ubg98.github.io/BigTowerTinySquare/"
+  },
+  {
+    "id": "ov-o-2",
+    "url": "https://ubg98.github.io/OvO2/"
+  },
+  {
+    "id": "adam-and-eve-52",
+    "url": "https://ubg98.github.io/AdamAndEve52/"
+  },
+  {
+    "id": "head-soccer-2023",
+    "url": "https://ubg98.github.io/HeadSoccer2023/"
+  },
+  {
+    "id": "cursed-treasure-2",
+    "url": "https://ubg98.github.io/CursedTreasure2/"
+  },
+  {
+    "id": "football-legends",
+    "url": "https://ubg98.github.io/FootballLegends/"
+  },
+  {
+    "id": "vex-7",
+    "url": "https://ubg98.github.io/Vex7/"
+  },
+  {
+    "id": "adam-and-eve-51",
+    "url": "https://ubg98.github.io/AdamAndEve51/"
+  },
+  {
+    "id": "ov-o",
+    "url": "https://ubg98.github.io/OvO/"
+  },
+  {
+    "id": "pudding-monsters",
+    "url": "https://ubg98.github.io/PuddingMonsters/"
+  },
+  {
+    "id": "linebacker-alley-2",
+    "url": "https://ubg98.github.io/LinebackerAlley2/"
+  },
+  {
+    "id": "moving-truck",
+    "url": "https://ubg98.github.io/MovingTruck/"
+  },
+  {
+    "id": "dinosaurs-merge-master",
+    "url": "https://ubg98.github.io/DinosaursMergeMaster/"
+  },
+  {
+    "id": "fishing-frenzy",
+    "url": "https://ubg98.github.io/FishingFrenzy/"
+  },
+  {
+    "id": "8-ball-pool",
+    "url": "https://ubg98.github.io/8BallPool/"
+  },
+  {
+    "id": "idle-mining-empire",
+    "url": "https://ubg98.github.io/IdleMiningEmpire/"
+  },
+  {
+    "id": "parking-fury-3",
+    "url": "https://ubg98.github.io/ParkingFury3/"
+  },
+  {
+    "id": "pixel-smash-duel",
+    "url": "https://ubg98.github.io/PixelSmashDuel/"
+  },
+  {
+    "id": "hop-pop-it",
+    "url": "https://ubg98.github.io/HopPopIt/"
+  },
+  {
+    "id": "traffic-control",
+    "url": "https://ubg98.github.io/TrafficControl/"
+  },
+  {
+    "id": "papa-cherry-saga",
+    "url": "https://ubg98.github.io/PapaCherrySaga/"
+  },
+  {
+    "id": "dino-bros",
+    "url": "https://ubg98.github.io/DinoBros/"
+  },
+  {
+    "id": "minecraft-case-simulator",
+    "url": "https://ubg98.github.io/MinecraftCaseSimulator/"
+  },
+  {
+    "id": "1010-color-match",
+    "url": "https://ubg98.github.io/1010ColorMatch/"
+  },
+  {
+    "id": "getting-over-it",
+    "url": "https://ubg98.github.io/GettingOverIt/"
+  },
+  {
+    "id": "1010-deluxe",
+    "url": "https://ubg98.github.io/1010Deluxe/"
+  },
+  {
+    "id": "infinite-soccer",
+    "url": "https://ubg98.github.io/InfiniteSoccer/"
+  },
+  {
+    "id": "blumgi-slime",
+    "url": "https://ubg98.github.io/BlumgiSlime/"
+  },
+  {
+    "id": "penalty-kick-online",
+    "url": "https://ubg98.github.io/PenaltyKickOnline/"
+  },
+  {
+    "id": "2048-hexa-merge-block",
+    "url": "https://ubg98.github.io/2048HexaMergeBlock/"
+  },
+  {
+    "id": "wood-block-puzzle",
+    "url": "https://ubg98.github.io/WoodBlockPuzzle/"
+  }
+]
